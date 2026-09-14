@@ -1,0 +1,7 @@
+^dev$
+^LICENSE\.md$
+^CODE_OF_CONDUCT\.md$
+^README\.Rmd$
+^chopin\.data\.Rproj$
+^\.Rproj\.user$
+^\.github$

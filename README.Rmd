@@ -1,20 +1,29 @@
+---
+output: github_document
+---
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
 
 # chopin.data
 
 <!-- badges: start -->
-
 [![R-CMD-check](https://github.com/FlorenceMounier/chopin.data/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/FlorenceMounier/chopin.data/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
-The goal of chopin.data is to provide well-documented, ready-to-use R
-data objects.
+The goal of chopin.data is to provide well-documented, ready-to-use R data objects.
 
 ## Installation
 
-You can install the development version of chopin.data from
-[GitHub](https://github.com/) with:
+You can install the development version of chopin.data from [GitHub](https://github.com/) with:
 
 ``` r
 # install.packages("pak")
