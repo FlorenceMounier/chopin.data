@@ -1,6 +1,6 @@
 Package: chopin.data
 Title: Data from CHOPIN Research Project
-Version: 0.0.0.9000
+Version: 0.0.1
 Authors@R: 
     person("Florence", "Mounier", , "florence.mounier42@gmail.com", role = c("aut", "cre"),
            comment = c(ORCID = "0000-0001-8916-7007"))

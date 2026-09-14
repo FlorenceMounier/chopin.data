@@ -1,0 +1,201 @@
+---
+title: "flat_utils.Rmd"
+output: html_document
+editor_options: 
+  chunk_output_type: console
+---
+
+# wrangle_contam
+
+```{r function-wrangle_contam}
+#' wrangle_contam Get contaminant vectors from table in CHOPIN_general_DB.xlsx
+#'
+#' @param grp_contam character name of contaminant group
+#' @param grp_type character type of contaminant group ("family" or "sub_family_TAG")
+#' @param out_var character column name of output variable
+#'
+#' @return character vector of contaminant names
+#' 
+#' @noRd
+wrangle_contam <- function(grp_contam, grp_type, out_var){
+  contam |> 
+    filter(!!sym(grp_type) == grp_contam) |> 
+    pull(!!sym(out_var))
+}
+```
+
+# convert_conc
+
+```{r function-convert_conc}
+#' Compute concentrations in another unit
+#' 
+#' @param data tibble dataset of source concentrations
+#' @param contams character vector of contaminant names
+#' @param source_unit character unit of source concentrations
+#' @param target_unit character unit of target concentrations
+#' @param norm_var character suffix of target concentrations
+#' @param operation character type of operation ("divide", "multiply")
+#'
+#' @return tibble completed contamination data with target concentrations
+#' 
+#' @export
+convert_conc <- function(data, contams, source_unit = NULL,
+                         target_unit, norm_var,
+                         operation = c("divide", "multiply")) {
+  
+  operation <- match.arg(operation)
+  
+  for (contam in contams) {
+    
+    source_col <- if (is.null(source_unit)) {
+      contam
+    } else {
+      paste0(contam, source_unit)
+    }
+    
+    target_col <- paste0(contam, target_unit)
+    
+    if (operation == "divide") {
+      data[[target_col]] <- data[[source_col]] / (data[[norm_var]] / 100)
+    }
+    
+    if (operation == "multiply") {
+      data[[target_col]] <- data[[source_col]] * (data[[norm_var]] / 100)
+    }
+  }
+  
+  return(data)
+}
+```
+  
+```{r example-convert_conc}
+# Add lipid-normalized concentrations for PCBs
+benthos_contam <- benthos_contam |>
+  convert_conc(
+    contams = PCB,
+    source_unit = "_ng_g-1ps",
+    target_unit = "_ng_g.1pl",
+    norm_var = "lip_PS_percent",
+    operation = "divide"
+  )
+```
+
+
+# sum_by_family_subfct
+
+```{r function-sum_by_family_subfct}
+#' Compute sum of concentrations by family
+#' 
+#' @param contams R object vector of compounds names
+#' @param data tibble dataset of concentrations
+#' @param unit character unit of concentrations
+#'
+#' @return numeric vector of sum of concentrations by family
+#' 
+#' @noRd
+sum_by_family_subfct <- function(contams, data, unit) {
+  summed_data <- data |>
+    select(contains(contams) & ends_with(paste(unit))) |>
+    rowSums(na.rm = TRUE)
+  
+  return(summed_data)
+}
+```
+
+
+# sum_by_family
+
+```{r function-sum_by_family}
+#' Complete data with sum of concentrations by family
+#' 
+#' @param family character family of contaminants
+#' @param contams R object vector of compounds names
+#' @param data tibble dataset of concentrations
+#' @param unit character unit of concentrations
+#'
+#' @return tibble completed contamination data with sum of concentrations by family
+#' 
+#' @export
+sum_by_family <- function(family, contams, data, unit) {
+  completed_data <- data |>
+    mutate(tmp_sum = sum_by_family_subfct(contams, data, unit)) |>
+    rename_with( ~ gsub("tmp_sum", paste("sum", family, unit, sep = "_"), x = .x))
+  
+  return(completed_data)
+}
+```
+
+# norm_conc_subfct
+
+```{r function-norm_conc_subfct}
+#' Compute sum by family-normalised concentrations
+#' 
+#' @param contam_unit character concentrations unit
+#' @param data tibble dataset of concentrations
+#'
+#' @return numeric vector of normalised concentrations
+#' 
+#' @noRd
+norm_conc_subfct <- function(data, contam_unit, family, unit) {
+  
+  col_sum <- paste("sum", family, unit, sep = "_")
+  
+  sum_unit <- data[[col_sum]]
+  
+  sum_conc <- contam_unit / sum_unit
+  
+  return(sum_conc)
+}
+```
+
+  
+# normalised_conc
+
+```{r function-normalised_conc}
+#' Complete data with sum by family-normalised concentrations
+#' 
+#' @param family character family of contaminants
+#' @param contams R object vector of compounds names
+#' @param data tibble dataset of concentrations
+#' @param unit character unit of concentrations
+#'
+#' @return tibble completed contamination data
+#' 
+#' @export
+normalised_conc <- function(family, contams, data, unit) {
+  
+  cols_contam <- paste(contams, unit, sep = "_")
+  
+  data |>
+    mutate(
+      across(
+        all_of(cols_contam),
+        ~ norm_conc_subfct(
+          data = data,
+          contam_unit = .x,
+          family = family,
+          unit = unit
+        ),
+        .names = "{.col}_tmp"
+      )
+    ) |>
+    rename_with(
+      .cols = ends_with("_tmp"),
+      ~ sub(
+        paste0("_", unit, "_tmp$"),
+        paste0("_normalised_sum_", unit),
+        .x
+      )
+    )
+}
+```
+
+# Inflate
+
+```{r development-inflate, eval=FALSE}
+# Run but keep eval=FALSE to avoid infinite loop
+# Execute in the console directly
+fusen::inflate(flat_file = "dev/flat_utils.Rmd", 
+               vignette_name = NULL, check = FALSE)
+```
+

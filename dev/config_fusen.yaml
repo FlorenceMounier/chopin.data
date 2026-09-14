@@ -1,0 +1,21 @@
+flat_utils.Rmd:
+  path: dev/flat_utils.Rmd
+  state: active
+  R:
+  - R/convert_conc.R
+  - R/norm_conc_subfct.R
+  - R/normalised_conc.R
+  - R/sum_by_family.R
+  - R/sum_by_family_subfct.R
+  - R/wrangle_contam.R
+  tests: []
+  vignettes: []
+  inflate:
+    flat_file: dev/flat_utils.Rmd
+    vignette_name: ~
+    open_vignette: true
+    check: false
+    document: true
+    overwrite: ask
+    clean: ask
+    codecov: false
