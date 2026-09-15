@@ -33,13 +33,13 @@ tibble completed contamination data with target concentrations
 Compute concentrations in another unit
 }
 \examples{
-# Add lipid-normalized concentrations for PCBs
-benthos_contam <- benthos_contam |>
-  convert_conc(
-    contams = PCB,
-    source_unit = "_ng_g-1ps",
-    target_unit = "_ng_g.1pl",
-    norm_var = "lip_PS_percent",
-    operation = "divide"
-  )
+## Add lipid-normalized concentrations for PCBs
+# benthos_contam <- benthos_contam |>
+#   convert_conc(
+#     contams = PCB,
+#     source_unit = "_ng_g-1ps",
+#     target_unit = "_ng_g.1pl",
+#     norm_var = "lip_PS_percent",
+#     operation = "divide"
+#   )
 }

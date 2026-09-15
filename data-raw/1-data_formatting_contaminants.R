@@ -12,7 +12,7 @@ library(tidyverse)
 
 ## Load data
 
-contam <- read_excel("inst/extdata/CHOPIN_general_DB.xlsx",
+contam_info <- read_excel("inst/extdata/CHOPIN_general_DB.xlsx",
                     sheet = "INFO_contam")
 
 # Labels in data
@@ -49,7 +49,7 @@ other_PFAS_lab <- wrangle_contam(grp_contam = "other", grp_type = "sub_family", 
 # Chemical characteristics
 
 ## Number of carbon atoms within PFASs
-n_C_ALL <- wrangle_contam(grp_contam = "PFAS", grp_type = "family", out_var = "n_C")
+n_carbon_ALL <- wrangle_contam(grp_contam = "PFAS", grp_type = "family", out_var = "n_carbon")
 
 ## LogKow within PCBs
 log_Kow <- wrangle_contam(grp_contam = "PCB", grp_type = "family", out_var = "logKow")
@@ -63,7 +63,7 @@ PFAS_lab <- PFAS_ALL_lab[-which(PFAS_ALL == "MeFOSA" |
                                  PFAS_ALL == "EtFOSA")]
 sub_family <- sub_family_ALL[-which(PFAS_ALL == "MeFOSA" |
                                      PFAS_ALL == "EtFOSA")]
-n_C <- n_C_ALL[-which(PFAS_ALL == "MeFOSA" | PFAS_ALL == "EtFOSA")]
+n_carbon <- n_carbon_ALL[-which(PFAS_ALL == "MeFOSA" | PFAS_ALL == "EtFOSA")]
 
 FOSAs <- FOSAs_ALL[-which(FOSAs_ALL == "MeFOSA" | FOSAs_ALL == "EtFOSA")]
 FOSAs_lab <- FOSAs_ALL_lab[-which(FOSAs_ALL_lab == "MeFOSA" |
@@ -73,7 +73,7 @@ FOSAs_lab <- FOSAs_ALL_lab[-which(FOSAs_ALL_lab == "MeFOSA" |
 #-----------------------------------------------------------
 # Output data
 
-usethis::use_data(contam,
+usethis::use_data(contam_info,
                   PCB,
                   HBCDD,
                   PFAS_ALL,
@@ -90,22 +90,16 @@ usethis::use_data(contam,
                   other_PFAS,
                   overwrite = TRUE)
 
-usethis::use_data(PCB_lab,
-                  HBCDD_lab,
-                  PFAS_ALL_lab,
-                  PFAS_lab,
-                  PFCAs_lab,
-                  PFSAs_lab,
-                  FOSAs_lab,
-                  FOSAAs_lab,
-                  FOSAs_ALL_lab,
-                  FTSAs_lab,
-                  diPAP_lab,
-                  other_PFAS_lab,
-                  overwrite = TRUE)
-
-usethis::use_data(n_C_ALL,
-                  n_C,
-                  log_Kow,
-                  overwrite = TRUE)
-
+# usethis::use_data(PCB_lab,
+#                   HBCDD_lab,
+#                   PFAS_ALL_lab,
+#                   PFAS_lab,
+#                   PFCAs_lab,
+#                   PFSAs_lab,
+#                   FOSAs_lab,
+#                   FOSAAs_lab,
+#                   FOSAs_ALL_lab,
+#                   FTSAs_lab,
+#                   diPAP_lab,
+#                   other_PFAS_lab,
+#                   overwrite = TRUE)

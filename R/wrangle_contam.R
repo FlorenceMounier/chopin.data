@@ -8,9 +8,12 @@
 #'
 #' @return character vector of contaminant names
 #' 
+#' @import dplyr
+#' 
 #' @noRd
-wrangle_contam <- function(grp_contam, grp_type, out_var){
-  contam |> 
+wrangle_contam <- function(data = chopin.data::contam_info,
+                           grp_contam, grp_type, out_var){
+  data |> 
     filter(!!sym(grp_type) == grp_contam) |> 
     pull(!!sym(out_var))
 }

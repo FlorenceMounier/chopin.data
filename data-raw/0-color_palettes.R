@@ -3,7 +3,7 @@
 ####################################
 
 
-PALETTE_PFAS_sed = c("PFNA" = "#4d194d",
+PALETTE_PFAS_sed <- c("PFNA" = "#4d194d",
                      "PFDA" = "#9900cc",
                      "PFUnDA" =  "#ff66ff",
                      "PFDoA" = "#0000b3",
@@ -20,7 +20,7 @@ PALETTE_PFAS_sed = c("PFNA" = "#4d194d",
                      "Autres" = "#990000")
 
 
-PALETTE_PFAS_benthos = c("PFNA" = "#4d194d",
+PALETTE_PFAS_benthos <- c("PFNA" = "#4d194d",
                          "PFDA" = "#9900cc",
                          "PFUnDA" = "#ff66ff",
                          "PFDoA" = "#0000b3",
@@ -36,7 +36,7 @@ PALETTE_PFAS_benthos = c("PFNA" = "#4d194d",
                          "otherPFASs" = "#990000")
 
 
-PALETTE_PFAS_soles = c("PFNA" = "#4d194d",
+PALETTE_PFAS_soles <- c("PFNA" = "#4d194d",
                        "PFDA" = "#9900cc",
                        "PFUnDA" = "#ff66ff",
                        "PFDoA" = "#0000b3",
@@ -54,3 +54,5 @@ usethis::use_data(PALETTE_PFAS_sed,
                   PALETTE_PFAS_benthos,
                   PALETTE_PFAS_soles,
                   overwrite = TRUE)
+
+# See R/data_documentation.R for .Rda documentation

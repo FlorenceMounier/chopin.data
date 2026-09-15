@@ -58,7 +58,11 @@ usethis::use_pipe()
 # package-level documentation
 # usethis::use_package_doc()
 
+# Untitle R script
+# Ctrl + Shift + R 
 
+# Document table
+sinew::makeOxygen(my_data_table)
 ```
 
 ## Use everytime needed

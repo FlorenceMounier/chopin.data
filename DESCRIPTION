@@ -5,10 +5,11 @@ Authors@R:
     person("Florence", "Mounier", , "florence.mounier42@gmail.com", role = c("aut", "cre"),
            comment = c(ORCID = "0000-0001-8916-7007"))
 Description: Provide well-documented, ready-to-use R data objects.
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+License: MIT + file LICENSE
 Depends: 
-    R (>= 3.5)
+    R (>= 4.1)
+Imports: 
+    dplyr
 Config/fusen/version: 0.7.2
 Config/roxygen2/version: 8.1.0
 Encoding: UTF-8

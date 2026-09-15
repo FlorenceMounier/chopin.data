@@ -3,3 +3,4 @@
 export(convert_conc)
 export(normalised_conc)
 export(sum_by_family)
+import(dplyr)

@@ -9,6 +9,8 @@
 #'
 #' @return tibble completed contamination data with sum of concentrations by family
 #' 
+#' @import dplyr
+#' 
 #' @export
 sum_by_family <- function(family, contams, data, unit) {
   completed_data <- data |>

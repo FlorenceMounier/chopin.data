@@ -16,9 +16,12 @@ editor_options:
 #'
 #' @return character vector of contaminant names
 #' 
+#' @import dplyr
+#' 
 #' @noRd
-wrangle_contam <- function(grp_contam, grp_type, out_var){
-  contam |> 
+wrangle_contam <- function(data = chopin.data::contam_info,
+                           grp_contam, grp_type, out_var){
+  data |> 
     filter(!!sym(grp_type) == grp_contam) |> 
     pull(!!sym(out_var))
 }
@@ -37,6 +40,8 @@ wrangle_contam <- function(grp_contam, grp_type, out_var){
 #' @param operation character type of operation ("divide", "multiply")
 #'
 #' @return tibble completed contamination data with target concentrations
+#' 
+#' @import dplyr
 #' 
 #' @export
 convert_conc <- function(data, contams, source_unit = NULL,
@@ -69,15 +74,15 @@ convert_conc <- function(data, contams, source_unit = NULL,
 ```
   
 ```{r example-convert_conc}
-# Add lipid-normalized concentrations for PCBs
-benthos_contam <- benthos_contam |>
-  convert_conc(
-    contams = PCB,
-    source_unit = "_ng_g-1ps",
-    target_unit = "_ng_g.1pl",
-    norm_var = "lip_PS_percent",
-    operation = "divide"
-  )
+## Add lipid-normalized concentrations for PCBs
+# benthos_contam <- benthos_contam |>
+#   convert_conc(
+#     contams = PCB,
+#     source_unit = "_ng_g-1ps",
+#     target_unit = "_ng_g.1pl",
+#     norm_var = "lip_PS_percent",
+#     operation = "divide"
+#   )
 ```
 
 
@@ -91,6 +96,8 @@ benthos_contam <- benthos_contam |>
 #' @param unit character unit of concentrations
 #'
 #' @return numeric vector of sum of concentrations by family
+#' 
+#' @import dplyr
 #' 
 #' @noRd
 sum_by_family_subfct <- function(contams, data, unit) {
@@ -114,6 +121,8 @@ sum_by_family_subfct <- function(contams, data, unit) {
 #' @param unit character unit of concentrations
 #'
 #' @return tibble completed contamination data with sum of concentrations by family
+#' 
+#' @import dplyr
 #' 
 #' @export
 sum_by_family <- function(family, contams, data, unit) {
@@ -161,6 +170,7 @@ norm_conc_subfct <- function(data, contam_unit, family, unit) {
 #'
 #' @return tibble completed contamination data
 #' 
+#' @import dplyr
 #' @export
 normalised_conc <- function(family, contams, data, unit) {
   

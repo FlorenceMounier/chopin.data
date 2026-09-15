@@ -9,6 +9,7 @@
 #'
 #' @return tibble completed contamination data
 #' 
+#' @import dplyr
 #' @export
 normalised_conc <- function(family, contams, data, unit) {
   

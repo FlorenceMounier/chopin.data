@@ -11,17 +11,19 @@
 #'
 #' @return tibble completed contamination data with target concentrations
 #' 
+#' @import dplyr
+#' 
 #' @export
 #' @examples
-#' # Add lipid-normalized concentrations for PCBs
-#' benthos_contam <- benthos_contam |>
-#'   convert_conc(
-#'     contams = PCB,
-#'     source_unit = "_ng_g-1ps",
-#'     target_unit = "_ng_g.1pl",
-#'     norm_var = "lip_PS_percent",
-#'     operation = "divide"
-#'   )
+#' ## Add lipid-normalized concentrations for PCBs
+#' # benthos_contam <- benthos_contam |>
+#' #   convert_conc(
+#' #     contams = PCB,
+#' #     source_unit = "_ng_g-1ps",
+#' #     target_unit = "_ng_g.1pl",
+#' #     norm_var = "lip_PS_percent",
+#' #     operation = "divide"
+#' #   )
 convert_conc <- function(data, contams, source_unit = NULL,
                          target_unit, norm_var,
                          operation = c("divide", "multiply")) {

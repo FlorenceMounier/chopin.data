@@ -8,6 +8,8 @@
 #'
 #' @return numeric vector of sum of concentrations by family
 #' 
+#' @import dplyr
+#' 
 #' @noRd
 sum_by_family_subfct <- function(contams, data, unit) {
   summed_data <- data |>
