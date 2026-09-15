@@ -27,14 +27,14 @@ benthos_contam$species <- as.factor(benthos_contam$species)
 
 # Replace <LOD/LOQ values to 0 for HBCDD isomers --------------------------
 
-benthos_contam$`a.HBCDD_ng_gdw_censored` <- benthos_contam$`a.HBCDD_ng_gdw`
-benthos_contam$`a.HBCDD_ng_gdw_censored`[which(benthos_contam$sample_TAG=="CP14"|
+benthos_contam$a.HBCDD_ng_gdw_censored <- benthos_contam$a.HBCDD_ng_gdw
+benthos_contam$a.HBCDD_ng_gdw_censored[which(benthos_contam$sample_TAG=="CP14"|
                                                  benthos_contam$sample_TAG=="CP06"|
                                                  benthos_contam$sample_TAG=="CP52"|
                                                  benthos_contam$sample_TAG=="CP53")] <- 0
 
-benthos_contam$`b.HBCDD_ng_gdw_censored` <- benthos_contam$`b.HBCDD_ng_gdw`
-benthos_contam$`b.HBCDD_ng_gdw_censored`[which(benthos_contam$sample_TAG=="CP12"|
+benthos_contam$b.HBCDD_ng_gdw_censored <- benthos_contam$b.HBCDD_ng_gdw
+benthos_contam$b.HBCDD_ng_gdw_censored[which(benthos_contam$sample_TAG=="CP12"|
                                                  benthos_contam$sample_TAG=="CP14"|
                                                  benthos_contam$sample_TAG=="CP06"|
                                                  benthos_contam$sample_TAG=="CP52"|
@@ -44,8 +44,8 @@ benthos_contam$`b.HBCDD_ng_gdw_censored`[which(benthos_contam$sample_TAG=="CP12"
                                                  benthos_contam$sample_TAG=="CP43"|
                                                  benthos_contam$sample_TAG=="CP53")] <- 0
 
-benthos_contam$`g.HBCDD_ng_gdw_censored` <- benthos_contam$`g.HBCDD_ng_gdw`
-benthos_contam$`g.HBCDD_ng_gdw_censored`[benthos_contam$sample_TAG=="CP14"|
+benthos_contam$g.HBCDD_ng_gdw_censored <- benthos_contam$g.HBCDD_ng_gdw
+benthos_contam$g.HBCDD_ng_gdw_censored[benthos_contam$sample_TAG=="CP14"|
                                            benthos_contam$sample_TAG=="CP06"|
                                            benthos_contam$sample_TAG=="CP52"|
                                            benthos_contam$sample_TAG=="CP41"|
