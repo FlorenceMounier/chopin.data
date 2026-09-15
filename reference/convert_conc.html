@@ -89,16 +89,15 @@
 
     <div id="ref-examples">
     <h2>Examples</h2>
-    <div class="sourceCode"><pre class="sourceCode r"><code><span class="r-in"><span><span class="co"># Add lipid-normalized concentrations for PCBs</span></span></span>
-<span class="r-in"><span><span class="va">benthos_contam</span> <span class="op">&lt;-</span> <span class="va">benthos_contam</span> <span class="op">|&gt;</span></span></span>
-<span class="r-in"><span>  <span class="fu">convert_conc</span><span class="op">(</span></span></span>
-<span class="r-in"><span>    contams <span class="op">=</span> <span class="va">PCB</span>,</span></span>
-<span class="r-in"><span>    source_unit <span class="op">=</span> <span class="st">"_ng_g-1ps"</span>,</span></span>
-<span class="r-in"><span>    target_unit <span class="op">=</span> <span class="st">"_ng_g.1pl"</span>,</span></span>
-<span class="r-in"><span>    norm_var <span class="op">=</span> <span class="st">"lip_PS_percent"</span>,</span></span>
-<span class="r-in"><span>    operation <span class="op">=</span> <span class="st">"divide"</span></span></span>
-<span class="r-in"><span>  <span class="op">)</span></span></span>
-<span class="r-err co"><span class="r-pr">#&gt;</span> <span class="error">Error:</span> object 'benthos_contam' not found</span>
+    <div class="sourceCode"><pre class="sourceCode r"><code><span class="r-in"><span><span class="co">## Add lipid-normalized concentrations for PCBs</span></span></span>
+<span class="r-in"><span><span class="co"># benthos_contam &lt;- benthos_contam |&gt;</span></span></span>
+<span class="r-in"><span><span class="co">#   convert_conc(</span></span></span>
+<span class="r-in"><span><span class="co">#     contams = PCB,</span></span></span>
+<span class="r-in"><span><span class="co">#     source_unit = "_ng_g-1ps",</span></span></span>
+<span class="r-in"><span><span class="co">#     target_unit = "_ng_g.1pl",</span></span></span>
+<span class="r-in"><span><span class="co">#     norm_var = "lip_PS_percent",</span></span></span>
+<span class="r-in"><span><span class="co">#     operation = "divide"</span></span></span>
+<span class="r-in"><span><span class="co">#   )</span></span></span>
 </code></pre></div>
     </div>
   </div>

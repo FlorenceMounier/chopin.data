@@ -1,12 +1,33 @@
 <urlset xmlns = 'http://www.sitemaps.org/schemas/sitemap/0.9'>
 <url><loc>/404.html</loc></url>
 <url><loc>/CODE_OF_CONDUCT.html</loc></url>
+<url><loc>/LICENSE-text.html</loc></url>
 <url><loc>/LICENSE.html</loc></url>
 <url><loc>/authors.html</loc></url>
 <url><loc>/index.html</loc></url>
+<url><loc>/reference/FOSAAs.html</loc></url>
+<url><loc>/reference/FOSAs.html</loc></url>
+<url><loc>/reference/FOSAs_ALL.html</loc></url>
+<url><loc>/reference/FTSAs.html</loc></url>
+<url><loc>/reference/HBCDD.html</loc></url>
+<url><loc>/reference/PALETTE_PFAS_benthos.html</loc></url>
+<url><loc>/reference/PALETTE_PFAS_sed.html</loc></url>
+<url><loc>/reference/PALETTE_PFAS_soles.html</loc></url>
+<url><loc>/reference/PCB.html</loc></url>
+<url><loc>/reference/PFAS.html</loc></url>
+<url><loc>/reference/PFAS_ALL.html</loc></url>
+<url><loc>/reference/PFCAs.html</loc></url>
+<url><loc>/reference/PFSAs.html</loc></url>
+<url><loc>/reference/benthos_contam.html</loc></url>
+<url><loc>/reference/contam_info.html</loc></url>
 <url><loc>/reference/convert_conc.html</loc></url>
+<url><loc>/reference/diPAP.html</loc></url>
 <url><loc>/reference/index.html</loc></url>
 <url><loc>/reference/normalised_conc.html</loc></url>
+<url><loc>/reference/other_PFAS.html</loc></url>
+<url><loc>/reference/sed_contam.html</loc></url>
+<url><loc>/reference/sub_family.html</loc></url>
+<url><loc>/reference/sub_family_ALL.html</loc></url>
 <url><loc>/reference/sum_by_family.html</loc></url>
 </urlset>
 
