@@ -35,13 +35,16 @@ soles_contam <- full_join(soles_contam_G0_G1, soles_contam_G2)
 
 # Species characteristics -------------------------------------------------
 
-soles_contam <- soles_contam |>
-  mutate(
-    labels = "Solea s.",
-    taxa = "Fish",
-    feeding_mode = "Omnivore",
-    mobility = "Mobile")
+soles_info <- tibble(
+  species = "Solea_solea",
+  labels = "Solea s.",
+  taxa = "Fish",
+  feeding_mode = "Omnivore",
+  mobility = "Mobile"
+)
 
+soles_contam <- soles_contam |>
+  left_join(soles_info)
 
 
 # Convert HBCDD concentrations from pg/gdw to ng/gdw ----------------------
@@ -195,4 +198,5 @@ write_csv(x = soles_contam, file = "inst/soles_contam.csv")
 # Output data -------------------------------------------------------------
 
 usethis::use_data(soles_contam,
+                  soles_info,
                   overwrite = TRUE)

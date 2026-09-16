@@ -791,6 +791,54 @@ NULL
 
 # 4-data_formatting_soles.R -----------------------------------------------
 
+#' Biological traits of common sole
+#'
+#' Reference table describing the taxonomic identity and main biological
+#' and functional traits assigned to common sole (\emph{Solea solea}) in
+#' the CHOPIN project.
+#'
+#' @format A tibble with 1 row and 5 variables:
+#' \describe{
+#'
+#'   \item{species}{
+#'     Character. Taxonomic identifier used in the CHOPIN datasets and
+#'     analysis scripts. Genus and species names are separated by an
+#'     underscore.
+#'   }
+#'
+#'   \item{labels}{
+#'     Character. Abbreviated taxonomic label used for figures and tables.
+#'   }
+#'
+#'   \item{taxa}{
+#'     Character. Broad taxonomic group of the organism. For this dataset,
+#'     the value is \code{"Fish"}.
+#'   }
+#'
+#'   \item{feeding_mode}{
+#'     Character. Feeding-mode category assigned to common sole. For this
+#'     dataset, the value is \code{"Omnivore"}.
+#'   }
+#'
+#'   \item{mobility}{
+#'     Character. Functional mobility category assigned to common sole.
+#'     For this dataset, the value is \code{"Mobile"}.
+#'   }
+#' }
+#'
+#' @details
+#' This table is intended to provide a trait reference for common sole and
+#' can be joined to fish contamination datasets using the \code{species}
+#' variable.
+#'
+#' @source
+#' CHOPIN project fish trait reference table.
+#'
+#' @keywords datasets
+#'
+#' @name soles_info
+NULL
+
 #' Contaminant concentrations in common sole
 #'
 #' Biological characteristics and contaminant concentrations measured in
