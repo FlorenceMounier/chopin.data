@@ -58,8 +58,8 @@ benthic sample or pooled benthic sample. Variables include:</p><dl><dt>year</dt>
 
 
 <dt>season</dt>
-<dd><p>Factor. Sampling season, with levels <code>"Spring"</code> and
-<code>"Autumn"</code>.</p></dd>
+<dd><p>Factor. Sampling season, with levels <code>"spring"</code> and
+<code>"autumn"</code>.</p></dd>
 
 
 <dt>date</dt>
@@ -79,8 +79,9 @@ collected from several sites.</p></dd>
 
 
 <dt>species</dt>
-<dd><p>Character. Taxonomic name of the benthic species, using underscores
-between genus and species names.</p></dd>
+<dd><p>Character. Taxonomic identifier used in the CHOPIN datasets and
+analysis scripts. Genus and species names are separated by an
+underscore.</p></dd>
 
 
 <dt>comment</dt>
@@ -125,28 +126,31 @@ replacement.</p></dd>
 
 
 <dt>labels</dt>
-<dd><p>Character. Abbreviated species labels used in figures and tables.</p></dd>
+<dd><p>Character. Abbreviated taxonomic label used for figures and tables.</p></dd>
 
 
 <dt>taxa</dt>
-<dd><p>Character. Broad taxonomic group of each benthic organism:
-<code>"Bivalves"</code>, <code>"Polychaetes"</code>, or <code>"Crustaceans"</code>.</p></dd>
+<dd><p>Character. Broad taxonomic group of the organism, with values
+<code>"Bivalves"</code>, <code>"Polychaetes"</code>, and <code>"Crustaceans"</code>.</p></dd>
 
 
-<dt>alimentation</dt>
-<dd><p>Character. Feeding mode of the benthic organism. Codes include
-<code>"Susp."</code> for suspension feeder, <code>"Dep.sur."</code> for surface
-deposit feeder, <code>"Dep.sub."</code> for subsurface deposit feeder,
+<dt>feeding_mode</dt>
+<dd><p>Character. Feeding-mode category of the benthic organism.
+Categories are:
+<code>"Susp."</code> for suspension feeder,
+<code>"Dep.sur."</code> for surface deposit feeder,
+<code>"Dep.sub."</code> for subsurface deposit feeder,
 <code>"Susp.Dep.sur."</code> for suspension and surface deposit feeder,
 and <code>"Omnivore"</code> for omnivore.</p></dd>
 
 
 <dt>mobility</dt>
-<dd><p>Character. Functional mobility category of the benthic organism:
-<code>"sedentary"</code> for largely sessile or highly site-attached taxa,
-<code>"low mobility"</code> for species capable of limited local movement
-or repositioning within or on the sediment, and <code>"mobile"</code> for
-actively moving taxa.</p></dd>
+<dd><p>Character. Functional mobility category of the benthic organism, with
+values <code>"Sedentary"</code>, <code>"Low mobility"</code>, and <code>"Mobile"</code>.
+<code>"Sedentary"</code> identifies largely sessile or strongly site-attached
+taxa, <code>"Low mobility"</code> identifies taxa capable of limited local
+movement or repositioning within or on the sediment, and
+<code>"Mobile"</code> identifies actively moving taxa.</p></dd>
 
 
 <dt><chemical>_ng_glw</chemical></dt>
