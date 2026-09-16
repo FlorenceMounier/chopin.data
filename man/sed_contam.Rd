@@ -13,8 +13,8 @@ Numeric. Sampling year.
 }
 
 \item{season}{
-Factor. Sampling season, with levels \code{"Spring"} and
-\code{"Autumn"}.
+Factor. Sampling season, with levels \code{"spring"} and
+\code{"autumn"}.
 }
 
 \item{zone}{

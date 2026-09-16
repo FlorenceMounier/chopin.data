@@ -328,8 +328,8 @@ NULL
 #'   }
 #'
 #'   \item{season}{
-#'     Factor. Sampling season, with levels \code{"Spring"} and
-#'     \code{"Autumn"}.
+#'     Factor. Sampling season, with levels \code{"spring"} and
+#'     \code{"autumn"}.
 #'   }
 #'
 #'   \item{zone}{
@@ -615,8 +615,8 @@ NULL
 #'   }
 #'
 #'   \item{season}{
-#'     Factor. Sampling season, with levels \code{"Spring"} and
-#'     \code{"Autumn"}.
+#'     Factor. Sampling season, with levels \code{"spring"} and
+#'     \code{"autumn"}.
 #'   }
 #'
 #'   \item{date}{
@@ -709,7 +709,6 @@ NULL
 #'     movement or repositioning within or on the sediment, and
 #'     \code{"Mobile"} identifies actively moving taxa.
 #'   }
-#' }
 #'
 #'   \item{<chemical>_ng_glw}{
 #'     Numeric. Lipid-normalized concentration of an individual PCB congener
@@ -1111,6 +1110,160 @@ NULL
 #' @keywords datasets
 #'
 #' @name soles_contam
+NULL
+
+
+
+# 5-data_formatting_isotopes.R --------------------------------------------
+
+#' Stable isotope signatures of benthos and common sole
+#'
+#' Stable isotope data for benthic organisms and common sole
+#' (\emph{Solea solea}) collected during the CAPES and CHOPIN projects
+#' in the Seine estuary.
+#'
+#' The dataset contains carbon and nitrogen stable isotope signatures,
+#' taxonomic and functional information, sampling location, and selected
+#' biological characteristics of common sole.
+#'
+#' @format A tibble with 285 rows and 21 variables:
+#' \describe{
+#'
+#'   \item{sample_TAG}{
+#'     Character. Unique sample identifier used in the CAPES or CHOPIN
+#'     project.
+#'   }
+#'
+#'   \item{species}{
+#'     Factor. Taxonomic identifier of the sampled organism. Genus and
+#'     species names are separated by an underscore. The dataset includes
+#'     benthic invertebrates and common sole (\code{"Solea_solea"}).
+#'   }
+#'
+#'   \item{season}{
+#'     Character. Sampling season, corresponding to spring or autumn.
+#'   }
+#'
+#'   \item{zone}{
+#'     Character. Sampling area within the Seine estuary, including
+#'     \code{"Chenal"}, \code{"Embouchure"}, \code{"Fosse Nord"}, and
+#'     \code{"Fosse Sud"}.
+#'   }
+#'
+#'   \item{site}{
+#'     Character. Sampling-site identifier.
+#'   }
+#'
+#'   \item{num_increment}{
+#'     Character. Identifier of the sample or analytical increment used
+#'     for stable isotope measurements.
+#'   }
+#'
+#'   \item{delta13C}{
+#'     Numeric. Carbon stable isotope signature, expressed as
+#'     delta-13-C values.
+#'   }
+#'
+#'   \item{delta15N}{
+#'     Numeric. Nitrogen stable isotope signature, expressed as
+#'     delta-15-N values.
+#'   }
+#'
+#'   \item{C_percent}{
+#'     Numeric. Carbon content of the analysed sample, expressed as a
+#'     percentage of dry mass.
+#'   }
+#'
+#'   \item{N_percent}{
+#'     Numeric. Nitrogen content of the analysed sample, expressed as a
+#'     percentage of dry mass.
+#'   }
+#'
+#'   \item{source}{
+#'     Character. Project from which the observation originates, with
+#'     values \code{"CAPES"} and \code{"CHOPIN"}.
+#'   }
+#'
+#'   \item{labels}{
+#'     Character. Abbreviated taxonomic label used for figures and tables.
+#'   }
+#'
+#'   \item{taxa}{
+#'     Character. Broad taxonomic group of the organism, including
+#'     \code{"Bivalves"}, \code{"Polychaetes"}, \code{"Crustaceans"},
+#'     and \code{"Fish"}.
+#'   }
+#'
+#'   \item{feeding_mode}{
+#'     Character. Feeding-mode category of the organism.
+#'     Categories include \code{"Susp."} for suspension feeder,
+#'     \code{"Dep.sur."} for surface deposit feeder,
+#'     \code{"Dep.sub."} for subsurface deposit feeder,
+#'     \code{"Susp.Dep.sur."} for suspension and surface deposit feeder,
+#'     and \code{"Omnivore"} for omnivore.
+#'   }
+#'
+#'   \item{mobility}{
+#'     Character. Functional mobility category of the organism, with
+#'     values \code{"Sedentary"}, \code{"Low mobility"}, and
+#'     \code{"Mobile"}.
+#'   }
+#'
+#'   \item{lip_dw_percent}{
+#'     Numeric. Lipid content expressed as a percentage of dry weight.
+#'     Available only for a subset of samples.
+#'   }
+#'
+#'   \item{class}{
+#'     Character. Age class of common sole, with values \code{"G0"} and
+#'     \code{"G1"}. Missing for benthic organisms.
+#'   }
+#'
+#'   \item{stade}{
+#'     Character. Composite stage identifier used for common sole,
+#'     combining species, age class, and stage category
+#'     (e.g. \code{"Solea_solea.G0.S1"}).
+#'     Missing for benthic organisms.
+#'   }
+#'
+#'   \item{length_TL_cm}{
+#'     Numeric. Total length of common sole. Missing for benthic organisms.
+#'   }
+#'
+#'   \item{lon}{
+#'     Numeric. Longitude of the sampling location in decimal degrees.
+#'   }
+#'
+#'   \item{lat}{
+#'     Numeric. Latitude of the sampling location in decimal degrees.
+#'   }
+#' }
+#'
+#' @details
+#' Stable isotope signatures are expressed as delta values for carbon
+#' (\eqn{\delta^{13}C}) and nitrogen (\eqn{\delta^{15}N}).
+#'
+#' The dataset combines benthic invertebrates and common sole in order to
+#' characterize trophic relationships and support analyses of contaminant
+#' transfer through the benthic food web.
+#'
+#' Biological traits for benthic taxa and common sole are included directly
+#' in the dataset through the \code{taxa}, \code{feeding_mode}, and
+#' \code{mobility} variables.
+#'
+#' Variables \code{class}, \code{stade}, and \code{length_TL_cm} apply to
+#' common sole and are missing for benthic organisms.
+#'
+#' @source
+#' CAPES and CHOPIN projects, Seine estuary.
+#'
+#' @seealso
+#' \code{\link{benthos_info}},
+#' \code{\link{soles_info}}
+#'
+#' @keywords datasets
+#'
+#' @name isotopes
 NULL
 
 

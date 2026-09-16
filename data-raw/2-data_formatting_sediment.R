@@ -23,10 +23,8 @@ sed_contam <- read_excel("inst/extdata/CHOPIN_general_DB.xlsx",
 # PFASs selection for sediment analysis -----------------------------------
 
 PFAS <- PFAS_ALL
-PFAS_lab <- PFAS_ALL_lab
 sub_family <- sub_family_ALL
 FOSAs <- FOSAs_ALL
-FOSAs_lab <- FOSAs_ALL_lab
 
 
 
@@ -35,8 +33,8 @@ FOSAs_lab <- FOSAs_ALL_lab
 sed_contam <- sed_contam  |>
   mutate(season = as_factor(season)) |>
   mutate(season = fct_collapse(season,
-                               "Spring" = c("june"),
-                               "Autumn" = c("october")))
+                               "spring" = c("june"),
+                               "autumn" = c("october")))
 
 
 

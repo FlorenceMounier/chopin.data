@@ -1,0 +1,286 @@
+sample_TAG,species,season,zone,site,num_increment,delta13C,delta15N,C_percent,N_percent,source,labels,taxa,feeding_mode,mobility,lip_dw_percent,class,stade,length_TL_cm,lon,lat
+ABRAALB_47_D1309,Abra_alba,spring,Embouchure,EM47,D1309,-19.308567255719442,8.372206067819599,43.62709436896267,9.841154854151563,CAPES,Abra a.,Bivalves,Susp.Dep.sur.,Low mobility,NA,NA,NA,NA,NA,NA
+ABRAALB_52_D1311,Abra_alba,spring,Embouchure,EM52,D1311,-19.383997461632053,8.760975371489367,21.481059516075863,10.544075685527265,CAPES,Abra a.,Bivalves,Susp.Dep.sur.,Low mobility,NA,NA,NA,NA,NA,NA
+ABRAALB_52_D1315,Abra_alba,spring,Embouchure,EM52,D1315,-19.219460937696525,7.160461830469428,34.35134277893257,5.5878559832042924,CAPES,Abra a.,Bivalves,Susp.Dep.sur.,Low mobility,NA,NA,NA,NA,NA,NA
+ABRAALB_CAPES2_D1390,Abra_alba,spring,Embouchure,CAPES2,D1390,-20.304077794984025,7.034930973495545,29.505311580197446,4.840776385727791,CAPES,Abra a.,Bivalves,Susp.Dep.sur.,Low mobility,NA,NA,NA,NA,NA,NA
+ABRAALB_47_D1463,Abra_alba,autumn,Embouchure,EM47,D1463,-18.55861333497305,9.704868631338588,46.27374922223487,12.230967353214051,CAPES,Abra a.,Bivalves,Susp.Dep.sur.,Low mobility,NA,NA,NA,NA,NA,NA
+ABRAALB_52_D1445,Abra_alba,autumn,Embouchure,EM52,D1445,-18.141515747415433,9.402113674053176,47.400830337823805,13.419521068990795,CAPES,Abra a.,Bivalves,Susp.Dep.sur.,Low mobility,NA,NA,NA,NA,NA,NA
+ABRAALB_52_D1446,Abra_alba,autumn,Embouchure,EM52,D1446,-18.507849762400287,9.16996055218381,48.47167336680924,12.568875703607649,CAPES,Abra a.,Bivalves,Susp.Dep.sur.,Low mobility,NA,NA,NA,NA,NA,NA
+ABRAALB_CAPES1_D1357,Abra_alba,autumn,Embouchure,CAPES1,D1357,-17.38330795467541,10.543859941161813,41.45090039277367,10.841209928194443,CAPES,Abra a.,Bivalves,Susp.Dep.sur.,Low mobility,NA,NA,NA,NA,NA,NA
+CERSEDU_12_D1469,Cerastoderma_edule,spring,Fosse Sud,FS12,D1469,-22.685485573103097,8.62763104822696,40.82737983248032,9.320475804629828,CAPES,Cerastoderma e.,Bivalves,Susp.Dep.sur.,Low mobility,NA,NA,NA,NA,NA,NA
+CERSEDU_12_D1543,Cerastoderma_edule,spring,Fosse Sud,FS12,D1543,-22.27078876077182,9.451504127026709,44.12611634480765,11.502668778709682,CAPES,Cerastoderma e.,Bivalves,Susp.Dep.sur.,Low mobility,NA,NA,NA,NA,NA,NA
+CERSEDU_19_D1391,Cerastoderma_edule,spring,Fosse Sud,FS19,D1391,-22.7207840138282,8.779053640590552,40.0729336341416,7.9825852821396825,CAPES,Cerastoderma e.,Bivalves,Susp.Dep.sur.,Low mobility,NA,NA,NA,NA,NA,NA
+CERSEDU_19_D1412,Cerastoderma_edule,spring,Fosse Sud,FS19,D1412,-21.513585008461497,9.841521487811077,44.07855933868034,11.085235992352393,CAPES,Cerastoderma e.,Bivalves,Susp.Dep.sur.,Low mobility,NA,NA,NA,NA,NA,NA
+CERSEDU_26_D1507,Cerastoderma_edule,spring,Fosse Sud,26,D1507,-21.26668441419696,8.25226511148574,38.768709809941285,9.255852688662387,CAPES,Cerastoderma e.,Bivalves,Susp.Dep.sur.,Low mobility,NA,NA,NA,NA,NA,NA
+CERSEDU_26_D1508,Cerastoderma_edule,spring,Fosse Sud,26,D1508,-20.426609819196436,9.20311829558499,42.14562256559273,11.59038650658266,CAPES,Cerastoderma e.,Bivalves,Susp.Dep.sur.,Low mobility,NA,NA,NA,NA,NA,NA
+CERSEDU_8_D1482,Cerastoderma_edule,spring,Fosse Nord,8,D1482,-20.250294432178187,9.545670598791475,38.6663674206226,10.484181028253033,CAPES,Cerastoderma e.,Bivalves,Susp.Dep.sur.,Low mobility,NA,NA,NA,NA,NA,NA
+CERSEDU_8_D1483,Cerastoderma_edule,spring,Fosse Nord,8,D1483,-19.88091263549451,10.278812556904978,41.93799627602242,12.123044569274033,CAPES,Cerastoderma e.,Bivalves,Susp.Dep.sur.,Low mobility,NA,NA,NA,NA,NA,NA
+CERSEDU_12_D1354,Cerastoderma_edule,autumn,Fosse Sud,FS12,D1354,-22.359043292369176,9.922990329106318,41.72913630939546,9.038356315524117,CAPES,Cerastoderma e.,Bivalves,Susp.Dep.sur.,Low mobility,NA,NA,NA,NA,NA,NA
+CERSEDU_19_D1348,Cerastoderma_edule,autumn,Fosse Sud,FS19,D1348,-21.639189055662854,9.501764551263228,39.87622047292321,6.610870746061363,CAPES,Cerastoderma e.,Bivalves,Susp.Dep.sur.,Low mobility,NA,NA,NA,NA,NA,NA
+CERSEDU_19_D1500,Cerastoderma_edule,autumn,Fosse Sud,FS19,D1500,-20.673341302041344,10.048462680746184,45.12568254281371,12.620484770874905,CAPES,Cerastoderma e.,Bivalves,Susp.Dep.sur.,Low mobility,NA,NA,NA,NA,NA,NA
+CERSEDU_26_D1350,Cerastoderma_edule,autumn,Fosse Sud,26,D1350,-19.790963386072942,9.749770853070157,42.872508849835754,10.15186954708774,CAPES,Cerastoderma e.,Bivalves,Susp.Dep.sur.,Low mobility,NA,NA,NA,NA,NA,NA
+CERSEDU_26_D1502,Cerastoderma_edule,autumn,Fosse Sud,26,D1502,-19.108796606532326,10.017049003720501,43.87002689987069,12.104424064415051,CAPES,Cerastoderma e.,Bivalves,Susp.Dep.sur.,Low mobility,NA,NA,NA,NA,NA,NA
+CERSEDU_59_D1347,Cerastoderma_edule,autumn,Fosse Sud,59,D1347,-19.5562901835328,10.427046661084109,46.15185764899338,12.050090473776448,CAPES,Cerastoderma e.,Bivalves,Susp.Dep.sur.,Low mobility,NA,NA,NA,NA,NA,NA
+CORUGIB_50_D1452,Corbula_gibba,autumn,Embouchure,EM50,D1452,-17.802657881817737,8.553080200644597,38.831981980999046,11.267813937177019,CAPES,Corbula g.,Bivalves,Susp.,Sedentary,NA,NA,NA,NA,NA,NA
+CORUGIB_CAPES1_D1366,Corbula_gibba,autumn,Embouchure,CAPES1,D1366,-17.638353469864487,10.024675061161194,46.21011260283503,11.653823154797925,CAPES,Corbula g.,Bivalves,Susp.,Sedentary,NA,NA,NA,NA,NA,NA
+CRAGCRA_26_D1520,Crangon_crangon,autumn,Fosse Sud,26,D1520,-17.684070812770162,14.712037926006953,45.4715405323764,13.479603939092113,CAPES,Crangon c.,Crustaceans,Omnivore,Mobile,NA,NA,NA,NA,NA,NA
+CRAGCRA_59_D1529,Crangon_crangon,autumn,Fosse Sud,59,D1529,-17.449946168436362,14.211074823518857,44.72637743711492,12.853405465639359,CAPES,Crangon c.,Crustaceans,Omnivore,Mobile,NA,NA,NA,NA,NA,NA
+ENSIDIR_19_D1569,Ensis_directus,autumn,Fosse Sud,FS19,D1569,-19.746865016349755,9.126029726996826,31.40806696157281,7.9632021672864735,CAPES,Ensis d.,Bivalves,Susp.,Mobile,NA,NA,NA,NA,NA,NA
+ENSIDIR_26_D1573,Ensis_directus,autumn,Fosse Sud,26,D1573,-19.1706731120201,9.645139449756257,45.5647837643687,12.375534414963251,CAPES,Ensis d.,Bivalves,Susp.,Mobile,NA,NA,NA,NA,NA,NA
+ENSIDIR_59_D1572,Ensis_directus,autumn,Fosse Sud,59,D1572,-18.901922281290005,9.731513681860884,40.13372810612887,10.904733344166239,CAPES,Ensis d.,Bivalves,Susp.,Mobile,NA,NA,NA,NA,NA,NA
+ENSIDIR_CAPES3_D1571,Ensis_directus,autumn,Fosse Sud,CAPES3,D1571,-18.310060798088973,11.515910865637242,42.57355219262311,6.959458113830587,CAPES,Ensis d.,Bivalves,Susp.,Mobile,NA,NA,NA,NA,NA,NA
+HEDIDIV_14_D1556,Hediste_diversicolor,autumn,Fosse Nord,14,D1556,-19.042678446489152,13.58958187374565,49.68682261971441,12.598821660992138,CAPES,Hediste d.,Polychaetes,Omnivore,Mobile,NA,NA,NA,NA,NA,NA
+LAGIKOR_59_D1393,Lagis_koreni,spring,Fosse Sud,59,D1393,-22.59327103907108,11.806617117421986,36.578867624121365,7.609227100280602,CAPES,Lagis k.,Polychaetes,Dep.sub.,Sedentary,NA,NA,NA,NA,NA,NA
+LAGIKOR_47_D1462,Lagis_koreni,autumn,Embouchure,EM47,D1462,-20.604803872424277,10.90664389713741,40.39550829234669,9.790325988935521,CAPES,Lagis k.,Polychaetes,Dep.sub.,Sedentary,NA,NA,NA,NA,NA,NA
+LAGIKOR_52_D1441,Lagis_koreni,autumn,Embouchure,EM52,D1441,-19.65540902210099,10.851966280220473,33.77747474112478,6.808591611285837,CAPES,Lagis k.,Polychaetes,Dep.sub.,Sedentary,NA,NA,NA,NA,NA,NA
+LAGIKOR_CAPES1_D1368,Lagis_koreni,autumn,Embouchure,CAPES1,D1368,-17.866193175690356,12.316374165500973,25.653450556720664,6.60953008814151,CAPES,Lagis k.,Polychaetes,Dep.sub.,Sedentary,NA,NA,NA,NA,NA,NA
+LAGIKOR_19_D1351,Lagis_koreni,autumn,Fosse Sud,FS19,D1351,-19.81233861457331,11.185874122669764,39.729157601208044,9.606667759279967,CAPES,Lagis k.,Polychaetes,Dep.sub.,Sedentary,NA,NA,NA,NA,NA,NA
+LAGIKOR_26_D1523,Lagis_koreni,autumn,Fosse Sud,26,D1523,-20.633306716785498,11.551558578919554,42.17865575663834,10.396033062754988,CAPES,Lagis k.,Polychaetes,Dep.sub.,Sedentary,NA,NA,NA,NA,NA,NA
+LAGIKOR_59_D1418,Lagis_koreni,autumn,Fosse Sud,59,D1418,-20.567543327813482,10.899464726838518,40.20812177620495,9.145082227854678,CAPES,Lagis k.,Polychaetes,Dep.sub.,Sedentary,NA,NA,NA,NA,NA,NA
+LAGIKOR_CAPES3_D1503,Lagis_koreni,autumn,Fosse Sud,CAPES3,D1503,-19.01298950804186,11.223168466702276,42.52411422683473,11.02241736977497,CAPES,Lagis k.,Polychaetes,Dep.sub.,Sedentary,NA,NA,NA,NA,NA,NA
+LANICON_19_D1355,Lanice_conchilega,autumn,Fosse Sud,19,D1355,-20.11752872030122,11.4036908853248,46.61445946671426,9.98335542382463,CAPES,Lanice c.,Polychaetes,Susp.Dep.sur.,Sedentary,NA,NA,NA,NA,NA,NA
+LIMEBAL_12_D1414,Limecola_balthica,spring,Fosse Sud,FS12,D1414,-17.895952745177997,10.805225043659526,44.971916540699134,11.982268692107386,CAPES,Limecola b.,Bivalves,Susp.Dep.sur.,Low mobility,NA,NA,NA,NA,NA,NA
+LIMEBAL_12_D1514,Limecola_balthica,spring,Fosse Sud,FS12,D1514,-18.836989075442446,10.609904584656423,46.13740326801201,10.835717147132284,CAPES,Limecola b.,Bivalves,Susp.Dep.sur.,Low mobility,NA,NA,NA,NA,NA,NA
+LIMEBAL_19_D1451,Limecola_balthica,spring,Fosse Sud,FS19,D1451,-19.316847506615066,10.429491330293693,44.852779849840864,11.043551810164654,CAPES,Limecola b.,Bivalves,Susp.Dep.sur.,Low mobility,NA,NA,NA,NA,NA,NA
+LIMEBAL_26_D1409,Limecola_balthica,spring,Fosse Sud,26,D1409,-19.79705135830409,9.100810433523712,43.95996947499724,8.744985732835707,CAPES,Limecola b.,Bivalves,Susp.Dep.sur.,Low mobility,NA,NA,NA,NA,NA,NA
+LIMEBAL_59_D1397,Limecola_balthica,spring,Fosse Sud,59,D1397,-19.627769785513376,9.258258177214723,43.771719553331614,8.707363940535567,CAPES,Limecola b.,Bivalves,Susp.Dep.sur.,Low mobility,NA,NA,NA,NA,NA,NA
+LIMEBAL_59_D1402,Limecola_balthica,spring,Fosse Sud,59,D1402,-19.179120151082824,9.341716712281984,43.546879344531945,10.989992538705929,CAPES,Limecola b.,Bivalves,Susp.Dep.sur.,Low mobility,NA,NA,NA,NA,NA,NA
+LIMEBAL_2_D1478,Limecola_balthica,spring,Fosse Nord,2,D1478,-20.129103687795915,11.274453284600284,44.49479369135959,9.674624078698352,CAPES,Limecola b.,Bivalves,Susp.Dep.sur.,Low mobility,NA,NA,NA,NA,NA,NA
+LIMEBAL_2_D1479,Limecola_balthica,spring,Fosse Nord,2,D1479,-19.852286580880033,11.626959747405419,44.03900967673569,10.979331989598412,CAPES,Limecola b.,Bivalves,Susp.Dep.sur.,Low mobility,NA,NA,NA,NA,NA,NA
+LIMEBAL_8_D1485,Limecola_balthica,spring,Fosse Nord,8,D1485,-20.672450527336377,9.59191298322823,44.379695774427624,9.902054048210507,CAPES,Limecola b.,Bivalves,Susp.Dep.sur.,Low mobility,NA,NA,NA,NA,NA,NA
+LIMEBAL_BP2_D1488,Limecola_balthica,spring,Fosse Nord,BP2,D1488,-21.49483100108459,11.04380817972099,43.78675408753176,9.365163183311203,CAPES,Limecola b.,Bivalves,Susp.Dep.sur.,Low mobility,NA,NA,NA,NA,NA,NA
+LIMEBAL_12_D1567,Limecola_balthica,autumn,Fosse Sud,FS12,D1567,-18.39413375361268,10.729093526521453,40.979277578015555,8.857928988037314,CAPES,Limecola b.,Bivalves,Susp.Dep.sur.,Low mobility,NA,NA,NA,NA,NA,NA
+LIMEBAL_19_D1534,Limecola_balthica,autumn,Fosse Sud,FS19,D1534,-19.200743291146463,10.25707742454184,45.301361735183704,9.439994344661855,CAPES,Limecola b.,Bivalves,Susp.Dep.sur.,Low mobility,NA,NA,NA,NA,NA,NA
+LIMEBAL_19_D1537,Limecola_balthica,autumn,Fosse Sud,FS19,D1537,-18.963486405976738,10.630131596988171,44.398830879956094,11.527824313465674,CAPES,Limecola b.,Bivalves,Susp.Dep.sur.,Low mobility,NA,NA,NA,NA,NA,NA
+LIMEBAL_26_D1522,Limecola_balthica,autumn,Fosse Sud,26,D1522,-18.929381775915665,10.066394252991916,43.94081669179358,11.480023492220024,CAPES,Limecola b.,Bivalves,Susp.Dep.sur.,Low mobility,NA,NA,NA,NA,NA,NA
+LIMEBAL_59_D1512,Limecola_balthica,autumn,Fosse Sud,59,D1512,-19.12505610857994,9.801369835012892,44.33106723187707,9.610488339876142,CAPES,Limecola b.,Bivalves,Susp.Dep.sur.,Low mobility,NA,NA,NA,NA,NA,NA
+LIMEBAL_2_D1533,Limecola_balthica,autumn,Fosse Nord,2,D1533,-19.928080050709326,11.679285382487556,43.84856179008867,11.042295753887942,CAPES,Limecola b.,Bivalves,Susp.Dep.sur.,Low mobility,NA,NA,NA,NA,NA,NA
+LIMEBAL_BP2_D1561,Limecola_balthica,autumn,Fosse Nord,BP2,D1561,-19.1620425819434,11.089422752796114,44.08303624354442,10.234433713442293,CAPES,Limecola b.,Bivalves,Susp.Dep.sur.,Low mobility,NA,NA,NA,NA,NA,NA
+NEPT_19_D1558,Nephtys,autumn,Fosse Sud,FS19,D1558,-18.706632539754523,12.475440005250473,36.3843538795716,9.254567937650265,CAPES,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NEPTASS_50_D1332,Nepthys_sp,spring,Embouchure,EM50,D1332,-15.934917498575654,13.22466382624844,34.64008475611778,9.835417954380475,CAPES,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NEPTASS_50_D1454,Nepthys_sp,autumn,Embouchure,EM50,D1454,-17.041686856636527,12.312458907358149,31.700054869488003,7.653000660262705,CAPES,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NEPTCAE_CAPES2_D1541,Nepthys_sp,spring,Embouchure,CAPES2,D1541,-18.401634369156415,11.062304060716706,35.98149845800697,8.681554064742302,CAPES,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NEPTCAE_47_D1457,Nepthys_sp,autumn,Embouchure,EM47,D1457,-17.896951004863475,12.483891400738692,40.22060709560423,10.406505902760363,CAPES,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NEPTCAE_52_D1431,Nepthys_sp,autumn,Embouchure,EM52,D1431,-16.8535366096563,12.601531999479182,31.892043411907128,8.050313099734158,CAPES,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NEPTCIR_50_D1337,Nepthys_sp,spring,Embouchure,EM50,D1337,-18.36137007280408,12.185875881955718,35.211964208400914,8.916474111806155,CAPES,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NEPTCIR_12_D1566,Nepthys_sp,spring,Embouchure,EM52,D1566,-15.33565788113232,14.083942823463282,35.96829136112746,9.342712617676785,CAPES,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NEPTCIR_12_D1517,Nepthys_sp,spring,Fosse Sud,FS12,D1517,-16.255235349977106,14.625669582286083,33.814452895276595,8.52532646546678,CAPES,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NEPTCIR_CAPES3_D1399,Nepthys_sp,spring,Fosse Sud,CAPES3,D1399,-19.96964389488804,12.161811225355073,34.01125152471127,7.683019145533962,CAPES,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NEPTCIR_BP2_D1489,Nepthys_sp,spring,Fosse Nord,BP2,D1489,-20.748905647496446,14.261143890233257,34.15250839498495,8.274318840845996,CAPES,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NEPTCIR_12_D1566,Nepthys_sp,autumn,Fosse Sud,FS12,D1566,-15.33565788113232,14.083942823463282,35.96829136112746,9.342712617676785,CAPES,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NEPTCIR_CAPES3_D1345,Nepthys_sp,autumn,Fosse Sud,CAPES3,D1345,-17.898707384605576,12.5283361982844,37.28453626045398,10.3476841581479,CAPES,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NEPTHOM_52_D1340,Nepthys_sp,spring,Embouchure,EM52,D1340,-17.084758922171428,11.842861581267293,34.7170647946451,9.260512868010759,CAPES,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NEPTHOM_CAPES1_D1338,Nepthys_sp,spring,Embouchure,CAPES1,D1338,-19.365241385055167,11.966590731070168,34.75496086960784,8.59811209712283,CAPES,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NEPTHOM_CAPES2_D1546,Nepthys_sp,spring,Embouchure,CAPES2,D1546,-18.344326622515048,11.159952228810017,39.14600242323509,9.36796919595571,CAPES,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NEPTHOM_19_D1525,Nepthys_sp,spring,Fosse Sud,FS19,D1525,-20.41104980362458,12.695152780260909,30.826751761060812,7.3397833538935515,CAPES,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NEPTHOM_26_D1404,Nepthys_sp,spring,Fosse Sud,26,D1404,-19.961470849759426,12.559029882617727,37.26988663300392,8.964699182996346,CAPES,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NEPTHOM_2_D1480,Nepthys_sp,spring,Fosse Nord,2,D1480,-18.583611298380514,14.761794343583915,36.0110955225234,8.546731414572626,CAPES,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NEPTHOM_14_D1486,Nepthys_sp,spring,Fosse Nord,14,D1486,-21.260368223965152,13.521920190207485,37.184853912403575,9.311818318752353,CAPES,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NEPTHOM_BP2_D1490,Nepthys_sp,spring,Fosse Nord,BP2,D1490,-21.68782083690612,14.23939468370325,30.72170278861458,7.567666172343698,CAPES,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NEPTHOM_47_D1461,Nepthys_sp,autumn,Embouchure,EM47,D1461,-18.27706957512579,11.856922029042188,36.92766583126595,9.209433500139221,CAPES,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NEPTHOM_52_D1430,Nepthys_sp,autumn,Embouchure,EM52,D1430,-17.607276753860354,12.061825237081322,33.696979382969005,8.271246195662263,CAPES,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NEPTHOM_CAPES2_D1384,Nepthys_sp,autumn,Embouchure,CAPES2,D1384,-17.28028754708624,12.243302142300141,36.42468737271265,9.144075554030604,CAPES,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NUCUNIT_50_D1456,Nucula_nitidosa,autumn,Embouchure,EM50,D1456,-18.5267116740011,9.159502497450017,41.386088302706355,11.592978305276933,CAPES,Nucula n.,Bivalves,Dep.sur.,Mobile,NA,NA,NA,NA,NA,NA
+NUCUNIT_52_D1429,Nucula_nitidosa,autumn,Embouchure,EM52,D1429,-17.83639681548433,9.517118663817413,46.66121279818229,13.719490900386514,CAPES,Nucula n.,Bivalves,Dep.sur.,Mobile,NA,NA,NA,NA,NA,NA
+OWENFUS_50_D1341,Owenia_fusiformis,spring,Embouchure,EM50,D1341,-18.896660385285287,9.709082930617832,44.06282885643874,9.968514231351143,CAPES,Owenia f.,Polychaetes,Susp.Dep.sur.,Sedentary,NA,NA,NA,NA,NA,NA
+OWENFUS_52_D1314,Owenia_fusiformis,spring,Embouchure,EM52,D1314,-18.532617474796385,9.522421184928929,44.9942956618604,10.7530994985743,CAPES,Owenia f.,Polychaetes,Susp.Dep.sur.,Sedentary,NA,NA,NA,NA,NA,NA
+OWENFUS_CAPES2_D1542,Owenia_fusiformis,spring,Embouchure,CAPES2,D1542,-19.265346141271134,8.531591633375285,43.3159490165385,9.331819649824782,CAPES,Owenia f.,Polychaetes,Susp.Dep.sur.,Sedentary,NA,NA,NA,NA,NA,NA
+OWENFUS_47_D1460,Owenia_fusiformis,autumn,Embouchure,EM47,D1460,-17.076870238176536,11.574949432799883,25.465570108451725,5.282688995024596,CAPES,Owenia f.,Polychaetes,Susp.Dep.sur.,Sedentary,NA,NA,NA,NA,NA,NA
+OWENFUS_50_D1450,Owenia_fusiformis,autumn,Embouchure,EM50,D1450,-17.22386891696026,10.977299164627858,48.22563071552077,11.37484885524027,CAPES,Owenia f.,Polychaetes,Susp.Dep.sur.,Sedentary,NA,NA,NA,NA,NA,NA
+OWENFUS_52_D1428,Owenia_fusiformis,autumn,Embouchure,EM52,D1428,-17.68323245276189,10.158911878315319,44.283267116459044,10.424497144631081,CAPES,Owenia f.,Polychaetes,Susp.Dep.sur.,Sedentary,NA,NA,NA,NA,NA,NA
+OWENFUS_CAPES2_D1324,Owenia_fusiformis,autumn,Embouchure,CAPES2,D1324,-17.92873929952572,9.39123562739123,46.25341802790381,11.793511657667437,CAPES,Owenia f.,Polychaetes,Susp.Dep.sur.,Sedentary,NA,NA,NA,NA,NA,NA
+SCROPLA_BP2_D1563,Scrobicularia_plana,autumn,Fosse Nord,BP2,D1563,-19.16655055129332,11.182994421048452,42.383024841191144,10.983158517886633,CAPES,Scrobicularia p.,Bivalves,Susp.Dep.sur.,Low mobility,NA,NA,NA,NA,NA,NA
+SPISSUB_47_D1323,Spisula_subtruncata,spring,Embouchure,EM47,D1323,-18.982614265746026,8.451109899957485,46.139855902893636,11.678934380170418,CAPES,Spisula s.,Bivalves,Susp.,Mobile,NA,NA,NA,NA,NA,NA
+SPISSUB_47_D1327,Spisula_subtruncata,spring,Embouchure,EM47,D1327,-18.4799986286469,8.803868137925402,42.44768859985681,10.386864019443125,CAPES,Spisula s.,Bivalves,Susp.,Mobile,NA,NA,NA,NA,NA,NA
+SPISSUB_52_D1326,Spisula_subtruncata,spring,Embouchure,EM52,D1326,-18.881813366217013,8.474585026334628,46.44432240043815,10.99804921908978,CAPES,Spisula s.,Bivalves,Susp.,Mobile,NA,NA,NA,NA,NA,NA
+SPISSUB_CAPES2_D1400,Spisula_subtruncata,spring,Embouchure,CAPES2,D1400,-20.04732940217153,8.235999383521339,43.56737658051097,11.393360010694622,CAPES,Spisula s.,Bivalves,Susp.,Mobile,NA,NA,NA,NA,NA,NA
+SPISSUB_47_D1458,Spisula_subtruncata,autumn,Embouchure,EM47,D1458,-18.169684058746274,10.497685189730536,47.36101724374845,12.748356614668346,CAPES,Spisula s.,Bivalves,Susp.,Mobile,NA,NA,NA,NA,NA,NA
+SPISSUB_52_D1421,Spisula_subtruncata,autumn,Embouchure,EM52,D1421,-17.212971082323726,10.829228658140615,48.11065212352374,12.99325077226438,CAPES,Spisula s.,Bivalves,Susp.,Mobile,NA,NA,NA,NA,NA,NA
+SPISSUB_52_D1422,Spisula_subtruncata,autumn,Embouchure,EM52,D1422,-16.73638315997252,11.489029774177588,48.068063465564016,13.581771684287384,CAPES,Spisula s.,Bivalves,Susp.,Mobile,NA,NA,NA,NA,NA,NA
+SPISSUB_CAPES1_D1377,Spisula_subtruncata,autumn,Embouchure,CAPES1,D1377,-17.463199105292457,10.354354299499057,45.74429406146492,12.396353782511047,CAPES,Spisula s.,Bivalves,Susp.,Mobile,NA,NA,NA,NA,NA,NA
+SPISSUB_CAPES2_D1387,Spisula_subtruncata,autumn,Embouchure,CAPES2,D1387,-18.584143569865102,9.355126838074174,43.00659894375185,11.771295168436946,CAPES,Spisula s.,Bivalves,Susp.,Mobile,NA,NA,NA,NA,NA,NA
+SPISSUB_CAPES2_D1388,Spisula_subtruncata,autumn,Embouchure,CAPES2,D1388,-18.260785168455456,9.402699614123827,41.8855596935544,12.530155538257468,CAPES,Spisula s.,Bivalves,Susp.,Mobile,NA,NA,NA,NA,NA,NA
+CP13,Lagis_koreni,spring,Embouchure,NA,NA,-15.7975,8.609000000000002,NA,NA,CHOPIN,Lagis k.,Polychaetes,Dep.sub.,Sedentary,1.438,NA,NA,NA,NA,NA
+CP19,Crangon_crangon,spring,Embouchure,NA,NA,-17.6755,11.347000000000003,NA,NA,CHOPIN,Crangon c.,Crustaceans,Omnivore,Mobile,2.25,NA,NA,NA,NA,NA
+CP05,Crangon_crangon,spring,Fosse Nord,NA,NA,-17.7375,11.391000000000002,NA,NA,CHOPIN,Crangon c.,Crustaceans,Omnivore,Mobile,2.605,NA,NA,NA,NA,NA
+CP23,Scrobicularia_plana,spring,Fosse Nord,NA,NA,-18.5265,11.060000000000002,NA,NA,CHOPIN,Scrobicularia p.,Bivalves,Susp.Dep.sur.,Low mobility,2.96,NA,NA,NA,NA,NA
+CP52,Crangon_crangon,autumn,Chenal,NA,NA,-16.7985,13.765000000000002,NA,NA,CHOPIN,Crangon c.,Crustaceans,Omnivore,Mobile,3.79,NA,NA,NA,NA,NA
+T1 EM1/AN2 crevettes,Crangon_crangon,autumn,Embouchure,NA,NA,-15.6795,13.923000000000002,NA,NA,CHOPIN,Crangon c.,Crustaceans,Omnivore,Mobile,3.205,NA,NA,NA,NA,NA
+SA200,Corophium_volutator,autumn,Fosse Nord,NA,NA,-18.2885,10.526000000000003,NA,NA,CHOPIN,Corophium v.,Crustaceans,Susp.Dep.sur.,Low mobility,2.85,NA,NA,NA,NA,NA
+T2 FN8 crevettes,Crangon_crangon,autumn,Fosse Nord,NA,NA,-15.5745,14.027000000000003,NA,NA,CHOPIN,Crangon c.,Crustaceans,Omnivore,Mobile,2.178,NA,NA,NA,NA,NA
+Solea_solea_ C1_D1080,Solea_solea,autumn,Chenal,C1,D1080,-20.37,15.31,47.7,14.66,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G0,Solea_solea.G0.S3,98,0.31756,49.43604
+Solea_solea_C1_D1079,Solea_solea,autumn,Chenal,C1,D1079,-20.14,15.31,46.37,14.22,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G0,Solea_solea.G0.S3,90,0.31756,49.43604
+Solea_solea_C1_D1081,Solea_solea,autumn,Chenal,C1,D1081,-19.91,15.67,46.17,14.12,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G0,Solea_solea.G0.S3,97,0.31756,49.43604
+Solea_solea_C1_D1143,Solea_solea,autumn,Chenal,C1,D1143,-20.05,14.93,42.93,13.13,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G0,Solea_solea.G0.S3,90,0.31756,49.43604
+Solea_solea_C1_D1144,Solea_solea,autumn,Chenal,C1,D1144,-20.22,15.13,44.57,13.4,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G0,Solea_solea.G0.S3,97,0.31756,49.43604
+Solea_solea_C2_D1089,Solea_solea,autumn,Chenal,C2,D1089,-18.73,13.89,45.31,13.96,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G0,Solea_solea.G0.S3,89,0.27755,49.43225
+Solea_solea_C7_D1082,Solea_solea,autumn,Chenal,C7,D1082,-18.33,14.6,45.55,13.86,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G0,Solea_solea.G0.S2,89,0.11908,49.4394
+Solea_solea_C7_D1083,Solea_solea,autumn,Chenal,C7,D1083,-18.32,14.35,46.4,14.19,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G0,Solea_solea.G0.S2,105,0.11908,49.4394
+Solea_solea_C7_D1084,Solea_solea,autumn,Chenal,C7,D1084,-18.24,14.41,45.03,13.75,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G0,Solea_solea.G0.S2,86,0.11908,49.4394
+Solea_solea_C7_D1085,Solea_solea,autumn,Chenal,C7,D1085,-18.52,14.64,47.39,14.27,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G0,Solea_solea.G0.S2,96,0.11908,49.4394
+Solea_solea_C7_D1086,Solea_solea,autumn,Chenal,C7,D1086,-18.31,14.58,46.16,13.99,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G0,Solea_solea.G0.S2,97,0.11908,49.4394
+Solea_solea_C7_D1087,Solea_solea,autumn,Chenal,C7,D1087,-18.33,14.35,47.05,14.39,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G0,Solea_solea.G0.S2,81,0.11908,49.4394
+Solea_solea_C7_D1088,Solea_solea,autumn,Chenal,C7,D1088,-21.04,15.72,45.42,13.54,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G0,Solea_solea.G0.S2,99,0.11908,49.4394
+Solea_solea_AN1_D1070,Solea_solea,autumn,Embouchure,AN1,D1070,-17.12,14.02,45.89,14.2,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G0,Solea_solea.G0.S1,111,0.09561,49.45835
+Solea_solea_AN1_D1199,Solea_solea,autumn,Embouchure,AN1,D1199,-17.26,14.09,46.77,14.72,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G0,Solea_solea.G0.S1,87,0.09561,49.45835
+Solea_solea_AN2_D1071,Solea_solea,autumn,Embouchure,AN2,D1071,-17.15,14.36,45.6,13.95,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G0,Solea_solea.G0.S1,110,0.06285,49.4638
+Solea_solea_AN2_D1072,Solea_solea,autumn,Embouchure,AN2,D1072,-17.53,13.23,46.31,14.33,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G0,Solea_solea.G0.S1,137,0.06285,49.4638
+Solea_solea_AN2_D1073,Solea_solea,autumn,Embouchure,AN2,D1073,-17.1,13.46,45.42,14.01,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G0,Solea_solea.G0.S1,103,0.06285,49.4638
+Solea_solea_AN3_D1074,Solea_solea,autumn,Embouchure,AN3,D1074,-16.41,14.76,47.29,14.6,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G0,Solea_solea.G0.S1,112,0.03215,49.46352
+Solea_solea_AS4_D1075,Solea_solea,autumn,Embouchure,AS4,D1075,-16.82,13.7,47.09,14.54,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G0,Solea_solea.G0.S1,98,0.05801,49.41412
+Solea_solea_AS4_D1076,Solea_solea,autumn,Embouchure,AS4,D1076,-17.49,13.63,46.89,14.47,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G0,Solea_solea.G0.S1,117,0.05801,49.41412
+Solea_solea_AS5_D1077,Solea_solea,autumn,Embouchure,AS5,D1077,-16.67,13.15,47.22,14.45,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G0,Solea_solea.G0.S1,106,0.061516667,49.40473333
+Solea_solea_AS5_D1078,Solea_solea,autumn,Embouchure,AS5,D1078,-17.25,13.29,47.52,14.53,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G0,Solea_solea.G0.S1,122,0.061516667,49.40473333
+Solea_solea_AS5_D1198,Solea_solea,autumn,Embouchure,AS5,D1198,-16.85,12.9,45.33,14.06,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G0,Solea_solea.G0.S1,128,0.061516667,49.40473333
+Solea_solea_EM1-AN2_D1069,Solea_solea,autumn,Embouchure,EM1-AN2,D1069,-17.96,14.04,46.13,14.33,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G0,Solea_solea.G0.S1,165,0.087533333,49.4672
+Solea_solea_FN5_D1100,Solea_solea,autumn,Fosse Nord,FN5,D1100,-18.46,14.6,46.83,14.53,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G0,Solea_solea.G0.S2,104,0.15441,49.4455
+Solea_solea_FN5_D1101,Solea_solea,autumn,Fosse Nord,FN5,D1101,-18.36,14.43,46.97,14.57,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G0,Solea_solea.G0.S2,106,0.15441,49.4455
+Solea_solea_FN5_D1102,Solea_solea,autumn,Fosse Nord,FN5,D1102,-18.3,14.3,46.06,14.22,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G0,Solea_solea.G0.S2,101,0.15441,49.4455
+Solea_solea_FN5_D1103,Solea_solea,autumn,Fosse Nord,FN5,D1103,-18.14,13.9,46.15,14.19,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G0,Solea_solea.G0.S2,108,0.15441,49.4455
+Solea_solea_FN5_D1104,Solea_solea,autumn,Fosse Nord,FN5,D1104,-14.47,17.16,47.3,14.56,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G0,Solea_solea.G0.S2,136,0.15441,49.4455
+Solea_solea_FN5_D1201,Solea_solea,autumn,Fosse Nord,FN5,D1201,-18.54,14.19,46.94,14.67,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G0,Solea_solea.G0.S2,107,0.15441,49.4455
+Solea_solea_FN8_D1105,Solea_solea,autumn,Fosse Nord,FN8,D1105,-18.35,13.74,46.86,14.61,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G0,Solea_solea.G0.S2,110,0.10572,49.44692
+Solea_solea_FN8_D1106,Solea_solea,autumn,Fosse Nord,FN8,D1106,-18.59,13.84,46.74,14.63,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G0,Solea_solea.G0.S2,115,0.10572,49.44692
+Solea_solea_FN8_D1107,Solea_solea,autumn,Fosse Nord,FN8,D1107,-18.29,13.88,47.31,14.66,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G0,Solea_solea.G0.S2,104,0.10572,49.44692
+Solea_solea_FN8_D1108,Solea_solea,autumn,Fosse Nord,FN8,D1108,-18.6,13.44,46.51,14.6,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G0,Solea_solea.G0.S2,124,0.10572,49.44692
+Solea_solea_FN8_D1109,Solea_solea,autumn,Fosse Nord,FN8,D1109,-18.49,14.21,45.64,14.26,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G0,Solea_solea.G0.S2,100,0.10572,49.44692
+Solea_solea_FN8_D1202,Solea_solea,autumn,Fosse Nord,FN8,D1202,-18.15,13.72,46.04,14.33,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G0,Solea_solea.G0.S2,107,0.10572,49.44692
+Solea_solea_FS0_D1099,Solea_solea,autumn,Fosse Sud,FS0,D1099,-18.08,13.76,46.37,14.23,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G0,Solea_solea.G0.S2,102,0.17154,49.42387
+Solea_solea_FS3_D1090,Solea_solea,autumn,Fosse Sud,FS3,D1090,-18.33,13.63,46.57,14.18,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G0,Solea_solea.G0.S2,104,0.14816,49.42214
+Solea_solea_FS3_D1091,Solea_solea,autumn,Fosse Sud,FS3,D1091,-18.29,13.69,46.55,14.2,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G0,Solea_solea.G0.S2,89,0.14816,49.42214
+Solea_solea_FS3_D1092,Solea_solea,autumn,Fosse Sud,FS3,D1092,-18.08,13.69,45.7,14.09,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G0,Solea_solea.G0.S2,103,0.14816,49.42214
+Solea_solea_FS3_D1093,Solea_solea,autumn,Fosse Sud,FS3,D1093,-18.35,13.16,47.29,14.53,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G0,Solea_solea.G0.S2,98,0.14816,49.42214
+Solea_solea_FS3_D1094,Solea_solea,autumn,Fosse Sud,FS3,D1094,-18.22,13.26,58.28,17.99,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G0,Solea_solea.G0.S2,127,0.14816,49.42214
+Solea_solea_FS3_D1095,Solea_solea,autumn,Fosse Sud,FS3,D1095,-18.18,13.37,47.11,14.47,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G0,Solea_solea.G0.S2,124,0.14816,49.42214
+Solea_solea_FS3_D1096,Solea_solea,autumn,Fosse Sud,FS3,D1096,-17.89,13.68,47.37,14.37,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G0,Solea_solea.G0.S2,99,0.14816,49.42214
+Solea_solea_FS3_D1097,Solea_solea,autumn,Fosse Sud,FS3,D1097,-18.46,13.38,45.73,13.92,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G0,Solea_solea.G0.S2,116,0.14816,49.42214
+Solea_solea_FS3_D1098,Solea_solea,autumn,Fosse Sud,FS3,D1098,-18.38,13.38,46.05,14.08,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G0,Solea_solea.G0.S2,115,0.14816,49.42214
+Solea_solea_FS3_D1200,Solea_solea,autumn,Fosse Sud,FS3,D1200,-16.8,13.74,46.31,14.31,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G0,Solea_solea.G0.S2,104,0.14816,49.42214
+Solea_solea_C1_D1121,Solea_solea,autumn,Chenal,C1,D1121,-19.14,15.64,47.19,14.85,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G1,Solea_solea.G1.S3,230,0.31756,49.43604
+Solea_solea_C6_D1122,Solea_solea,autumn,Chenal,C6,D1122,-18.36,14.65,46.43,14.56,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G1,Solea_solea.G1.S2,225,0.16377,49.43837
+Solea_solea_C7_D1120,Solea_solea,autumn,Chenal,C7,D1120,-17.31,14.65,47.06,14.9,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G1,Solea_solea.G1.S2,244,0.11908,49.4394
+Solea_solea_AS4_D1110,Solea_solea,autumn,Embouchure,AS4,D1110,-16.86,13.22,46.47,14.61,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G1,Solea_solea.G1.S1,205,0.05801,49.41412
+Solea_solea_AS5_D1115,Solea_solea,autumn,Embouchure,AS5,D1115,-17.75,13.33,47.39,14.74,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G1,Solea_solea.G1.S1,227,0.061516667,49.40473333
+Solea_solea_AS5_D1116,Solea_solea,autumn,Embouchure,AS5,D1116,-17.2,13.11,46.83,14.65,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G1,Solea_solea.G1.S1,208,0.061516667,49.40473333
+Solea_solea_AS5_D1117,Solea_solea,autumn,Embouchure,AS5,D1117,-17.32,13.53,47.34,14.76,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G1,Solea_solea.G1.S1,207,0.061516667,49.40473333
+Solea_solea_AS5_D1118,Solea_solea,autumn,Embouchure,AS5,D1118,-17.26,13.07,45.78,14.32,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G1,Solea_solea.G1.S1,198,0.061516667,49.40473333
+Solea_solea_AS5_D1119,Solea_solea,autumn,Embouchure,AS5,D1119,-17.37,13.06,47.48,14.81,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G1,Solea_solea.G1.S1,204,0.061516667,49.40473333
+Solea_solea_AS5_D1203,Solea_solea,autumn,Embouchure,AS5,D1203,-17.25,13.15,45.96,14.49,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G1,Solea_solea.G1.S1,203,0.061516667,49.40473333
+Solea_solea_AS5_D1204,Solea_solea,autumn,Embouchure,AS5,D1204,-17.22,13.52,46.24,14.62,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G1,Solea_solea.G1.S1,239,0.061516667,49.40473333
+Solea_solea_AS5_D1206,Solea_solea,autumn,Embouchure,AS5,D1206,-17.29,12.68,46.5,14.59,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G1,Solea_solea.G1.S1,235,0.061516667,49.40473333
+Solea_solea_AS5_D1207,Solea_solea,autumn,Embouchure,AS5,D1207,-17.34,13.26,47.59,14.92,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G1,Solea_solea.G1.S1,201,0.061516667,49.40473333
+Solea_solea_EM1-AN2_D1111,Solea_solea,autumn,Embouchure,EM1-AN2,D1111,-18.32,13.91,45.77,14.41,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G1,Solea_solea.G1.S1,201,0.087533333,49.4672
+Solea_solea_EM1-AN2_D1112,Solea_solea,autumn,Embouchure,EM1-AN2,D1112,-18.21,14.05,45.15,14.23,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G1,Solea_solea.G1.S1,233,0.087533333,49.4672
+Solea_solea_EM1-AN2_D1113,Solea_solea,autumn,Embouchure,EM1-AN2,D1113,-17.9,13.51,47.15,14.82,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G1,Solea_solea.G1.S1,220,0.087533333,49.4672
+Solea_solea_EM1-AN2_D1114,Solea_solea,autumn,Embouchure,EM1-AN2,D1114,-18.14,13.6,47.7,14.92,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G1,Solea_solea.G1.S1,221,0.087533333,49.4672
+Solea_solea_FN11_D1137,Solea_solea,autumn,Fosse Nord,FN11,D1137,-18.39,13.53,44.54,13.88,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G1,Solea_solea.G1.S2,220,0.096833333,49.44893333
+Solea_solea_FN11_D1138,Solea_solea,autumn,Fosse Nord,FN11,D1138,-17.87,13.55,45.99,14.43,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G1,Solea_solea.G1.S2,216,0.096833333,49.44893333
+Solea_solea_FN11_D1139,Solea_solea,autumn,Fosse Nord,FN11,D1139,-18.61,13.69,47.47,14.95,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G1,Solea_solea.G1.S2,198,0.096833333,49.44893333
+Solea_solea_FN5_D1140,Solea_solea,autumn,Fosse Nord,FN5,D1140,-16.77,15.42,45.46,14.39,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G1,Solea_solea.G1.S2,238,0.15441,49.4455
+Solea_solea_FN8_D1133,Solea_solea,autumn,Fosse Nord,FN8,D1133,-18.25,13.55,45.56,14.56,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G1,Solea_solea.G1.S2,216,0.10572,49.44692
+Solea_solea_FN8_D1134,Solea_solea,autumn,Fosse Nord,FN8,D1134,-18.79,14.51,46.36,14.55,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G1,Solea_solea.G1.S2,220,0.10572,49.44692
+Solea_solea_FN8_D1135,Solea_solea,autumn,Fosse Nord,FN8,D1135,-17.9,13.99,47.22,14.85,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G1,Solea_solea.G1.S2,187,0.10572,49.44692
+Solea_solea_FN8_D1136,Solea_solea,autumn,Fosse Nord,FN8,D1136,-18.34,13.77,47.15,14.79,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G1,Solea_solea.G1.S2,194,0.10572,49.44692
+Solea_solea_FN8_D1141,Solea_solea,autumn,Fosse Nord,FN8,D1141,-18.42,14.18,46.43,14.66,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G1,Solea_solea.G1.S2,230,0.10572,49.44692
+Solea_solea_FN8_D1142,Solea_solea,autumn,Fosse Nord,FN8,D1142,-17.9,13.94,46.92,14.8,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G1,Solea_solea.G1.S2,241,0.10572,49.44692
+Solea_solea_FN8_D1211,Solea_solea,autumn,Fosse Nord,FN8,D1211,-17.97,13.42,47.7,14.8,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G1,Solea_solea.G1.S2,195,0.10572,49.44692
+Solea_solea_FN8_D1212,Solea_solea,autumn,Fosse Nord,FN8,D1212,-18.22,13.34,47.54,14.92,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G1,Solea_solea.G1.S2,215,0.10572,49.44692
+Solea_solea_FS0_D1126,Solea_solea,autumn,Fosse Sud,FS0,D1126,-18.64,13.4,45.97,14.35,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G1,Solea_solea.G1.S2,221,0.17154,49.42387
+Solea_solea_FS3_D1123,Solea_solea,autumn,Fosse Sud,FS3,D1123,-18.22,14.35,46.04,14.51,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G1,Solea_solea.G1.S2,233,0.14816,49.42214
+Solea_solea_FS3_D1124,Solea_solea,autumn,Fosse Sud,FS3,D1124,-17.91,13.43,46.76,14.93,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G1,Solea_solea.G1.S2,213,0.14816,49.42214
+Solea_solea_FS3_D1125,Solea_solea,autumn,Fosse Sud,FS3,D1125,-18.27,13.9,46.92,14.62,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G1,Solea_solea.G1.S2,220,0.14816,49.42214
+Solea_solea_FS3_D1129,Solea_solea,autumn,Fosse Sud,FS3,D1129,-17.59,13.22,47.63,14.92,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G1,Solea_solea.G1.S2,240,0.14816,49.42214
+Solea_solea_FS3_D1208,Solea_solea,autumn,Fosse Sud,FS3,D1208,-18.06,13.35,46.86,14.52,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G1,Solea_solea.G1.S2,233,0.14816,49.42214
+Solea_solea_FS3_D1210,Solea_solea,autumn,Fosse Sud,FS3,D1210,-17.79,12.71,46.75,14.5,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G1,Solea_solea.G1.S2,234,0.14816,49.42214
+Solea_solea_FS3bis_D1130,Solea_solea,autumn,Fosse Sud,FS3bis,D1130,-18.32,13.35,46.63,14.7,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G1,Solea_solea.G1.S2,253,0.147016667,49.42163333
+Solea_solea_FS3bis_D1131,Solea_solea,autumn,Fosse Sud,FS3bis,D1131,-18.55,13.42,47.05,14.68,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G1,Solea_solea.G1.S2,232,0.147016667,49.42163333
+Solea_solea_FS3bis_D1132,Solea_solea,autumn,Fosse Sud,FS3bis,D1132,-18.31,13.22,48.16,15.07,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G1,Solea_solea.G1.S2,227,0.147016667,49.42163333
+Solea_solea_FS3bis_D1209,Solea_solea,autumn,Fosse Sud,FS3bis,D1209,-17.88,13.15,47.6,14.59,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G1,Solea_solea.G1.S2,241,0.147016667,49.42163333
+Solea_solea_FS5_D1127,Solea_solea,autumn,Fosse Sud,FS5,D1127,-17.96,13.21,46.43,14.54,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G1,Solea_solea.G1.S1,206,0.09053,49.40559
+Solea_solea_FS5_D1128,Solea_solea,autumn,Fosse Sud,FS5,D1128,-17.83,13.12,45.36,14.16,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G1,Solea_solea.G1.S1,222,0.09053,49.40559
+Solea_solea_CF5-C6_C0802,Solea_solea,spring,Chenal,CF5-C6,C0802,-18.72,12.33,44.1,13.44,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G0,Solea_solea.G0.S2,56,0.1534,49.4391
+Solea_solea_CF5-C6_C0803,Solea_solea,spring,Chenal,CF5-C6,C0803,-19.54,13.08,45.21,13.47,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G0,Solea_solea.G0.S2,58,0.1534,49.4391
+Solea_solea_CF5-C6_C0804,Solea_solea,spring,Chenal,CF5-C6,C0804,-18.81,12.75,43.96,13.38,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G0,Solea_solea.G0.S2,49,0.1534,49.4391
+Solea_solea_CF5-C6_C0805,Solea_solea,spring,Chenal,CF5-C6,C0805,-17.43,13.01,45.07,13.58,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G0,Solea_solea.G0.S2,56,0.1534,49.4391
+Solea_solea_CF5-C6_C0806,Solea_solea,spring,Chenal,CF5-C6,C0806,-18.77,12.44,45.08,13.59,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G0,Solea_solea.G0.S2,52,0.1534,49.4391
+Solea_solea_CC5-FN1_C0790,Solea_solea,spring,Fosse Nord,CC5-FN1,C0790,-19.02,14.4,45.62,13.76,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G0,Solea_solea.G0.S3,78,0.26315,49.44073333
+Solea_solea_CC5-FN1_C0791,Solea_solea,spring,Fosse Nord,CC5-FN1,C0791,-19.07,14.58,45,13.72,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G0,Solea_solea.G0.S3,68,0.26315,49.44073333
+Solea_solea_CC5-FN1_C0792,Solea_solea,spring,Fosse Nord,CC5-FN1,C0792,-18.56,14.32,44.79,13.38,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G0,Solea_solea.G0.S3,60,0.26315,49.44073333
+Solea_solea_CC5-FN1_C0793,Solea_solea,spring,Fosse Nord,CC5-FN1,C0793,-18.54,14.36,44.89,13.55,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G0,Solea_solea.G0.S3,65,0.26315,49.44073333
+Solea_solea_CC5-FN1_C0794,Solea_solea,spring,Fosse Nord,CC5-FN1,C0794,-18.73,14.03,44.26,13.46,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G0,Solea_solea.G0.S3,57,0.26315,49.44073333
+Solea_solea_CC7-FN5_C0788,Solea_solea,spring,Fosse Nord,CC7-FN5,C0788,-18.75,12.5,43.97,13.22,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G0,Solea_solea.G0.S2,42,0.15025,49.44275
+Solea_solea_CC7-FN5_C0789,Solea_solea,spring,Fosse Nord,CC7-FN5,C0789,-18,12.48,43.13,13,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G0,Solea_solea.G0.S2,44,0.15025,49.44275
+Solea_solea_FN9_C0795,Solea_solea,spring,Fosse Nord,FN9,C0795,-19.64,11.88,42.04,12.59,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G0,Solea_solea.G0.S3,42,0.2479,49.43893333
+Solea_solea_FS2_C0800,Solea_solea,spring,Fosse Sud,FS2,C0800,-18.2,11.77,42.69,12.75,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G0,Solea_solea.G0.S1,42,0.170133333,49.41648333
+Solea_solea_FS2_C0801,Solea_solea,spring,Fosse Sud,FS2,C0801,-16.89,12.43,43.48,13.1,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G0,Solea_solea.G0.S1,36,0.170133333,49.41648333
+Solea_solea_CC2-FS4_C0797,Solea_solea,spring,Fosse Sud,FS4,C0797,-18.11,11.04,43.29,13.15,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G0,Solea_solea.G0.S1,51,0.089516667,49.4161
+Solea_solea_CC2-FS4_C0798,Solea_solea,spring,Fosse Sud,FS4,C0798,-18.04,10.63,43.79,13.43,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G0,Solea_solea.G0.S1,57,0.089516667,49.4161
+Solea_solea_CC2-FS4_C0799,Solea_solea,spring,Fosse Sud,FS4,C0799,-17.49,10.51,43.01,13.09,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G0,Solea_solea.G0.S1,45,0.089516667,49.4161
+Solea_solea_CC1-FS5_C0796,Solea_solea,spring,Fosse Sud,FS5,C0796,-18.17,11.58,45.03,13.49,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G0,Solea_solea.G0.S1,58,0.092183333,49.40553333
+Solea_solea_C1_C0728,Solea_solea,spring,Chenal,C1,C0728,-20.2,14.98,44.68,13.84,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G1,Solea_solea.G1.S3,159,0.3181,49.4362
+Solea_solea_C6_C0736,Solea_solea,spring,Chenal,C6,C0736,-19.53,14.8,45.4,14.06,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G1,Solea_solea.G1.S2,173,0.15385,49.4391
+Solea_solea_C7_C0729,Solea_solea,spring,Chenal,C7,C0729,-18.83,13.81,45.11,13.7,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G1,Solea_solea.G1.S2,165,0.1294,49.43636667
+Solea_solea_C7_C0730,Solea_solea,spring,Chenal,C7,C0730,-19.7,14.33,45.4,13.73,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G1,Solea_solea.G1.S2,156,0.1294,49.43636667
+Solea_solea_C7_C0731,Solea_solea,spring,Chenal,C7,C0731,-18.83,14.81,43.65,13.32,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G1,Solea_solea.G1.S2,133,0.1294,49.43636667
+Solea_solea_C7_C0737,Solea_solea,spring,Chenal,C7,C0737,-19.38,14.52,43.8,13.37,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G1,Solea_solea.G1.S2,187,0.1294,49.43636667
+Solea_solea_CF4-C4_C0735,Solea_solea,spring,Chenal,CF4-C4,C0735,-17.07,14.81,44.46,13.87,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G1,Solea_solea.G1.S2,183,0.189866667,49.43598333
+Solea_solea_CF5-C6_C0732,Solea_solea,spring,Chenal,CF5-C6,C0732,-19.66,15.11,45.42,13.92,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G1,Solea_solea.G1.S2,156,0.1534,49.4391
+Solea_solea_CF5-C6_C0733,Solea_solea,spring,Chenal,CF5-C6,C0733,-18.34,15.55,45.45,13.52,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G1,Solea_solea.G1.S2,186,0.1534,49.4391
+Solea_solea_CF5-C6_C0734,Solea_solea,spring,Chenal,CF5-C6,C0734,-18.75,14.09,42.89,13.07,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G1,Solea_solea.G1.S2,174,0.1534,49.4391
+Solea_solea_CF5-C6_C0806,Solea_solea,spring,Chenal,CF5-C6,C0806,-18.77,12.44,45.08,13.59,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G1,Solea_solea.G1.S2,52,0.1534,49.4391
+Solea_solea_CF6-C7_C0846,Solea_solea,spring,Chenal,CF6-C7,C0846,-18.42,13.3,46.19,14.43,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G1,Solea_solea.G1.S2,173,0.116866667,49.43996667
+Solea_solea_CF6-C7_C0849,Solea_solea,spring,Chenal,CF6-C7,C0849,-19.56,14.72,46.89,14.52,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G1,Solea_solea.G1.S2,143,0.116866667,49.43996667
+Solea_solea_AN5_C0860,Solea_solea,spring,Embouchure,AN5,C0860,-19.15,15.13,45.95,14.35,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G1,Solea_solea.G1.S1,155,0.064883333,49.4564
+Solea_solea_AS2_C0854,Solea_solea,spring,Embouchure,AS2,C0854,-17.35,16.44,47.34,14.76,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G1,Solea_solea.G1.S1,172,0.0523,49.42851667
+Solea_solea_AS4_C0852,Solea_solea,spring,Embouchure,AS4,C0852,-17.81,13.4,46.64,14.48,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G1,Solea_solea.G1.S1,148,0.059283333,49.41455
+Solea_solea_AS4_C0859,Solea_solea,spring,Embouchure,AS4,C0859,-18.65,13.54,46.73,14.41,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G1,Solea_solea.G1.S1,125,0.059283333,49.41455
+Solea_solea_EM10_C0855,Solea_solea,spring,Embouchure,EM10,C0855,-17.29,12.59,45.86,14.29,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G1,Solea_solea.G1.S1,170,-0.01325,49.4848
+Solea_solea_EM10_C0861,Solea_solea,spring,Embouchure,EM10,C0861,-15.63,13.22,48.49,15.09,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G1,Solea_solea.G1.S1,153,-0.01325,49.4848
+Solea_solea_EM14_C0758,Solea_solea,spring,Embouchure,EM14,C0758,-16.86,12.49,45.61,13.99,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G1,Solea_solea.G1.S1,150,-0.004816667,49.43655
+Solea_solea_EM14_C0759,Solea_solea,spring,Embouchure,EM14,C0759,-17.1,13.07,45.7,13.79,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G1,Solea_solea.G1.S1,152,-0.004816667,49.43655
+Solea_solea_EM14_C0760,Solea_solea,spring,Embouchure,EM14,C0760,-17.3,13.23,45.28,13.85,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G1,Solea_solea.G1.S1,153,-0.004816667,49.43655
+Solea_solea_EM14_C0761,Solea_solea,spring,Embouchure,EM14,C0761,-17.37,13.05,45.51,13.96,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G1,Solea_solea.G1.S1,138,-0.004816667,49.43655
+Solea_solea_EM14_C0762,Solea_solea,spring,Embouchure,EM14,C0762,-17.14,12.43,45.83,14.3,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G1,Solea_solea.G1.S1,192,-0.004816667,49.43655
+Solea_solea_EM14_C0763,Solea_solea,spring,Embouchure,EM14,C0763,-17.03,12.59,46.47,14.25,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G1,Solea_solea.G1.S1,157,-0.004816667,49.43655
+Solea_solea_EM14_C0764,Solea_solea,spring,Embouchure,EM14,C0764,-16.75,13.29,46.83,14.43,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G1,Solea_solea.G1.S1,162,-0.004816667,49.43655
+Solea_solea_EM14_C0765,Solea_solea,spring,Embouchure,EM14,C0765,-16.24,12.75,45.69,13.98,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G1,Solea_solea.G1.S1,168,-0.004816667,49.43655
+Solea_solea_EM14_C0766,Solea_solea,spring,Embouchure,EM14,C0766,-16.81,12.47,46.23,14.02,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G1,Solea_solea.G1.S1,147,-0.004816667,49.43655
+Solea_solea_EM14_C0767,Solea_solea,spring,Embouchure,EM14,C0767,-17.2,13.35,47.08,14.44,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G1,Solea_solea.G1.S1,159,-0.004816667,49.43655
+Solea_solea_EM3_C0863,Solea_solea,spring,Embouchure,EM3,C0863,-16.78,12.08,46.35,14.53,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G1,Solea_solea.G1.S1,163,0.012416667,49.40271667
+Solea_solea_EM7_C0862,Solea_solea,spring,Embouchure,EM7,C0862,-16.03,13.23,45.39,14.31,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G1,Solea_solea.G1.S1,185,-0.00355,49.4251
+Solea_solea_CC5-FN1_C0848,Solea_solea,spring,Fosse Nord,CC5-FN1,C0848,-18.45,14.57,46.87,14.48,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G1,Solea_solea.G1.S3,181,0.26315,49.44073333
+Solea_solea_CC5-FN1_C0850,Solea_solea,spring,Fosse Nord,CC5-FN1,C0850,-19.33,14.44,47.25,14.8,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G1,Solea_solea.G1.S3,193,0.26315,49.44073333
+Solea_solea_CC5-FN1_C0851,Solea_solea,spring,Fosse Nord,CC5-FN1,C0851,-18.68,14.4,47.37,14.78,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G1,Solea_solea.G1.S3,173,0.26315,49.44073333
+Solea_solea_FN6_C0845,Solea_solea,spring,Fosse Nord,FN6,C0845,-19.86,14.35,47.3,14.64,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G1,Solea_solea.G1.S2,152,0.148466667,49.44855
+Solea_solea_FN6_C0847,Solea_solea,spring,Fosse Nord,FN6,C0847,-19.8,14.39,46.79,14.49,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G1,Solea_solea.G1.S2,141,0.148466667,49.44855
+Solea_solea_FN8_C0748,Solea_solea,spring,Fosse Nord,FN8,C0748,-19.71,14.09,46.9,14.24,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G1,Solea_solea.G1.S2,157,0.125866667,49.44903333
+Solea_solea_FN8_C0749,Solea_solea,spring,Fosse Nord,FN8,C0749,-19.79,15.01,45.51,13.79,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G1,Solea_solea.G1.S2,143,0.125866667,49.44903333
+Solea_solea_FN8_C0750,Solea_solea,spring,Fosse Nord,FN8,C0750,-18.69,15.01,43.64,12.64,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G1,Solea_solea.G1.S2,158,0.125866667,49.44903333
+Solea_solea_FN8_C0751,Solea_solea,spring,Fosse Nord,FN8,C0751,-19.76,14.07,46.1,14.08,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G1,Solea_solea.G1.S2,143,0.125866667,49.44903333
+Solea_solea_FN8_C0752,Solea_solea,spring,Fosse Nord,FN8,C0752,-18.73,13.39,47.78,14.37,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G1,Solea_solea.G1.S2,159,0.125866667,49.44903333
+Solea_solea_FN8_C0753,Solea_solea,spring,Fosse Nord,FN8,C0753,-19.97,14.58,45.42,13.93,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G1,Solea_solea.G1.S2,129,0.125866667,49.44903333
+Solea_solea_FN8_C0754,Solea_solea,spring,Fosse Nord,FN8,C0754,-17.95,13.54,47.25,14.42,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G1,Solea_solea.G1.S2,150,0.125866667,49.44903333
+Solea_solea_FN8_C0755,Solea_solea,spring,Fosse Nord,FN8,C0755,-19.7,14.49,45.95,14.08,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G1,Solea_solea.G1.S2,149,0.125866667,49.44903333
+Solea_solea_FN8_C0756,Solea_solea,spring,Fosse Nord,FN8,C0756,-19.97,14.47,46.66,14.16,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G1,Solea_solea.G1.S2,126,0.125866667,49.44903333
+Solea_solea_FN8_C0757,Solea_solea,spring,Fosse Nord,FN8,C0757,-18.79,13.52,46.04,14.17,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G1,Solea_solea.G1.S2,164,0.125866667,49.44903333
+Solea_solea_CF3-FS2_C0839,Solea_solea,spring,Fosse Sud,FS2,C0839,-18.94,12.97,47.01,14.63,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G1,Solea_solea.G1.S1,180,0.170133333,49.41648333
+Solea_solea_FS3_C0844,Solea_solea,spring,Fosse Sud,FS3,C0844,-19.61,13.65,46.73,14.39,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G1,Solea_solea.G1.S2,150,0.141633333,49.42208333
+Solea_solea_CF2-FS4_C0835,Solea_solea,spring,Fosse Sud,FS4,C0835,-18.36,13.19,47.26,14.61,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G1,Solea_solea.G1.S1,167,0.089516667,49.4161
+Solea_solea_CF2-FS4_C0840,Solea_solea,spring,Fosse Sud,FS4,C0840,-16.64,12.92,47.45,14.67,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G1,Solea_solea.G1.S1,188,0.089516667,49.4161
+Solea_solea_FS4_C0837,Solea_solea,spring,Fosse Sud,FS4,C0837,-19.11,12.18,47.06,14.5,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G1,Solea_solea.G1.S1,147,0.089516667,49.4161
+Solea_solea_FS4_C0841,Solea_solea,spring,Fosse Sud,FS4,C0841,-19.19,13.57,45.68,14.04,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G1,Solea_solea.G1.S1,133,0.089516667,49.4161
+Solea_solea_CF1-FS5_C0843,Solea_solea,spring,Fosse Sud,FS5,C0843,-17.86,13.32,46.33,14.4,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G1,Solea_solea.G1.S1,162,0.092183333,49.40553333
+Solea_solea_FS5_C0738,Solea_solea,spring,Fosse Sud,FS5,C0738,-17.45,13.11,46.92,14.34,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G1,Solea_solea.G1.S1,159,0.092183333,49.40553333
+Solea_solea_FS5_C0739,Solea_solea,spring,Fosse Sud,FS5,C0739,-18.83,13.03,44.37,13.67,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G1,Solea_solea.G1.S1,149,0.092183333,49.40553333
+Solea_solea_FS5_C0740,Solea_solea,spring,Fosse Sud,FS5,C0740,-18.83,13.08,46.06,14.01,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G1,Solea_solea.G1.S1,142,0.092183333,49.40553333
+Solea_solea_FS5_C0741,Solea_solea,spring,Fosse Sud,FS5,C0741,-18.6,12.96,45.16,13.73,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G1,Solea_solea.G1.S1,147,0.092183333,49.40553333
+Solea_solea_FS5_C0742,Solea_solea,spring,Fosse Sud,FS5,C0742,-19.49,13.68,45.78,14.02,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G1,Solea_solea.G1.S1,142,0.092183333,49.40553333
+Solea_solea_FS5_C0743,Solea_solea,spring,Fosse Sud,FS5,C0743,-18.68,13.25,43.59,12.89,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G1,Solea_solea.G1.S1,152,0.092183333,49.40553333
+Solea_solea_FS5_C0744,Solea_solea,spring,Fosse Sud,FS5,C0744,-18.86,12.81,45.84,13.91,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G1,Solea_solea.G1.S1,153,0.092183333,49.40553333
+Solea_solea_FS5_C0745,Solea_solea,spring,Fosse Sud,FS5,C0745,-16.07,13.08,46.42,14.2,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G1,Solea_solea.G1.S1,172,0.092183333,49.40553333
+Solea_solea_FS5_C0746,Solea_solea,spring,Fosse Sud,FS5,C0746,-15.99,13.36,46.75,14.34,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G1,Solea_solea.G1.S1,168,0.092183333,49.40553333
+Solea_solea_FS5_C0747,Solea_solea,spring,Fosse Sud,FS5,C0747,-18.52,12.67,46.98,14.36,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G1,Solea_solea.G1.S1,150,0.092183333,49.40553333
+Solea_solea_FS5_C0836,Solea_solea,spring,Fosse Sud,FS5,C0836,-18.1,13.03,45.78,14.09,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G1,Solea_solea.G1.S1,129,0.092183333,49.40553333
+Solea_solea_FS5_C0838,Solea_solea,spring,Fosse Sud,FS5,C0838,-15.98,12.85,46.86,14.57,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G1,Solea_solea.G1.S1,196,0.092183333,49.40553333
+Solea_solea_FS5_C0842,Solea_solea,spring,Fosse Sud,FS5,C0842,-17.03,12.58,47.57,14.84,CAPES,Solea s.,Fish,Omnivore,Mobile,NA,G1,Solea_solea.G1.S1,160,0.092183333,49.40553333
+0617 Pool EM Soles G0,Solea_solea,spring,Embouchure,NA,NA,-17.7575,10.702000000000002,NA,NA,CHOPIN,Solea s.,Fish,Omnivore,Mobile,2.17,G0,NA,2.9935483870967747,NA,NA

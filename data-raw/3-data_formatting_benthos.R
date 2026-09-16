@@ -58,7 +58,7 @@ benthos_contam$g.HBCDD_ng_gdw_censored[benthos_contam$sample_TAG=="CP14"|
 # Rename season variable values (june=>Spring, october=> Autumn) ----------
 
 benthos_contam$season <- factor(benthos_contam$season,
-                                labels = c("Spring","Autumn"))
+                                labels = c("spring","autumn"))
 
 
 

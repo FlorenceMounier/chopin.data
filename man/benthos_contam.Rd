@@ -13,8 +13,8 @@ Numeric. Sampling year.
 }
 
 \item{season}{
-Factor. Sampling season, with levels \code{"Spring"} and
-\code{"Autumn"}.
+Factor. Sampling season, with levels \code{"spring"} and
+\code{"autumn"}.
 }
 
 \item{date}{
@@ -106,7 +106,6 @@ values \code{"Sedentary"}, \code{"Low mobility"}, and \code{"Mobile"}.
 taxa, \code{"Low mobility"} identifies taxa capable of limited local
 movement or repositioning within or on the sediment, and
 \code{"Mobile"} identifies actively moving taxa.
-}
 }
 
 \item{\if{html}{\out{<chemical>}}_ng_glw}{
