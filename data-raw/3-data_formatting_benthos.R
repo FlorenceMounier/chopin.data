@@ -65,23 +65,23 @@ benthos_contam$season <- factor(benthos_contam$season,
 # Create taxa variable (grp) and labels and change names in dataset -------
 
 benthos_info <- tribble(
-  ~species, ~labels, ~taxa, ~alim,
-  "Abra_alba", "Abra a.", "Bivalves", "Susp.Dep.sur.",
-  "Cerastoderma_edule", "Cerastoderma e.", "Bivalves" , "Susp.Dep.sur.",
-  "Limecola_balthica", "Limecola b.", "Bivalves", "Susp.Dep.sur.",
-  "Scrobicularia_plana", "Scrobicularia p.", "Bivalves", "Susp.Dep.sur.",
-  "Corophium_volutator",  "Corophium v.", "Crustaceans", "Susp.Dep.sur.",
-  "Lanice_conchilega", "Lanice c.", "Polychaetes", "Susp.Dep.sur.",
-  "Owenia_fusiformis" , "Owenia f.", "Polychaetes", "Susp.Dep.sur.",
-  "Corbula_gibba", "Corbula g.", "Bivalves", "Susp.",
-  "Donax_vittatus", "Donax v.", "Bivalves", "Susp.",
-  "Ensis_directus", "Ensis d.", "Bivalves", "Susp.",
-  "Spisula_subtruncata", "Spisula s.", "Bivalves", "Susp.",
-  "Nucula_nitidosa", "Nucula n.", "Bivalves", "Dep.sur.",
-  "Lagis_koreni", "Lagis k.", "Polychaetes", "Dep.sub.",
-  "Nephtys_sp", "Nephtys sp.", "Polychaetes", "Omnivore",
-  "Hediste_diversicolor", "Hediste d.", "Polychaetes", "Omnivore",
-  "Crangon_crangon", "Crangon c.", "Crustaceans", "Omnivore"
+  ~species, ~labels, ~taxa, ~alimentation, ~mobility,
+  "Abra_alba", "Abra a.", "Bivalves", "Susp.Dep.sur.", "Low mobility",
+  "Cerastoderma_edule", "Cerastoderma e.", "Bivalves" , "Susp.Dep.sur.", "Low mobility",
+  "Limecola_balthica", "Limecola b.", "Bivalves", "Susp.Dep.sur.", "Low mobility",
+  "Scrobicularia_plana", "Scrobicularia p.", "Bivalves", "Susp.Dep.sur.", "Low mobility",
+  "Corophium_volutator",  "Corophium v.", "Crustaceans", "Susp.Dep.sur.", "Low mobility",
+  "Lanice_conchilega", "Lanice c.", "Polychaetes", "Susp.Dep.sur.", "Sedentary",
+  "Owenia_fusiformis" , "Owenia f.", "Polychaetes", "Susp.Dep.sur.", "Sedentary",
+  "Corbula_gibba", "Corbula g.", "Bivalves", "Susp.", "Sedentary",
+  "Donax_vittatus", "Donax v.", "Bivalves", "Susp.", "Mobile",
+  "Ensis_directus", "Ensis d.", "Bivalves", "Susp.", "Mobile",
+  "Spisula_subtruncata", "Spisula s.", "Bivalves", "Susp.", "Mobile",
+  "Nucula_nitidosa", "Nucula n.", "Bivalves", "Dep.sur.", "Mobile",
+  "Lagis_koreni", "Lagis k.", "Polychaetes", "Dep.sub.", "Sedentary",
+  "Nephtys_sp", "Nephtys sp.", "Polychaetes", "Omnivore", "Errant",
+  "Hediste_diversicolor", "Hediste d.", "Polychaetes", "Omnivore", "Errant",
+  "Crangon_crangon", "Crangon c.", "Crustaceans", "Omnivore", "Mobile"
 )
 
 benthos_contam <- left_join(benthos_contam, benthos_info)

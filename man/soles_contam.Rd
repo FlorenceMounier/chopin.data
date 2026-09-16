@@ -33,6 +33,22 @@ Character. Fish species. All observations correspond to common sole,
 \emph{Solea solea}.
 }
 
+\item{labels}{
+Character. Abbreviated species labels used in figures and tables.
+}
+
+\item{taxa}{
+Character. Taxonomic group (\code{"Fish"}).
+}
+
+\item{alimentation}{
+Character. Feeding mode (\code{"Omnivore"}).
+}
+
+\item{mobility}{
+Character. Functional mobility category (\code{"mobile"}).
+}
+
 \item{class}{
 Character. Fish age class: \code{"G0"}, \code{"G1"}, or \code{"G2"}.
 }

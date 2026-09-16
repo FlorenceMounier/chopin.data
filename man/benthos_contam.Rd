@@ -88,12 +88,20 @@ Character. Broad taxonomic group of each benthic organism:
 \code{"Bivalves"}, \code{"Polychaetes"}, or \code{"Crustaceans"}.
 }
 
-\item{alim}{
+\item{alimentation}{
 Character. Feeding mode of the benthic organism. Codes include
 \code{"Susp."} for suspension feeder, \code{"Dep.sur."} for surface
 deposit feeder, \code{"Dep.sub."} for subsurface deposit feeder,
 \code{"Susp.Dep.sur."} for suspension and surface deposit feeder,
 and \code{"Omnivore"} for omnivore.
+}
+
+\item{mobility}{
+Character. Functional mobility category of the benthic organism:
+\code{"sedentary"} for largely sessile or highly site-attached taxa,
+\code{"low mobility"} for species capable of limited local movement
+or repositioning within or on the sediment, and \code{"mobile"} for
+actively moving taxa.
 }
 
 \item{\if{html}{\out{<chemical>}}_ng_glw}{

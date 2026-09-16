@@ -33,6 +33,17 @@ soles_contam <- full_join(soles_contam_G0_G1, soles_contam_G2)
 
 
 
+# Species characteristics -------------------------------------------------
+
+soles_contam <- soles_contam |>
+  mutate(
+    labels = "Solea s.",
+    taxa = "Fish",
+    alimentation = "Omnivore",
+    mobility = "Mobile")
+
+
+
 # Convert HBCDD concentrations from pg/gdw to ng/gdw ----------------------
 
 soles_contam$a.HBCDD_ng_gdw = soles_contam$a.HBCDD_pg_gdw/1000
