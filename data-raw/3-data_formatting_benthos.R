@@ -65,7 +65,7 @@ benthos_contam$season <- factor(benthos_contam$season,
 # Create taxa variable (grp) and labels and change names in dataset -------
 
 benthos_info <- tribble(
-  ~species, ~labels, ~taxa, ~alimentation, ~mobility,
+  ~species, ~labels, ~taxa, ~feeding_mode, ~mobility,
   "Abra_alba", "Abra a.", "Bivalves", "Susp.Dep.sur.", "Low mobility",
   "Cerastoderma_edule", "Cerastoderma e.", "Bivalves" , "Susp.Dep.sur.", "Low mobility",
   "Limecola_balthica", "Limecola b.", "Bivalves", "Susp.Dep.sur.", "Low mobility",
@@ -79,8 +79,8 @@ benthos_info <- tribble(
   "Spisula_subtruncata", "Spisula s.", "Bivalves", "Susp.", "Mobile",
   "Nucula_nitidosa", "Nucula n.", "Bivalves", "Dep.sur.", "Mobile",
   "Lagis_koreni", "Lagis k.", "Polychaetes", "Dep.sub.", "Sedentary",
-  "Nephtys_sp", "Nephtys sp.", "Polychaetes", "Omnivore", "Errant",
-  "Hediste_diversicolor", "Hediste d.", "Polychaetes", "Omnivore", "Errant",
+  "Nephtys_sp", "Nephtys sp.", "Polychaetes", "Omnivore", "Mobile",
+  "Hediste_diversicolor", "Hediste d.", "Polychaetes", "Omnivore", "Mobile",
   "Crangon_crangon", "Crangon c.", "Crustaceans", "Omnivore", "Mobile"
 )
 
@@ -156,4 +156,5 @@ write_csv(x = benthos_contam, file = "inst/benthos_contam.csv")
 # Output data -------------------------------------------------------------
 
 usethis::use_data(benthos_contam,
+                  benthos_info,
                   overwrite = TRUE)

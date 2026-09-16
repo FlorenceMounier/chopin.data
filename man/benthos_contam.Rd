@@ -34,8 +34,9 @@ collected from several sites.
 }
 
 \item{species}{
-Character. Taxonomic name of the benthic species, using underscores
-between genus and species names.
+Character. Taxonomic identifier used in the CHOPIN datasets and
+analysis scripts. Genus and species names are separated by an
+underscore.
 }
 
 \item{comment}{
@@ -80,28 +81,32 @@ replacement.
 }
 
 \item{labels}{
-Character. Abbreviated species labels used in figures and tables.
+Character. Abbreviated taxonomic label used for figures and tables.
 }
 
 \item{taxa}{
-Character. Broad taxonomic group of each benthic organism:
-\code{"Bivalves"}, \code{"Polychaetes"}, or \code{"Crustaceans"}.
+Character. Broad taxonomic group of the organism, with values
+\code{"Bivalves"}, \code{"Polychaetes"}, and \code{"Crustaceans"}.
 }
 
-\item{alimentation}{
-Character. Feeding mode of the benthic organism. Codes include
-\code{"Susp."} for suspension feeder, \code{"Dep.sur."} for surface
-deposit feeder, \code{"Dep.sub."} for subsurface deposit feeder,
+\item{feeding_mode}{
+Character. Feeding-mode category of the benthic organism.
+Categories are:
+\code{"Susp."} for suspension feeder,
+\code{"Dep.sur."} for surface deposit feeder,
+\code{"Dep.sub."} for subsurface deposit feeder,
 \code{"Susp.Dep.sur."} for suspension and surface deposit feeder,
 and \code{"Omnivore"} for omnivore.
 }
 
 \item{mobility}{
-Character. Functional mobility category of the benthic organism:
-\code{"sedentary"} for largely sessile or highly site-attached taxa,
-\code{"low mobility"} for species capable of limited local movement
-or repositioning within or on the sediment, and \code{"mobile"} for
-actively moving taxa.
+Character. Functional mobility category of the benthic organism, with
+values \code{"Sedentary"}, \code{"Low mobility"}, and \code{"Mobile"}.
+\code{"Sedentary"} identifies largely sessile or strongly site-attached
+taxa, \code{"Low mobility"} identifies taxa capable of limited local
+movement or repositioning within or on the sediment, and
+\code{"Mobile"} identifies actively moving taxa.
+}
 }
 
 \item{\if{html}{\out{<chemical>}}_ng_glw}{

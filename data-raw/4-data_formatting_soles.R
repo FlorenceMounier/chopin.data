@@ -39,7 +39,7 @@ soles_contam <- soles_contam |>
   mutate(
     labels = "Solea s.",
     taxa = "Fish",
-    alimentation = "Omnivore",
+    feeding_mode = "Omnivore",
     mobility = "Mobile")
 
 

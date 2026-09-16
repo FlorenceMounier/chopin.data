@@ -41,7 +41,7 @@ Character. Abbreviated species labels used in figures and tables.
 Character. Taxonomic group (\code{"Fish"}).
 }
 
-\item{alimentation}{
+\item{feeding_mode}{
 Character. Feeding mode (\code{"Omnivore"}).
 }
 

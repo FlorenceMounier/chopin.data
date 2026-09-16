@@ -530,6 +530,70 @@ NULL
 
 # 3-data_formatting_benthos -----------------------------------------------
 
+#' Biological traits of benthic taxa
+#'
+#' Reference table describing the benthic taxa analysed in the CHOPIN
+#' project and their main biological and functional traits.
+#'
+#' The dataset provides taxonomic labels, broad taxonomic groups, feeding
+#' modes, and mobility categories for the benthic species used in the
+#' contamination analyses.
+#'
+#' @format A tibble with 16 rows and 5 variables:
+#' \describe{
+#'
+#'   \item{species}{
+#'     Character. Taxonomic identifier used in the CHOPIN datasets and
+#'     analysis scripts. Genus and species names are separated by an
+#'     underscore.
+#'   }
+#'
+#'   \item{labels}{
+#'     Character. Abbreviated taxonomic label used for figures and tables.
+#'   }
+#'
+#'   \item{taxa}{
+#'     Character. Broad taxonomic group of the organism, with values
+#'     \code{"Bivalves"}, \code{"Polychaetes"}, and \code{"Crustaceans"}.
+#'   }
+#'
+#'   \item{feeding_mode}{
+#'     Character. Feeding-mode category of the benthic organism.
+#'     Categories are:
+#'     \code{"Susp."} for suspension feeder,
+#'     \code{"Dep.sur."} for surface deposit feeder,
+#'     \code{"Dep.sub."} for subsurface deposit feeder,
+#'     \code{"Susp.Dep.sur."} for suspension and surface deposit feeder,
+#'     and \code{"Omnivore"} for omnivore.
+#'   }
+#'
+#'   \item{mobility}{
+#'     Character. Functional mobility category of the benthic organism, with
+#'     values \code{"Sedentary"}, \code{"Low mobility"}, and \code{"Mobile"}.
+#'     \code{"Sedentary"} identifies largely sessile or strongly site-attached
+#'     taxa, \code{"Low mobility"} identifies taxa capable of limited local
+#'     movement or repositioning within or on the sediment, and
+#'     \code{"Mobile"} identifies actively moving taxa.
+#'   }
+#' }
+#'
+#' @details
+#' This table is intended to be joined to benthic contamination datasets
+#' using the \code{species} variable.
+#'
+#' Feeding-mode categories describe the dominant trophic strategy assigned
+#' to each taxon, whereas mobility categories describe the general degree
+#' of movement of organisms within or over the sediment.
+#'
+#' @source
+#' CHOPIN project benthic trait reference table.
+#'
+#' @keywords datasets
+#'
+#' @name benthos_info
+NULL
+
+
 #' Contaminant concentrations in benthic macrofauna
 #'
 #' Benthic macrofauna samples collected during the CHOPIN project in the
@@ -572,8 +636,9 @@ NULL
 #'   }
 #'
 #'   \item{species}{
-#'     Character. Taxonomic name of the benthic species, using underscores
-#'     between genus and species names.
+#'     Character. Taxonomic identifier used in the CHOPIN datasets and
+#'     analysis scripts. Genus and species names are separated by an
+#'     underscore.
 #'   }
 #'
 #'   \item{comment}{
@@ -618,29 +683,33 @@ NULL
 #'   }
 #'
 #'   \item{labels}{
-#'     Character. Abbreviated species labels used in figures and tables.
+#'     Character. Abbreviated taxonomic label used for figures and tables.
 #'   }
 #'
 #'   \item{taxa}{
-#'     Character. Broad taxonomic group of each benthic organism:
-#'     \code{"Bivalves"}, \code{"Polychaetes"}, or \code{"Crustaceans"}.
+#'     Character. Broad taxonomic group of the organism, with values
+#'     \code{"Bivalves"}, \code{"Polychaetes"}, and \code{"Crustaceans"}.
 #'   }
 #'
-#'   \item{alimentation}{
-#'     Character. Feeding mode of the benthic organism. Codes include
-#'     \code{"Susp."} for suspension feeder, \code{"Dep.sur."} for surface
-#'     deposit feeder, \code{"Dep.sub."} for subsurface deposit feeder,
+#'   \item{feeding_mode}{
+#'     Character. Feeding-mode category of the benthic organism.
+#'     Categories are:
+#'     \code{"Susp."} for suspension feeder,
+#'     \code{"Dep.sur."} for surface deposit feeder,
+#'     \code{"Dep.sub."} for subsurface deposit feeder,
 #'     \code{"Susp.Dep.sur."} for suspension and surface deposit feeder,
 #'     and \code{"Omnivore"} for omnivore.
 #'   }
 #'
 #'   \item{mobility}{
-#'     Character. Functional mobility category of the benthic organism:
-#'     \code{"sedentary"} for largely sessile or highly site-attached taxa,
-#'     \code{"low mobility"} for species capable of limited local movement
-#'     or repositioning within or on the sediment, and \code{"mobile"} for
-#'     actively moving taxa.
+#'     Character. Functional mobility category of the benthic organism, with
+#'     values \code{"Sedentary"}, \code{"Low mobility"}, and \code{"Mobile"}.
+#'     \code{"Sedentary"} identifies largely sessile or strongly site-attached
+#'     taxa, \code{"Low mobility"} identifies taxa capable of limited local
+#'     movement or repositioning within or on the sediment, and
+#'     \code{"Mobile"} identifies actively moving taxa.
 #'   }
+#' }
 #'
 #'   \item{<chemical>_ng_glw}{
 #'     Numeric. Lipid-normalized concentration of an individual PCB congener
@@ -776,7 +845,7 @@ NULL
 #'     Character. Taxonomic group (\code{"Fish"}).
 #'   }
 #'
-#'   \item{alimentation}{
+#'   \item{feeding_mode}{
 #'     Character. Feeding mode (\code{"Omnivore"}).
 #'   }
 #'
