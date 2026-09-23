@@ -1,6 +1,7 @@
 
 # 0-color_palettes.R ------------------------------------------------------
 
+
 #' Color palette for PFAS in sediments
 #'
 #' Character vector containing the colors used to represent
@@ -12,16 +13,6 @@
 #' PALETTE_PFAS_sed
 "PALETTE_PFAS_sed"
 
-#' Color palette for PFAS in benthic macro-invertebrates
-#'
-#' Character vector containing the colors used to represent
-#' the different PFAS compounds in figures related to benthos.
-#'
-#' @format A character vector.
-#'
-#' @examples
-#' PALETTE_PFAS_benthos
-"PALETTE_PFAS_benthos"
 
 #' Color palette for PFAS in benthic macro-invertebrates
 #'
@@ -33,6 +24,19 @@
 #' @examples
 #' PALETTE_PFAS_benthos
 "PALETTE_PFAS_benthos"
+
+
+#' Color palette for PFAS in benthic macro-invertebrates
+#'
+#' Character vector containing the colors used to represent
+#' the different PFAS compounds in figures related to benthos.
+#'
+#' @format A character vector.
+#'
+#' @examples
+#' PALETTE_PFAS_benthos
+"PALETTE_PFAS_benthos"
+
 
 #' Color palette for PFAS in juvenile soles
 #'
@@ -45,7 +49,10 @@
 #' PALETTE_PFAS_soles
 "PALETTE_PFAS_soles"
 
+
+
 # 1-data_formatting_contaminants.R ----------------------------------------
+
 
 #' Contaminant characteristics and analytical limits
 #'
@@ -115,6 +122,8 @@
 #' @name contam_info
 NULL
 
+
+
 #' PCB compounds analysed in all samples
 #'
 #' Character vector containing the internal identifiers of the
@@ -128,6 +137,7 @@ NULL
 #' @name PCB
 NULL
 
+
 #' HBCDD compounds analysed in all samples
 #'
 #' Character vector containing the internal identifiers of the
@@ -140,6 +150,7 @@ NULL
 #' @keywords datasets
 #' @name HBCDD
 NULL
+
 
 #' All PFAS compounds analysed in the CHOPIN project
 #'
@@ -307,6 +318,7 @@ NULL
 
 
 # 2-data_formatting_sediment ----------------------------------------------
+
 
 #' Sediment characteristics and contaminant concentrations
 #'
@@ -529,6 +541,7 @@ NULL
 
 
 # 3-data_formatting_benthos -----------------------------------------------
+
 
 #' Biological traits of benthic taxa
 #'
@@ -789,6 +802,7 @@ NULL
 
 
 # 4-data_formatting_soles.R -----------------------------------------------
+
 
 #' Biological traits of common sole
 #'
@@ -1116,6 +1130,7 @@ NULL
 
 # 5-data_formatting_isotopes.R --------------------------------------------
 
+
 #' Stable isotope signatures of benthos and common sole
 #'
 #' Stable isotope data for benthic organisms and common sole
@@ -1265,6 +1280,540 @@ NULL
 #'
 #' @name isotopes
 NULL
+
+
+
+# 6-data_formatting_stomach_content.R -------------------------------------
+
+
+#' Stomach and gut contents of juvenile common sole
+#'
+#' Diet composition and digestive tract contents of juvenile common sole
+#' (\emph{Solea solea}) sampled during the CAPES project.
+#'
+#' The dataset contains fish identification and biological characteristics,
+#' digestive tract measurements, and taxonomic information on prey items
+#' identified in the stomach and gut. Prey abundance, degradation stage,
+#' and identification notes are recorded separately for the two digestive
+#' compartments.
+#'
+#' @format A tibble with 29 variables:
+#' \describe{
+#'
+#'   \item{sample_TAG}{
+#'     Character. Identifier of the sampled fish.
+#'   }
+#'
+#'   \item{class}{
+#'     Character. Fish age class, including \code{"G0"}, \code{"G1"},
+#'     and \code{"G2"}.
+#'   }
+#'
+#'   \item{zone}{
+#'     Character. Sampling area within the Seine estuary.
+#'   }
+#'
+#'   \item{site}{
+#'     Character. Sampling-site identifier.
+#'   }
+#'
+#'   \item{date}{
+#'     Sampling date.
+#'   }
+#'
+#'   \item{hour}{
+#'     Sampling time.
+#'   }
+#'
+#'   \item{sex}{
+#'     Character. Sex of the sampled fish.
+#'   }
+#'
+#'   \item{mass_stomach_full_g}{
+#'     Numeric. Mass of the stomach including its contents, expressed
+#'     in grams.
+#'   }
+#'
+#'   \item{mass_stomach_empty_g}{
+#'     Numeric. Mass of the empty stomach, expressed in grams.
+#'   }
+#'
+#'   \item{mass_stomach_content_g}{
+#'     Numeric. Mass of the stomach contents, expressed in grams.
+#'   }
+#'
+#'   \item{mass_gut_full_g}{
+#'     Numeric. Mass of the gut including its contents, expressed
+#'     in grams.
+#'   }
+#'
+#'   \item{mass_gut_empty_g}{
+#'     Numeric. Mass of the empty gut, expressed in grams.
+#'   }
+#'
+#'   \item{mass_gut_content_g}{
+#'     Numeric. Mass of the gut contents, expressed in grams.
+#'   }
+#'
+#'   \item{observations_tutorial}{
+#'     Character. Additional observations recorded during the examination
+#'     of the digestive tract.
+#'   }
+#'
+#'   \item{species}{
+#'     Character. Taxonomic identification of the prey item or other
+#'     biological material recorded in the digestive tract.
+#'     Identification may be provided at different taxonomic levels.
+#'   }
+#'
+#'   \item{status}{
+#'     Character. Status assigned to the identified item, used to
+#'     distinguish prey from other recorded material.
+#'   }
+#'
+#'   \item{N_stomach}{
+#'     Numeric. Number of prey individuals or items recorded in the stomach.
+#'   }
+#'
+#'   \item{degradation_stage_stomach}{
+#'     Degradation stage of the prey material found in the stomach.
+#'   }
+#'
+#'   \item{N_gut}{
+#'     Numeric. Number of prey individuals or items recorded in the gut.
+#'   }
+#'
+#'   \item{degradation_stage_gut}{
+#'     Degradation stage of the prey material found in the gut.
+#'   }
+#'
+#'   \item{N_tract}{
+#'     Numeric. Total number of prey individuals or items recorded
+#'     in the digestive tract.
+#'   }
+#'
+#'   \item{observations}{
+#'     Character. Additional observations concerning the identified item,
+#'     including morphological characteristics, body fragments, and
+#'     information used for taxonomic identification or prey counting.
+#'   }
+#'
+#'   \item{length_TL_cm}{
+#'     Numeric. Total fish length, expressed in centimetres.
+#'   }
+#'
+#'   \item{length_SL_cm}{
+#'     Numeric. Standard fish length, expressed in centimetres.
+#'   }
+#'
+#'   \item{mass_tot_gww}{
+#'     Numeric. Total fish wet mass, expressed in grams wet weight
+#'     (g ww).
+#'   }
+#'
+#'   \item{mass_liver_mgww}{
+#'     Numeric. Liver wet mass, expressed in milligrams wet weight
+#'     (mg ww).
+#'   }
+#'
+#'   \item{mass_tractus_mgww}{
+#'     Numeric. Digestive tract wet mass, expressed in milligrams
+#'     wet weight (mg ww).
+#'   }
+#'
+#'   \item{mass_gonads_gww}{
+#'     Numeric. Gonad wet mass, expressed in grams wet weight
+#'     (g ww).
+#'   }
+#'
+#'   \item{mass_eviceratedd_mgww}{
+#'     Numeric. Eviscerated fish wet mass, expressed in milligrams
+#'     wet weight (mg ww).
+#'   }
+#' }
+#'
+#' @details
+#' Each fish can be represented by several rows corresponding to different
+#' prey taxa or other items identified in its digestive tract. Fish-level
+#' information, including morphometric measurements and digestive tract
+#' masses, may therefore be repeated across rows sharing the same
+#' \code{sample_TAG}.
+#'
+#' Prey abundance is recorded separately for the stomach (\code{N_stomach})
+#' and gut (\code{N_gut}), as well as for the complete digestive tract
+#' (\code{N_tract}).
+#'
+#' The \code{species} variable contains the taxonomic identification
+#' recorded during the analysis. Some items are identified only to genus
+#' or a higher taxonomic level, whereas others remain unidentified.
+#'
+#' The \code{status} variable can be used to select prey observations
+#' before analysing diet composition.
+#'
+#' Missing values indicate that the corresponding measurement or
+#' information was not available for the observation.
+#'
+#' @source
+#' CAPES project, Seine estuary. Juvenile common sole stomach and
+#' gut content dataset.
+#'
+#' @seealso
+#' \code{\link{soles_contam}},
+#' \code{\link{soles_info}},
+#' \code{\link{benthos_info}}
+#'
+#' @keywords datasets
+#'
+#' @name soles_stomach
+NULL
+
+
+#' Taxonomic classification of prey identified in common sole
+#'
+#' Reference table providing the taxonomic classification of organisms
+#' identified in the digestive tract contents of common sole
+#' (\emph{Solea solea}) during the CAPES project.
+#'
+#' Taxonomic information was retrieved from the World Register of Marine
+#' Species (WoRMS). The dataset contains the scientific name recorded
+#' in the stomach content data and its corresponding taxonomic hierarchy,
+#' from kingdom to species or the lowest available taxonomic rank.
+#'
+#' @format A tibble with 29 variables:
+#' \describe{
+#'
+#'   \item{scientific_name}{
+#'     Character. Scientific name or taxonomic identifier recorded in
+#'     the stomach content dataset. Names may correspond to species,
+#'     genera, families, or higher taxonomic groups.
+#'   }
+#'
+#'   \item{Kingdom}{
+#'     Character. Taxonomic kingdom.
+#'   }
+#'
+#'   \item{Subkingdom}{
+#'     Character. Taxonomic subkingdom.
+#'   }
+#'
+#'   \item{Infrakingdom}{
+#'     Character. Taxonomic infrakingdom.
+#'   }
+#'
+#'   \item{Phylum}{
+#'     Character. Taxonomic phylum.
+#'   }
+#'
+#'   \item{Subphylum}{
+#'     Character. Taxonomic subphylum.
+#'   }
+#'
+#'   \item{Infraphylum, Parvphylum}{
+#'     Character. Additional taxonomic subdivisions of the phylum.
+#'   }
+#'
+#'   \item{Gigaclass, Superclass, Class, Subclass, Infraclass,
+#'   Subterclass}{
+#'     Character. Taxonomic class and its subdivisions or higher
+#'     classification levels.
+#'   }
+#'
+#'   \item{Superorder, Order, Suborder, Infraorder, Parvorder}{
+#'     Character. Taxonomic order and its subdivisions or higher
+#'     classification levels.
+#'   }
+#'
+#'   \item{Section, Subsection}{
+#'     Character. Additional intermediate taxonomic ranks.
+#'   }
+#'
+#'   \item{Superfamily, Family, Subfamily, Tribe}{
+#'     Character. Taxonomic family and its subdivisions or higher
+#'     classification levels.
+#'   }
+#'
+#'   \item{Genus}{
+#'     Character. Taxonomic genus.
+#'   }
+#'
+#'   \item{Subgenus}{
+#'     Character. Taxonomic subgenus, when applicable.
+#'   }
+#'
+#'   \item{Species}{
+#'     Character. Scientific name at the species level, when the
+#'     organism was identified to species.
+#'   }
+#'
+#'   \item{Subspecies}{
+#'     Character. Scientific name at the subspecies level, when
+#'     applicable.
+#'   }
+#' }
+#'
+#' @details
+#' Each row represents a taxon recorded in the stomach content dataset.
+#' Taxonomic classification was obtained using the R package
+#' \code{worrms}, which provides access to the World Register of Marine
+#' Species (WoRMS).
+#'
+#' Taxa identified only to genus or a higher taxonomic rank retain their
+#' available classification without being assigned to an arbitrary species.
+#' For example, a record identified as \code{"Spisula sp"} may have a
+#' classification extending to the genus \code{"Spisula"}, while its
+#' \code{Species} field remains missing.
+#'
+#' Missing values indicate that the corresponding taxonomic rank was not
+#' available or was not applicable to the taxon. Some ranks are specific
+#' to particular taxonomic groups and are therefore not populated for
+#' all organisms.
+#'
+#' The \code{scientific_name} variable can be used to join this reference
+#' table to the stomach content dataset.
+#'
+#' @source
+#' CAPES project stomach content dataset.
+#' Taxonomic classification retrieved from the World Register of Marine
+#' Species (WoRMS).
+#'
+#' @seealso
+#' \code{\link{soles_stomach}},
+#' \code{\link{benthos_info}}
+#'
+#' @keywords datasets
+#'
+#' @name species_classif
+NULL
+
+
+
+
+# 7-data_formatting_soles_biomarkers.R ------------------------------------
+
+
+#' Biological characteristics and biomarkers of common sole
+#'
+#' Biological characteristics, somatic condition indices, histological
+#' observations, and biomarkers measured in common sole (\emph{Solea solea})
+#' collected during the CHOPIN project in the Seine estuary.
+#'
+#' The dataset includes fish morphometric measurements, liver and gonad
+#' masses, hepatosomatic and gonadosomatic indices, and biomarkers related
+#' to neurotoxicity, biotransformation activity, genotoxicity, and
+#' reproductive physiology.
+#'
+#' @format A tibble with 33 variables. Each row represents an individual
+#' fish or, for G0 samples, a pooled group of fish. Variables include:
+#' \describe{
+#'
+#'   \item{species}{
+#'     Character. Taxonomic identifier of the sampled fish. All observations
+#'     correspond to common sole, \code{"Solea_solea"}.
+#'   }
+#'
+#'   \item{year}{
+#'     Numeric. Sampling year.
+#'   }
+#'
+#'   \item{date}{
+#'     Date. Sampling date.
+#'   }
+#'
+#'   \item{season}{
+#'     Character. Sampling season, derived from the sampling date.
+#'   }
+#'
+#'   \item{series}{
+#'     Character. Identifier of the sampling or experimental series.
+#'   }
+#'
+#'   \item{sample_TAG}{
+#'     Character. Sample identifier used in the CHOPIN project.
+#'   }
+#'
+#'   \item{class}{
+#'     Factor. Fish age class, with levels \code{"G0"}, \code{"G1"},
+#'     and \code{"G2"}.
+#'   }
+#'
+#'   \item{sex}{
+#'     Character. Sex of the sampled fish, with \code{"F"} for female
+#'     and \code{"M"} for male. Missing when sex was not determined
+#'     or not recorded.
+#'   }
+#'
+#'   \item{length_TL_cm}{
+#'     Numeric. Total fish length, expressed in centimetres.
+#'     For pooled samples, values represent the mean individual length.
+#'   }
+#'
+#'   \item{length_TL_cm_sd}{
+#'     Numeric. Standard deviation of total fish length within pooled
+#'     samples, expressed in centimetres.
+#'   }
+#'
+#'   \item{length_SL_cm}{
+#'     Numeric. Standard fish length, expressed in centimetres.
+#'     For pooled samples, values represent the mean individual length.
+#'   }
+#'
+#'   \item{length_SL_cm_sd}{
+#'     Numeric. Standard deviation of standard fish length within pooled
+#'     samples, expressed in centimetres.
+#'   }
+#'
+#'   \item{mass_tot_gww}{
+#'     Numeric. Total fish wet mass, expressed in grams wet weight (g ww).
+#'     For pooled samples, values represent the mean individual mass.
+#'   }
+#'
+#'   \item{mass_tot_gww_sd}{
+#'     Numeric. Standard deviation of total fish wet mass within pooled
+#'     samples, expressed in grams wet weight (g ww).
+#'   }
+#'
+#'   \item{mass_eviscerated_gww}{
+#'     Numeric. Eviscerated fish wet mass, expressed in grams wet weight
+#'     (g ww). For pooled samples, values represent the mean individual
+#'     mass.
+#'   }
+#'
+#'   \item{mass_eviscerated_gww_sd}{
+#'     Numeric. Standard deviation of eviscerated fish wet mass within
+#'     pooled samples, expressed in grams wet weight (g ww).
+#'   }
+#'
+#'   \item{mass_gonads_gww}{
+#'     Numeric. Gonad wet mass, expressed in grams wet weight (g ww).
+#'   }
+#'
+#'   \item{mass_liver_gww}{
+#'     Numeric. Liver wet mass, expressed in grams wet weight (g ww).
+#'   }
+#'
+#'   \item{comment}{
+#'     Character. Additional observations recorded during fish examination,
+#'     including the presence of intestinal parasites when noted.
+#'   }
+#'
+#'   \item{GSI}{
+#'     Numeric. Gonadosomatic index, expressed as the percentage of total
+#'     fish wet mass represented by gonad wet mass.
+#'   }
+#'
+#'   \item{HSI}{
+#'     Numeric. Hepatosomatic index, expressed as the percentage of total
+#'     fish wet mass represented by liver wet mass.
+#'   }
+#'
+#'   \item{liver_histology}{
+#'     Character. Histological assessment of the liver, recorded using
+#'     the categorical or numerical codes of the original protocol.
+#'   }
+#'
+#'   \item{gonad_histology}{
+#'     Character. Histological assessment of the gonads, recorded using
+#'     the developmental-stage codes of the original protocol.
+#'   }
+#'
+#'   \item{AChE_mean}{
+#'     Numeric. Mean acetylcholinesterase (AChE) activity, expressed in
+#'     micromoles per minute per milligram
+#'     (\eqn{\mu mol min^{-1} mg^{-1}}).
+#'   }
+#'
+#'   \item{AChE_sd}{
+#'     Numeric. Standard deviation of acetylcholinesterase activity,
+#'     expressed in \eqn{\mu mol min^{-1} mg^{-1}}.
+#'   }
+#'
+#'   \item{EROD_mean}{
+#'     Numeric. Mean ethoxyresorufin-O-deethylase (EROD) activity,
+#'     expressed in picomoles per minute per milligram
+#'     (\eqn{pmol min^{-1} mg^{-1}}).
+#'   }
+#'
+#'   \item{EROD_sd}{
+#'     Numeric. Standard deviation of EROD activity, expressed in
+#'     \eqn{pmol min^{-1} mg^{-1}}.
+#'   }
+#'
+#'   \item{COMET_OTM}{
+#'     Numeric. DNA damage measured using the comet assay and expressed
+#'     as Olive tail moment (OTM), an index combining the amount and
+#'     migration distance of DNA in the comet tail.
+#'   }
+#'
+#'   \item{COMET_OTM_sd}{
+#'     Numeric. Standard deviation of Olive tail moment (OTM)
+#'     measurements.
+#'   }
+#'
+#'   \item{COMET_pDNAtail}{
+#'     Numeric. DNA damage measured using the comet assay, expressed as
+#'     the percentage of DNA in the comet tail (\% tail DNA).
+#'   }
+#'
+#'   \item{micronuclei}{
+#'     Numeric. Micronucleus frequency or measurement recorded during
+#'     the micronucleus assay, according to the original analytical protocol.
+#'   }
+#'
+#'   \item{VTG_mean}{
+#'     Numeric. Mean vitellogenin (VTG) measurement, expressed in the
+#'     units of the original analytical protocol.
+#'   }
+#'
+#'   \item{VTG_sd}{
+#'     Numeric. Standard deviation of the vitellogenin measurement,
+#'     expressed in the same units as \code{VTG_mean}.
+#'   }
+#' }
+#'
+#' @details
+#' The dataset combines observations from different sampling series
+#' and fish age classes. G0 observations correspond to pooled samples,
+#' whereas G1 and G2 observations correspond to individual fish.
+#'
+#' For pooled samples, morphometric and mass measurements are reported
+#' as mean individual values with their associated standard deviations
+#' when available.
+#'
+#' The gonadosomatic index (GSI) and hepatosomatic index (HSI) are
+#' calculated from gonad and liver wet masses, respectively, relative
+#' to total fish wet mass:
+#'
+#' \deqn{GSI = 100 \times \frac{M_{gonads}}{M_{total}}}
+#'
+#' \deqn{HSI = 100 \times \frac{M_{liver}}{M_{total}}}
+#'
+#' These indices are provided as recorded in the original dataset and
+#' are not recalculated.
+#'
+#' AChE activity is used as a biomarker of neurotoxicity, whereas EROD
+#' activity is used as a biomarker of biotransformation activity.
+#' DNA damage is assessed using the comet assay through Olive tail
+#' moment (OTM) and the percentage of DNA in the comet tail.
+#' Micronucleus measurements provide an additional genotoxicity endpoint,
+#' while vitellogenin measurements are related to reproductive physiology.
+#'
+#' Missing values indicate that the corresponding measurement or
+#' observation was not available for the sample.
+#'
+#' @source
+#' CHOPIN project, Seine estuary. Common sole biological characteristics,
+#' histological observations, and biomarker dataset.
+#'
+#' @seealso
+#' \code{\link{soles_contam}},
+#' \code{\link{soles_info}}
+#'
+#' @keywords datasets
+#'
+#'
+#' @name soles_biomarkers
+NULL
+
 
 
 
