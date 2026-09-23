@@ -32,7 +32,7 @@ author:
   - Juliette Champagnat:
       institute: [MARBEC]
   - Bastien Chouquet:
-      institute:[CSLN]
+      institute: [CSLN]
   - Sylvain Duhamel:
       institute: [CSLN]
   - Jérôme Couteau:
@@ -138,11 +138,16 @@ The package brings together environmental, trophic, chemical and biological obse
 
 ### Study area
 
-The study was conducted during several sampling campaigns in 2017 and 2018 in the lower Seine estuary and its adjacent marine environment in Normandy, France. The sampling design distinguished three principal estuarine sectors: the northern pit (*Fosse Nord*), the southern pit (*Fosse Sud*) and the estuary mouth (*Embouchure*) (see Fig. \@ref(fig:fig-map)).
+The study was conducted in the lower Seine estuary, Normandy, France, which provides nursery habitats for common sole (Solea solea) during the juvenile phase of its life cycle. The CHOPIN project investigated the occurrence and transfer of organohalogenated contaminants across sediment, benthic macrofauna and common sole, with the aim of characterizing contaminant exposure within the estuarine nursery food web.
+
+The study was conducted during several sampling campaigns in 2017 and 2018 in the lower Seine estuary and its adjacent marine environment in Normandy, France. The sampling design distinguished three principal estuarine sectors: the northern pit (*Fosse Nord*, FN), the southern pit (*Fosse Sud*, FS) and the estuary mouth (*Embouchure*, EM) (see Fig. \@ref(fig:fig-map)). The navigation channel was also included for selected biological samples. The northern and southern sectors are separated from the navigation channel by submerged embankments, whereas the Embouchure sector is located farther downstream, towards the adjacent marine environment. The CHOPIN sampling design also included additional location in the area offshore from Octeville for the study of older sole.
 
 These sectors encompass spatial variation in hydrosedimentary conditions and benthic habitats. Sediment sampling focused on sandy to muddy substrates suitable for juvenile common sole and potentially favourable to the accumulation of sediment-associated contaminants.
 
-The CHOPIN sampling design also included additional locations for specific biological measurements, including the navigation channel and the area offshore from Octeville for the study of older sole.
+Sediment and benthic macrofauna were sampled at eight principal stations, distributed among the three main sectors. Sampling stations were selected to represent fine sandy to muddy habitats used by juvenile sole and to provide biological material from benthic organisms known or expected to contribute to their diet.
+
+Three main sampling campaigns were conducted: June 2017, October 2017 and October–November 2018. Sediment sampling covered all three campaigns, whereas benthic invertebrates were collected in spring and autumn 2017. Common sole were sampled during the same study period to obtain observations from successive juvenile age classes.
+
 
 ```{r fig-map, fig.cap="Map of the Seine estuary showing the sampling sectors and stations used for sediment sampling.", out.width="100%", fig.show='hold'}
 knitr::include_graphics("../inst/extdata/map_seine.jpg")
@@ -151,101 +156,176 @@ knitr::include_graphics("../inst/extdata/map_seine.jpg")
 
 ### Sediment sampling and characterization
 
-Surface sediment was collected to characterize contaminant concentrations and selected physicochemical properties.
+Surface sediment was collected to characterize contaminant concentrations and selected physicochemical properties. Sampling locations were selected according to the local sediment characteristics, with particular emphasis on fine sediments corresponding to habitats used by juvenile common sole.
 
-Surface sediment samples were collected using a grab sampler at eight stations distributed across three sectors of the estuary: Fosse Nord (FN), Fosse Sud (FS), and Embouchure (Emb), during three field campaigns (June and October 2017 and October 2018).
+Surface sediment samples were collected using a grab sampler at eight stations distributed across three sectors of the estuary: Fosse Nord (FN), Fosse Sud (FS), and Embouchure (Emb), during three field campaigns (June and October 2017 and October 2018). Following collection, sediment samples were stored in stainless-steel containers in coolers until processing. Samples were homogenized using stainless-steel utensils and divided into aliquots according to the subsequent analytical procedures. Aliquots intended for contaminant and stable isotope analyses were freeze-dried and sieved through a 2-mm mesh. The processed material was subsequently stored in amber glass containers, protected from light, at room temperature. Sediment was homogenized again before analytical subsampling.
 
-The sediment dataset includes sampling metadata and physicochemical characteristics, including grain-size distribution, organic carbon and nitrogen contents, carbon-to-nitrogen ratio, porosity and water content, according to the availability of measurements.
+Sediment characteristics were measured to provide environmental information relevant to contaminant distribution and accumulation, including grain-size distribution, organic carbon and nitrogen contents, carbon-to-nitrogen ratio, porosity and water content, according to the availability of measurements.
 
-Grain-size characteristics and organic carbon content provide contextual information for interpreting the occurrence and distribution of sediment-associated contaminants.
+Grain-size measurements were used to characterize the relative proportions of different sediment fractions, while organic carbon and nitrogen measurements provided information on the composition of sediment organic matter.
 
 Individual contaminant concentrations are expressed relative to sediment dry weight. Organic carbon-normalized concentrations are also provided, together with summed concentrations and the relative contributions of individual compounds to their respective contaminant families.
 
-The exact analytical definitions, measurement units and availability of each sediment variable are described in the package documentation.
+The physicochemical characteristics, associated contaminant measurements, exact analytical definitions, measurement units and availability of each sediment variable are described in the package documentation related to the sed_contam dataset.
+
 
 ### Benthic macrofauna sampling and characterization
 
-Benthic macrofauna was collected during the sediment sampling campaigns. The sampling targeted organisms potentially contributing to the diet of juvenile common sole, while also accounting for their occurrence in the study area and the amount of biological material required for chemical analysis.
+Benthic macrofauna was collected during the sediment sampling campaigns. Subtidal sampling was performed from fishing vessels using a Van Veen grab, whereas the intertidal sampling station was accessed on foot. Collected organisms were sorted by species and transferred to glass containers. Samples were maintained in coolers during transport to the laboratory. In the laboratory, organisms were rinsed with clean water, homogenized and freeze-dried. The resulting material was stored in amber glass containers, protected from light, at room temperature. Samples were homogenized again using stainless-steel utensils before analytical subsampling.
 
+The sampling targeted species were selected according to their known occurrence in the Seine estuary, their potential contribution to juvenile sole diet and the quantity of biological material available for chemical analysis. Approximately 10 g of biological material per analytical sample was required to perform the planned measurements. The targeted assemblage comprised 16 benthic species belonging to three broad taxonomic groups: bivalves, polychaetes and crustaceans. Taxonomic identification and selected functional traits, including feeding mode and mobility, are provided through the benthos_info reference dataset. Benthic samples were characterized using dry matter content and lipid content, where available. Carbon and nitrogen stable isotope signatures were also measured for selected samples. These complementary data enable contaminant concentrations to be examined in relation to benthic taxonomy, trophic characteristics and potential prey identity. Contaminant concentrations and associated sample characteristics are distributed in benthos_contam.
 
-Species selection was informed by previous knowledge of common sole diet, the expected occurrence of benthic organisms in the study area and the quantity of biological material required for chemical analyses.
-
-The targeted assemblage comprised 16 benthic species belonging to three broad taxonomic groups: bivalves, polychaetes and crustaceans.
-
-Benthic samples were characterized using taxonomic identification, collection metadata, dry matter content and lipid content, where available. Carbon and nitrogen stable isotope signatures were also measured for selected samples.
-
-Additional biological trait information was assembled into a taxonomic reference table, including broad taxonomic group, feeding mode and mobility category.
-
-These complementary data enable contaminant concentrations to be examined in relation to benthic taxonomy, trophic characteristics and potential prey identity.
 
 ### Common sole sampling and biological characterization
 
-Common sole sampling covered several age classes. Age-0 fish (G0) were collected in June and October 2017, age-1 fish (G1) in autumn 2017 and 2018, and age-2 fish (G2) in autumn 2018.
+Common sole (Solea solea) were sampled to characterize changes in contaminant accumulation across juvenile age classes and successive birth cohorts within the Seine estuary nursery. Three sampling campaigns were conducted. Age-0 sole (G0) were collected in June 2017, shortly after recruitment to the estuary. The autumn 2017 campaign included both G0 and age-1 sole (G1), whereas G1 and age-2 sole (G2) were collected in autumn 2018.
 
-Common sole were analysed according to their age class and the biological material available for chemical analysis.
+Sample preparation and chemical analyses were adapted to fish age class. G0 individuals were pooled by sampling period and estuarine sector to obtain sufficient biological material for contaminant analysis. Mean individual length and body mass, together with their standard deviations, were recorded for each pool. G1 sole were analysed individually using whole-body samples. For G2 sole, sex was determined and each individual was dissected to separate the liver, gonads and remaining eviscerated body compartment. These compartments were analysed separately to characterize tissue-specific contaminant accumulation, including accumulation in reproductive organs, and to quantify contaminant distribution within individual fish.
 
-Age-0 sole were pooled by sampling period and sector to obtain sufficient material for contaminant measurements. Mean individual length and mass were recorded for these pooled samples.
+In the resulting soles_contam dataset, G2 tissue-specific observations are distinguished by the sample_type variable, with the categories liver, gonads and rest. Measurements from the same individual are linked by a common sample identifier (sample_TAG), enabling comparisons of tissue-specific concentrations and reconstruction of contaminant burdens across the analysed body compartments.
 
-Age-1 sole were analysed individually using whole-body or eviscerated whole-body material, according to the analytical dataset and sampling protocol.
+Fish were measured and weighed before dissection and sample preparation. Biological samples were individually wrapped in pre-combusted aluminium foil and stored at −20 °C until processing. Whole-body samples or dissected tissues were subsequently homogenized and freeze-dried before chemical analysis. Freeze-dried material was stored in glass containers, protected from light, at room temperature. Morphometric characteristics, dry matter content and lipid content were recorded where available.
 
-For age-2 sole, separate analyses were conducted on the liver, gonads and remaining body compartment. The study of these compartments was designed to characterize tissue-specific contaminant distribution, including potential accumulation in reproductive organs.
+The dataset is complemented by stomach content and stable isotope measurements acquired through the CAPES project, providing additional information on the feeding ecology and trophic relationships of juvenile common sole.
 
-Morphometric characteristics, dry matter content and lipid content were recorded where available. The tissue-specific measurements can also be used to reconstruct contaminant amounts across the analysed body compartments.
 
-The dataset also includes complementary stomach content and stable isotope measurements acquired through the CAPES and CHOPIN projects.
+### Target contaminants and chemical analyses
+
+Three groups of organohalogenated contaminants were investigated: polychlorinated biphenyls (PCBs), hexabromocyclododecane (HBCDD) isomers and per- and polyfluoroalkyl substances (PFAS).
+
+The analytical programme included 19 PCB congeners, the three α-, β- and γ-HBCDD isomers, and a panel of PFAS representing several chemical subclasses, including perfluoroalkyl carboxylic acids, perfluoroalkyl sulfonates, perfluorooctane sulfonamides and related derivatives, fluorotelomer sulfonates, disubstituted fluorotelomer phosphates and selected alternative substances.
+
+The contam_info table documents compound identifiers, chemical families and subclasses, selected physicochemical properties and available analytical detection and quantification limits.
+
+The set of compounds analysed differed among sediment and biological matrices. Consequently, comparisons among compartments should be restricted to chemicals measured in the corresponding samples.
+
+Contaminant concentrations are provided for sediment and biological samples using the appropriate measurement basis. Dry-weight concentrations are available across the main analytical datasets. Additional organic carbon-normalized sediment concentrations and lipid-normalized biological concentrations are provided for selected compound families (PCBs and HBCDD isomers).
 
 
 ### Chemical analyses
 
-The CHOPIN project targeted three families of organohalogenated contaminants.
+#### PFAS extraction from biological samples
 
-The PCB dataset includes 19 congeners selected for chemical analysis. The HBCDD dataset includes the alpha, beta and gamma isomers. The PFAS dataset covers several chemical subclasses, including perfluoroalkyl carboxylic acids, perfluoroalkyl sulfonates, sulfonamide-related compounds and selected alternative or precursor substances.
+PFAS were extracted from freeze-dried and homogenized fish and benthic invertebrate samples following the analytical procedure described in the thesis of Marine Gallien (@gallienEtudeComparativeLecodynamique2021).
 
-Contaminant concentrations are provided for sediment and biological samples using the appropriate measurement basis. Dry-weight concentrations are available across the main analytical datasets. Additional organic carbon-normalized sediment concentrations and lipid-normalized biological concentrations are provided for selected compound families (PCBs and HBCDD isomers).
+Approximately 250 mg of biological material was fortified with isotopically labelled internal standards before extraction. The internal standard mixture included labelled analogues of selected perfluoroalkyl carboxylic acids, perfluoroalkyl sulfonates, fluorotelomer sulfonates, sulfonamides and fluorotelomer phosphates.
 
-A chemical reference table documents compound identifiers, chemical families and subclasses, selected physicochemical properties and available analytical detection and quantification limits.
+Extraction was performed using 13 mL of methanol under microwave-assisted heating. The extraction programme consisted of heating to 70 °C over 5 min, maintaining this temperature for 5 min and cooling for 10 min.
+
+The extracts were filtered through glass wool and concentrated under a nitrogen stream to approximately 2 mL.
+
+Following dilution with 50 mL of ultrapure water, extracts were loaded onto weak anion-exchange solid-phase extraction cartridges (Strata X-AW).
+
+After drying, the cartridges were connected to graphitized carbon cleanup cartridges (ENVI-Carb). Analytes were eluted using two successive 4-mL volumes of methanol containing 0.2% ammonium hydroxide.
+
+Purified extracts were concentrated under nitrogen and transferred into polypropylene injection vials.
+
+#### PFAS instrumental analysis
+
+PFAS in biological samples were analysed by liquid chromatography coupled to tandem mass spectrometry.
+
+The analytical system described in the thesis comprised an Agilent 1200 liquid chromatograph coupled to an Agilent 6490 triple-quadrupole mass spectrometer equipped with an Agilent Jet Stream electrospray ionization source.
+
+Isotopically labelled internal standards were used for quantification and to account for analytical variability.
+
+[The final manuscript should specify chromatographic separation conditions, ionization polarity, acquisition parameters and the quantification procedure where these details are required by the journal.]
+
+#### PFAS extraction from sediment
+
+PFAS extraction from sediment followed a procedure adapted to the sediment matrix.
+
+Approximately 2 g of freeze-dried sediment was fortified with isotopically labelled internal standards and extracted using 10 mL of methanol under microwave-assisted heating.
+
+As for biological samples, the microwave extraction programme reached 70 °C over 5 min, maintained this temperature for 5 min and included a 10-min cooling step.
+
+The extracts were subsequently purified and concentrated before instrumental analysis.
+
+PFAS in sediment were analysed using the same instrumental technique as that applied to biological samples.
+
+The sediment procedure included matrix-specific quality-control samples and analytical limits.
+
+#### PCB and HBCDD analyses
+
+PCB and HBCDD analyses were performed using dedicated procedures for the corresponding chemical families and environmental matrices.
+
+The HBCDD analytical programme distinguished the three principal diastereoisomers, α-, β- and γ-HBCDD, allowing isomer-specific concentration profiles to be characterized.
+
+The thesis details the preparation and instrumental determination of HBCDD in sediment, while the CHOPIN project involved complementary analytical work conducted by the participating laboratories for different contaminants and biological matrices.
+
+[To complete using the original laboratory protocols: Specify the extraction solvents, extraction and purification techniques, chromatographic instruments and quantification procedures used for PCB and HBCDD measurements in each biological matrix. The thesis does not provide all laboratory procedures for every compound–matrix combination included in the final package.]
+
+
 
 [**To complete:** Specify the laboratory analytical procedures used for each chemical family and sample matrix, including extraction, purification, instrumental analysis, calibration, blank correction, internal standards, recoveries and treatment of values below the detection or quantification limits.]
 
+#### Analytical quality assurance and quality control
+
+Analytical quality assurance was implemented through the use of internal standards, procedural blanks, fortified control samples and reference materials.
+
+For PFAS analyses of biological material, quality-control samples accompanied the analytical batches throughout the extraction and purification procedures.
+
+These included fortified freeze-dried sole material, procedural blanks and the certified reference material SRM 1947 (Lake Michigan Fish Tissue, NIST).
+
+The reference material was used to evaluate the analytical accuracy of selected PFAS measurements. Fortified biological samples were used to assess repeatability, and procedural blanks were used to characterize potential analytical contamination.
+
+Measured quantities were corrected for the corresponding procedural blank where specified in the analytical protocol, then normalized to sample mass.
+
+For sediment PFAS measurements, fortified Fontainebleau sand was used as an analytical control, in addition to procedural blanks.
+
+The analytical quality-control programme also included the determination of compound-specific limits of detection and quantification.
+
+The limits differed among contaminants and sample matrices. Accordingly, the interpretation of concentrations below analytical thresholds requires consideration of the relevant compound and matrix.
+
+The contam_info reference table provides the detection and quantification limits retained in the published dataset.
+
+[The final manuscript should include a concise table summarizing analytical quality-control results for each contaminant family and matrix, with the complete compound-specific limits supplied as supplementary information.]
+
+
 ### Stable isotope measurements
-
-Carbon and nitrogen stable isotope signatures were measured in selected benthic organisms and common sole from the CAPES and CHOPIN projects.
-
-The isotope dataset includes carbon and nitrogen isotope values, associated elemental composition measurements, taxonomic information, sampling metadata and selected biological characteristics.
 
 Carbon and nitrogen stable isotope signatures can be used to investigate variation in trophic resource use and relative trophic position among organisms.
 
-[**To complete:** Specify tissue preparation, lipid treatment if applicable, analytical instrumentation, isotope reference standards, measurement precision and any correction or normalization procedures.]
+Carbon and nitrogen stable isotope signatures were measured in selected benthic organisms and common sole from the CAPES and CHOPIN projects to characterize their trophic relationships and provide complementary information on the sources of organic matter supporting the benthic food web. Stable isotope measurements were also performed on sediment organic matter. 
+
+The isotope dataset includes carbon and nitrogen isotope values (δ¹³C and δ¹⁵N), associated elemental composition measurements, taxonomic information, sampling metadata and selected biological characteristics.
+
+The analytical results are distributed in the isotopes dataset, along with taxonomic information, sampling metadata and selected biological characteristics.
+
+[**To complete:** Specify tissue preparation, lipid treatment if applicable, analytical instrumentation, isotope reference standards, measurement precision and any correction or normalization procedures. removal of inorganic carbon from sediment, analytical instrumentation, calibration standards and measurement precision.]
+
 
 ### Stomach content analysis
 
-Digestive tract contents were examined to identify prey consumed by juvenile common sole and characterize their relative contribution to the diet.
+Stomach content data were obtained from the examination of juvenile common sole digestive tracts. Digestive tract contents were examined to identify prey consumed by juvenile common sole and characterize their relative contribution to the diet. Biometric and stomach content information was shared between the CAPES and CHOPIN projects to provide complementary information on the feeding ecology of juvenile sole and the identity of potential benthic prey.
 
-The stomach content dataset includes fish identifiers and biological characteristics, taxonomic identification of prey and other recorded material, prey counts, digestive compartment information and degradation-stage observations.
+The soles_stomach dataset contains individual fish characteristics, identified prey taxa, prey counts and observations associated with prey identification. Prey counts are recorded separately for the stomach and intestine, allowing diet composition to be examined using either compartment or the complete digestive tract, together with information on the degradation stage of the identified material. Taxonomic identification was retained at the lowest level supported by the observed material. Some prey could be identified to species, whereas others were assigned to genus or a higher taxonomic rank.
 
-Prey abundance is recorded separately for the stomach and intestine, allowing diet composition to be examined using either compartment or the complete digestive tract.
+A supplementary taxonomic classification table, species_classif, provides the hierarchical classification of recorded prey taxa.
 
-A supplementary taxonomic classification table provides the hierarchical classification of prey taxa, including organisms identified only to genus or higher taxonomic levels.
+[**To complete:**: The dissection procedure, prey identification protocol, counting rules for fragmented organisms, and criteria used to assign degradation stagesmust be documented from the CAPES methodological material or the original stomach content analysis protocol. They should not be attributed to the chemical analytical methods described in Gallien's thesis.]
 
-[**To complete:** Describe the dissection procedure, prey identification protocol, counting rules for fragmented organisms and criteria used to assign degradation stages.]
 
 ### Biological condition, histology and biomarkers
 
-Biological measurements in common sole included morphometric characteristics, liver and gonad masses, hepatosomatic and gonadosomatic indices, histological observations and selected biomarkers.
+Biological measurements in common sole included morphometric characteristics, liver and gonad masses, hepatosomatic and gonadosomatic indices, histological observations and selected biomarkers. The hepatosomatic index (HSI) and gonadosomatic index (GSI) were calculated from liver and gonad wet masses relative to total fish wet mass, respectively. Histological observations of liver and gonadal tissue complemented these measurements.
 
-Acetylcholinesterase (AChE) activity was measured as a biomarker related to neurotoxicity, and ethoxyresorufin-O-deethylase (EROD) activity as an indicator of biotransformation activity.
+Several biological biomarkers were measured to characterize different physiological and cellular responses. Acetylcholinesterase (AChE) activity was measured as a biomarker related to neurotoxicity, whereas ethoxyresorufin-O-deethylase (EROD) activity was measured as an indicator of biotransformation activity. Genotoxicity-related endpoints included the comet assay, expressed as Olive tail moment and percentage of DNA in the comet tail, as well as micronucleus measurements. Vitellogenin was measured as an indicator related to reproductive physiology. The dataset records AChE activity in µmol min⁻¹ mg⁻¹ and EROD activity in pmol min⁻¹ mg⁻¹. Other analytical units and histological classification codes are documented where available.
 
-DNA damage was assessed using the comet assay, with measurements expressed as Olive tail moment and percentage of DNA in the comet tail. Additional biological measurements included micronucleus observations and vitellogenin.
+The resulting data are distributed in the soles_biomarkers dataset, together with fish morphometric characteristics, somatic indices and histological observations.
 
-The dataset records AChE activity in µmol min⁻¹ mg⁻¹ and EROD activity in pmol min⁻¹ mg⁻¹. Other analytical units and histological classification codes are documented where available.
+[**To complete:**: The precise biomarker and histological laboratory protocols, including tissue preparation, analytical replication, measurement units not yet specified and quality-control criteria, must be obtained from the CHOPIN project's relevant laboratory documentation.]
 
-[**To complete:** Describe the corresponding laboratory protocols, tissue preparation, analytical replication and quality-control procedures.]
 
-## Data Records
+## Data compilation and preparation for the R package
 
-The data are distributed through the R package **chopin.data**, which provides documented datasets and supporting reference tables.
+The original CHOPIN analytical data and associated biological observations were compiled into a set of complementary datasets distributed through a dedicated R package, the R package **chopin.data**, which provides documented datasets and supporting reference tables. The data preparation workflow was designed to preserve sample identification, sampling metadata, analytical measurements and distinctions among environmental and biological matrices.
 
-The package is organized into several complementary data domains.
+Separate datasets were created for sediment contamination, benthic contamination, common sole contamination, stable isotopes, stomach contents, biological biomarkers and taxonomic or chemical reference information. The datasets retain distinctions among individual fish, pooled biological samples and tissue-specific observations. These differences must be considered when combining tables or interpreting sample sizes. Variable names were harmonized across datasets to facilitate their use in R. Common identifiers include species, sample_TAG, year, season and zone, where applicable. The original chemical identifiers were retained across the contaminant datasets and linked to the reference table contam_info. Concentrations were expressed on a dry-weight basis, with additional lipid-normalized concentrations for selected biological contaminants and organic carbon-normalized concentrations for sediment. For age-2 sole, tissue-specific measurements were retained as separate observations linked by the individual sample identifier.
+
+The source datasets and data processing scripts are provided in the package repository to document the transformations applied to the original data.
+
+The package is organized into several complementary data domains. Each dataset is distributed as a directly accessible R object. Variable definitions, measurement units and examples of use are provided through the package documentation.
+
 
 | Dataset            | Description                                                                                   |
 | ------------------ | --------------------------------------------------------------------------------------------- |
@@ -260,13 +340,12 @@ The package is organized into several complementary data domains.
 | `soles_info`       | Common sole taxonomic and functional trait reference table                                    |
 | `species_classif`  | Taxonomic classification of organisms identified in sole digestive tract contents             |
 
-Additional reference vectors are provided to facilitate the selection of contaminants and chemical subclasses in R analyses.
 
-Each dataset is distributed as a directly accessible R object. Variable definitions, measurement units and examples of use are provided through the package documentation.
+Additional reference vectors are provided to facilitate the selection of contaminants and chemical subclasses in R analyses.
 
 Several tables contain complementary observations referring to the same sampling locations, organisms or chemical compounds. The variables used to link these tables include sample identifiers, scientific names and chemical identifiers, as appropriate.
 
-The datasets retain distinctions among individual fish, pooled biological samples and tissue-specific observations. These differences must be considered when combining tables or interpreting sample sizes.
+[To complete from the final package: Document the treatment of missing and censored values, conversion and normalization formulas, consistency checks, taxonomic harmonization, package version and archived data release.]
 
 **Data and code availability:** [https://github.com/FlorenceMounier/chopin.data]
 
