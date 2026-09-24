@@ -76,6 +76,12 @@ editor_options:
   chunk_output_type: inline
 ---
 
+<!--
+%\VignetteIndexEntry{CHOPIN data descriptor}
+%\VignetteEngine{knitr::rmarkdown}
+%\VignetteEncoding{UTF-8}
+-->
+
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(
   echo = FALSE,
@@ -150,7 +156,14 @@ Three main sampling campaigns were conducted: June 2017, October 2017 and Octobe
 
 
 ```{r fig-map, fig.cap="Map of the Seine estuary showing the sampling sectors and stations used for sediment sampling.", out.width="100%", fig.show='hold'}
-knitr::include_graphics("../inst/extdata/map_seine.jpg")
+knitr::include_graphics(
+  system.file(
+    "extdata",
+    "map_seine.jpg",
+    package = "chopin.data",
+    mustWork = TRUE
+  )
+)
 ```
 
 
