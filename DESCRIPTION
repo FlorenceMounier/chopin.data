@@ -4,7 +4,7 @@ Version: 0.0.1
 Authors@R: 
     person("Florence", "Mounier", , "florence.mounier42@gmail.com", role = c("aut", "cre"),
            comment = c(ORCID = "0000-0001-8916-7007"))
-Description: Provide well-documented, ready-to-use R data objects.
+Description: Provides well-documented, ready-to-use R data objects containing data acquired during the CHOPIN research project, commissioned by GIP Seine-Aval and coordinated by Pierre Labadie.
 License: MIT + file LICENSE
 Depends: 
     R (>= 4.1)

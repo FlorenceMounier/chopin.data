@@ -1,0 +1,374 @@
+---
+title: "Supplementary Information - An integrated dataset of organohalogenated contaminants, trophic interactions and biological responses in the Seine estuary common sole nursery"
+documentclass: article
+link-citations: yes
+author:
+  - Florence MOUNIER:
+      email: florence.mounier@inrae.fr
+      institute: [INRAE]
+      correspondence: true
+  - Jérémy Lobry:
+      institute: [INRAE]
+  - Véronique Loizeau:
+      institute: [LEMAR]
+  - Florent Grasso:
+      institute: [LEMAR]
+  - Catherine Munschy: 
+      institute: [Ifremer]
+  - Yann Aminot:
+      institute: [Ifremer]
+  - Marine Gallien:
+      institute: [LASEM]
+  - Olivier Le Pape:
+      institute: [DECOD_Rennes]
+  - Jean-Baptiste Lecomte:
+      institute: [DECOD_Rennes]
+  - Etienne Rivot:
+      institute: [DECOD_Rennes]
+  - Léa Douchet:
+      institute: [DECOD_Rennes]
+  - Nathan Martin:
+      institute: [DECOD_Rennes]
+  - Juliette Champagnat:
+      institute: [MARBEC]
+  - Bastien Chouquet:
+      institute: [CSLN]
+  - Sylvain Duhamel:
+      institute: [CSLN]
+  - Jérôme Couteau:
+      institute: [TOXEM]
+  - Nicolas Bacq:
+      institute: [GSA]
+  - Hélène Budzinski:
+      institute: [EPOC]
+  - Pierre Labadie:
+      institute: [EPOC]
+institute:
+  - INRAE: INRAE, UR EABX, 50 avenue de Verdun, 33612 Cestas Cedex, France
+  - Ifremer: Ifremer, CCEM Contamination Chimique des Écosystèmes Marins, F-44000, Nantes, France
+  - EPOC: Univ. Bordeaux, CNRS, UMR 5805 EPOC, 33405 Talence, France
+  - LEMAR: PFOM/LARN, LEMAR UMR 6539, IFREMER, 29280 Plouzané, France
+  - GSA: GIP Seine-Aval, 76176 Rouen, France
+  - DECOD_Rennes: DECOD (Ecosystem Dynamics and Sustainability), Institut Agro, IFREMER, INRAE, 35042 Rennes, France
+  - CSLN: Cellule de Suivi du Littoral Normand (CSLN), 53 rue de Prony, 76600 Le Havre, France
+  - TOXEM: TOXEM, Montivilliers, France
+  - LASEM: LASEM (Laboratoire d’analyses, de surveillance et d’expertise de la Marine), BCRM Toulon – BN TOULON/LASEM – BP 61, 83800 Toulon Cedex 9, France
+  - MARBEC: MARBEC, Univ Montpellier, CNRS, Ifremer, IRD, Sète, France
+output: 
+  officedown::rdocx_document:
+    reference_docx: template.docx
+    tables:
+      tab.lp: "tab:"
+      caption:
+        style: "Table Caption"
+        pre: "Table "
+        sep: ": "
+    plots:
+      caption:
+        style: "Figure caption"
+    pandoc_args:
+      - '--lua-filter=scholarly-metadata.lua'
+      - '--lua-filter=author-info-blocks.lua'
+bibliography: references.bib
+number-sections: true
+csl: "aquatic-living-resources.csl"
+editor: 
+  markdown: 
+    wrap: 72
+editor_options: 
+  chunk_output_type: inline
+---
+
+<!--
+%\VignetteIndexEntry{CHOPIN data descriptor}
+%\VignetteEngine{knitr::rmarkdown}
+%\VignetteEncoding{UTF-8}
+-->
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(
+  echo = FALSE,
+  warning = FALSE,
+  message = FALSE,
+  error = FALSE,
+  fig.width = 7,
+  fig.height = 5,
+  out.width = "95%"
+)
+library(chopin.data)
+library(officer)
+library(tidyverse)
+library(flextable)
+```
+
+## Stable isotope measurements
+
+Biological samples were defatted by accelerated solvent extraction (ASE; 100 °C, 100 bar) using dichloromethane prior to isotope analysis. For sediments, inorganic carbon was removed before δ¹³C analysis by dropwise addition of 2 N HCl until effervescence ceased, followed by drying. Carbon and nitrogen stable isotope ratios were measured using a Thermo Finnigan Delta V Plus EA–IRMS coupled to a Conflo IV interface. Samples were flash-combusted at 1020 °C, with subsequent reduction at 650 °C and chromatographic separation of the resulting gases before IRMS analysis. Isotope-ratio calibration was performed using USG24 graphite for δ¹³C and IAEA-N2 ammonium sulfate for δ¹⁵N. Quality-control materials were analyzed every ten biological samples and every five sediment samples. Analytical precision, estimated from repeated analyses of reference materials, ranged from 0.19 to 0.34‰ for δ¹³C and from 0.23 to 0.29‰ for δ¹⁵N (@gallienEtudeComparativeLecodynamique2021).
+
+
+## Chemical analytical quality assurance and quality control
+
+Analytical quality assurance was implemented through the use of internal standards, procedural blanks, fortified control samples and reference materials. Quality-control samples accompanied the analytical batches throughout the extraction and purification procedures. The reference material was used to evaluate the analytical accuracy of selected PFAS measurements. Fortified biological samples were used to assess repeatability, and procedural blanks were used to characterize potential analytical contamination. Measured quantities were corrected for the corresponding procedural blank where specified in the analytical protocol, then normalized to sample mass.
+
+The analytical quality-control programme also included the determination of compound-specific limits of detection and quantification. The limits differed among contaminants and sample matrices. Accordingly, the interpretation of concentrations below analytical thresholds requires consideration of the relevant compound and matrix.
+
+## PFAS analyses
+
+PFAS were extracted from sediment, benthic invertebrate, and fish samples and analysed following previously published procedures (@munozEcodynamiqueComposesPoly2015; @munozEvidenceTrophicTransfer2017; @gallienEtudeComparativeLecodynamique2021) hereafter synthetised. 
+
+### PFAS extraction
+
+For biota samples, approximately 250 mg of freeze-dried and homogenized biological material was fortified with isotopically labelled internal standards before extraction. The internal standard mixture included labelled analogues of selected perfluoroalkyl carboxylic acids, perfluoroalkyl sulfonates, fluorotelomer sulfonates, sulfonamides and fluorotelomer phosphates. Extraction was performed using 13 mL of methanol under microwave-assisted heating. The extraction programme consisted of heating to 70 °C over 5 min, maintaining this temperature for 5 min and cooling for 10 min. The extracts were filtered through glass wool and concentrated under a nitrogen stream to approximately 2 mL. Following dilution with 50 mL of ultrapure water, extracts were loaded onto weak anion-exchange solid-phase extraction cartridges (Strata X-AW, Phenomenex). After drying, the cartridges were connected to graphitized carbon cleanup cartridges (ENVI-Carb, 250mg/3mL, Sigma-Aldrich). Analytes were eluted using two successive 4-mL volumes of methanol containing 0.2% ammonium hydroxide. Purified extracts were concentrated under nitrogen and transferred into high-grade polypropylene injection vials (VWR).
+
+PFAS extraction from sediment followed a procedure adapted to the sediment matrix. Approximately 2 g of freeze-dried sediment was fortified with isotopically labelled internal standards and extracted using 10 mL of methanol under microwave-assisted heating. As for biological samples, the microwave extraction programme reached 70 °C over 5 min, maintained this temperature for 5 min and included a 10-min cooling step. The extracts were subsequently purified and concentrated before instrumental analysis. PFAS in sediment were analysed using the same instrumental technique as that applied to biological samples.
+
+### PFAS quantification
+
+PFAS in sediment and biological samples were analysed by liquid chromatography coupled to tandem mass spectrometry(LC–ESI–MS/MS), using an Agilent 1200 LC system coupled to an Agilent 6490 triple-quadrupole mass spectrometer equipped with an Agilent Jet Stream electrospray ionization source. Chromatographic separation was performed on a Zorbax Eclipse Plus C18 analytical column, with a Poroshell 120 SB C18 guard column. The mobile phases consisted of Milli-Q water containing 2 mM ammonium acetate (A) and acetonitrile/water (95:5, v/v) containing 2 mM ammonium acetate (B). The ESI source was operated in negative-ion mode, and compounds were monitored using dynamic multiple reaction monitoring (MRM). A short C18 delay column was installed upstream of the analytical system to minimize background PFAS contamination. Isotopically labelled internal standards were used for quantification and to account for analytical variability. 
+
+### PFAS quality-control
+
+For each batch of extracted samples, the procedure includes matrix-specific quality-control samples that were subjected to the same entire experimental procedure as the analysed samples. 
+
+Procedural blanks, that contained only the internal standards (no-injection blanks), were analysed at the beginning of each analytical sequence to assess instrumental contamination. Methanol blanks were analyzed at the beginning, during, and at the end of each sequence to check for contamination of the injection loop.
+
+Control samples, spiked with the internal standards and 1 ng of each native compound (Wellington Laboratories), were analysed to assess repeatability. The control sample consisted of Fontainebleau sand (“technical” grade, VWR International) for sediment matrix, and of freeze-dried and ground whole sole tissue (laboratory sole sample identified as PFC no. 20) for biota matrix.
+
+Reference samples, whose contamination is known, were analysed to assess accuracy. The reference sample consisted of a certified material (Lake Michigan Fish Tissue, SMR 1947) for biota matrix. For sediment, it corresponded to control samples (spiked Fontainebleau sand), assuming that the contamination of the sand from Fontainebleau was negligible compared to procedural sensitivity.
+
+Trace amounts of several compounds were occasionally detected in instrumental blanks (10–170 pg). Instrumental limits of quantification ranged from 2 pg injected for FOSA to 4.2 pg injected for 10:2-FTSA. Calibration curves were verified at the beginning of each sequence, and quality-control standards were analyzed every 10–15 samples, with an overall accuracy and precision of 103 ± 15% (n = 14). PFAS extracts were quantified by internal calibration using isotope dilution. For each isomer, quantification and, where applicable, confirmation transitions were required to have a signal-to-noise ratio >3. For each compound, the amount measured in the samples was corrected for the amount measured in the corresponding procedural blank, and then normalized to sample mass.
+
+#### Biota quality-control
+
+For biota, the following compounds were detected in procedural blanks: PFBA, PFPeA, PFHxA, PFHpA, PFOA, PFNA, PFDA, PFUnDA, PFDoDA, PFTrDA, PFTeDA, PFBS, PFHxS, PFHpS, L-PFOS, Br-PFOS, PFDS, FOSA, FOSAA, MeFOSAA, EtFOSAA, 4:2-FTSA, 6:2-FTSA, 8:2-FTSA, 10:2-FTSA, 6:2-diPAP, 8:2-diPAP, HFPO-DA, NaDONA and PFECHS. 
+
+In addition, the repeatability of the analytical procedure for biota, assessed using spiked sole PFC no. 20 control sample, was 89 ± 27% across all compounds (n = 15). Compound-specific results are provided in Table \@ref(tab:tab-PFAS-biota-repeatability) while accuracy, assessed using replicates (n = 13) of SRM 1947 (Lake Michigan Fish Tissue), is reported in Table \@ref(tab:tab-PFAS-biota-accuracy). 
+
+It should be noted that five replicates were below the limit of quantification for PFDA. PFBA is reported here for information only; because it was never detected, it was not considered in the interpretation of the results.
+
+```{r, tab.id="tab-PFAS-biota-repeatability", tab.cap="Repeatability (%) of the experimental PFAS analysis protocol for biota assessed using spiked fish tissue (n = 15, spiked sole PFC no. 20)."}
+PFAS_biota_repeatability <- tribble(
+  ~ "Sub-family", ~ "Compound", ~ "Mean (± sd)", ~ "Median (min - max)",
+  "PFCA", "PFBA", "-45 (± 217)", "60 (-522 - 118)",
+  "PFCA", "PFPeA", "93 (± 20)", "94 (63 - 141)",
+  "PFCA", "PFHxA", "89 (± 24)", "90 (50-147)",
+  "PFCA", "PFHpA", "93 (± 23)", "90 (65 - 158)",
+  "PFCA", "PFOA", "92 (± 23)", "87 (57 - 152)",
+  "PFCA", "PFNA", "92 (± 23)", "94 (58-149)",
+  "PFCA", "PFDA", "101 (± 28)", "101 (57 - 166)",
+  "PFCA", "PFUnDA", "102 (± 23)", "100 (68 - 162)",
+  "PFCA", "PFDoDA", "100 (± 25)", "101 (63 - 163)",
+  "PFCA", "PFTrDA", "90 (± 27)", "84 (55 - 164)",
+  "PFCA", "PFTeDA", "101 (± 24)", "100 (72 - 166)",
+  "PFSA", "PFBS", "90 (± 22)", "86 (62 - 149)",
+  "PFSA", "PFHxS", "88 (± 20)", "88 (57 - 128)",
+  "PFSA", "PFHpS", "115 (± 28)", "117 (76 - 187)",
+  "PFSA", "PFOS", "99 (± 28)", "102 (45 - 158)",
+  "PFSA", "PFDS", "78 (± 17)", "81 (51 - 119)",
+  "FOSA", "FOSA", "88 (± 24)", "86 (51 - 126)",
+  "FOSAA", "FOSAA", "66 (± 22)", "66 (34 - 116)",
+  "FOSAA", "MeFOSAA", "79 (± 25)", "70 (49 - 136)",
+  "FOSAA", "EtFOSAA", "50 (± 12)", "52 (32 - 76)",
+  "FTSA", "4:2-FTSA", "84 (± 22)", "81 (55 - 134)",
+  "FTSA", "6:2-FTSA", "99 (± 24)", "96 (61 - 150)",
+  "FTSA", "8:2-FTSA", "98 (± 24)", "99 (62 - 150)",
+  "FTSA", "10:2-FTSA", "53 (± 13)", "53 (37 - 80)",
+  "diPAP", "6:2-diPAP", "94 (± 30)", "87 (57 - 179)",
+  "diPAP", "8:2-diPAP", "93 (± 22)", "92 (53 - 130)",
+  "Others", "HFPO-DA", "77 (± 27)", "78 (43 - 131)",
+  "Others", "NaDONA", "79 (± 27)", "79 (43 - 134)",
+  "Others", "PFECHS", "99 (± 25)", "105 (57 - 145)" 
+)
+
+flextable(PFAS_biota_repeatability) |>
+  fontsize(size = 8, part = "all") |>
+  autofit()
+```
+
+
+```{r tab.id="tab-PFAS-biota-accuracy", tab.cap="Accuracy (%) of the experimental PFAS analysis protocol for biota assessed using a certified reference fish tissue (SRM 1947 - Lake Michigan Fish Tissue) (n = 13)."}
+PFAS_biota_accuracy <- tribble(
+  ~ "Compound", ~ "Mean (± sd)", ~ "Median (min - max)",
+  "PFNA", "84 (± 12)", "83 (63-103)",
+  "PFDA", "67 (± 22)", "76 (31 - 88)",
+  "PFUnDA", "91 (± 19)", "91 (66 - 132)",
+  "PFTrDA", "81 (± 16)", "80 (61 - 109)",
+  "PFOS", "76 (± 18)", "72 (49 - 114)"
+)
+
+flextable(PFAS_biota_accuracy) |>
+  fontsize(size = 8, part = "all") |>
+  autofit()
+```
+
+#### Sediment quality-control
+
+For sediments, the following compounds were detected in procedural blanks: PFBA, PFPeA, PFHxA, PFHpA, PFOA, PFNA, PFDoDA, PFHxS, L-PFOS, FOSAA, 4:2-FTSA, 6:2-FTSA and NaDONA. 
+
+In addition, the repeatability and accuracy of the analytical procedure, assessed using the Fontainebleau sand control sample, was 104 ± 9% across all compounds (n = 4). Compound-specific results are provided in Table \@ref(tab:tab-PFAS-sediment-quality).
+
+```{r, tab.id="tab-PFAS-sediment-quality", tab.cap="Accuracy and repeatability (%) of the experimental PFAS analysis protocol for sediment assessed using spiked Fontainebleau sand (n = 4)."}
+
+PFAS_sediment_rep_accu <- tribble(
+  ~`Sub-family`, ~Compound, ~`Mean (± sd)`, ~`Median (min - max)`,
+  
+  "PFCA", "PFBA", "102 ± 8",  "100 (94 - 113)",
+  "PFCA", "PFPeA", "107 ± 9",  "108 (96 - 117)",
+  "PFCA", "PFHxA", "107 ± 15", "111 (85 - 120)",
+  "PFCA", "PFHpA", "101 ± 9",  "100 (92 - 111)",
+  "PFCA", "PFOA", "107 ± 11", "102 (99 - 124)",
+  "PFCA", "PFNA", "108 ± 8",  "108 (98 - 117)",
+  "PFCA", "PFDA", "100 ± 6",  "102 (91 - 106)",
+  "PFCA", "PFUnDA", "107 ± 14", "106 (93 - 124)",
+  "PFCA", "PFDoDA", "102 ± 7",  "99 (97 - 113)",
+  "PFCA", "PFTrDA", "101 ± 9",  "96 (96 - 115)",
+  "PFCA", "PFTeDA", "97 ± 4",   "98 (93 - 100)",
+  
+  "PFSA", "PFBS", "106 ± 8",  "108 (94 - 113)",
+  "PFSA", "PFHxS", "104 ± 8",  "106 (93 - 112)",
+  "PFSA", "PFHpS", "103 ± 6",  "104 (95 - 108)",
+  "PFSA", "PFOS", "100 ± 1",  "100 (98 - 102)",
+  "PFSA", "PFDS", "102 ± 4",  "102 (98 - 106)",
+  
+  "FOSA", "FOSA", "111 ± 7",  "111 (103 - 119)",
+  "FOSA", "MeFOSA", "109 ± 8",  "107 (101 - 120)",
+  "FOSA", "EtFOSA", "106 ± 9",  "107 (95 - 116)",
+  
+  "FOSAA", "FOSAA", "73 ± 11",  "73 (62 - 85)",
+  "FOSAA", "MeFOSAA", "107 ± 15", "106 (93 - 123)",
+  "FOSAA", "EtFOSAA", "103 ± 16", "97 (91 - 125)",
+  
+  "FTSA", "4:2-FTSA", "103 ± 9",  "104 (93 - 110)",
+  "FTSA", "6:2-FTSA", "103 ± 9",  "104 (91 - 111)",
+  "FTSA", "8:2-FTSA", "107 ± 10", "103 (99 - 120)",
+  "FTSA", "10:2-FTSA", "108 ± 12", "108 (97 - 119)",
+  
+  "diPAP", "6:2-diPAP", "103 ± 12", "104 (87 - 116)",
+  "diPAP", "8:2-diPAP", "106 ± 13", "105 (95 - 118)",
+  
+  "Others", "HFPO-DA", "104 ± 10", "101 (96 - 118)",
+  "Others", "NaDONA", "106 ± 18", "101 (90 - 132)",
+  "Others", "PFECHS", "110 ± 6",  "110 (103 - 116)"
+)
+
+
+flextable(PFAS_sediment_rep_accu) |>
+  fontsize(size = 8, part = "all") |>
+  autofit()
+```
+
+### PFAS limits of detection and quantification
+
+The instrumental limits of quantification, as well as the limits of detection and quantification for PFAS extracts, are presented in Table \@ref(tab:tab-PFAS-limits-biota) for biota and in Table \@ref(tab:tab-PFAS-limits-sediment) for sediments. All analyzed compounds were found in instrumental blanks for biota and sediment. 
+
+```{r tab.id="tab-PFAS-limits-biota", tab.cap="Instrumental limits of quantification (mean, sd, median, min, max), and limits of detection and quantification for PFAS extracts from biota samples in ng/gdw."}
+PFAS_limits_biota <- tribble(
+  ~`Sub-family`, ~Compound, ~`Mean (± sd)`, ~`Median (min - max)`,
+  ~LD, ~LQ, ~`Presence in protocol blanks`,
+  
+  "PFCA", "PFBA",     "0.29 ± 0.46", "0.12 (0.02 - 1.69)", "na",   "36.06", "yes",
+  "PFCA", "PFPeA",    "0.07 ± 0.06", "0.06 (0.01 - 0.24)", "0.39", "1.17",  "yes",
+  "PFCA", "PFHxA",    "0.06 ± 0.05", "0.05 (0.01 - 0.17)", "na",   "0.81",  "yes",
+  "PFCA", "PFHpA",    "0.10 ± 0.09", "0.10 (0.02 - 0.31)", "na",   "0.77",  "yes",
+  "PFCA", "PFOA",     "0.28 ± 0.34", "0.14 (0.01 - 1.20)", "na",   "1.66",  "yes",
+  "PFCA", "PFNA",     "0.22 ± 0.27", "0.14 (0.00 - 1.02)", "0.06", "0.17",  "no",
+  "PFCA", "PFDA",     "0.24 ± 0.11", "0.21 (0.07 - 0.51)", "na",   "0.56",  "yes",
+  "PFCA", "PFUnDA",   "0.28 ± 0.40", "0.14 (0.00 - 1.42)", "na",   "0.17",  "yes",
+  "PFCA", "PFDoDA",   "0.36 ± 0.34", "0.20 (0.06 - 1.14)", "0.02", "0.07",  "no",
+  "PFCA", "PFTrDA",   "0.31 ± 0.30", "0.18 (0.07 - 1.13)", "0.03", "0.08",  "no",
+  "PFCA", "PFTeDA",   "0.45 ± 0.49", "0.27 (0.01 - 1.66)", "0.05", "0.15",  "no",
+  
+  "PFSA", "PFBS",     "0.01 ± 0.01", "0.01 (0.00 - 0.03)", "na",   "0.55",  "yes",
+  "PFSA", "PFHxS",    "0.01 ± 0.02", "0.01 (0.00 - 0.06)", "0.55", "1.64",  "no",
+  "PFSA", "PFHpS",    "0.02 ± 0.02", "0.01 (0.00 - 0.08)", "0.40", "1.21",  "no",
+  "PFSA", "PFOS",     "0.03 ± 0.03", "0.02 (0.00 - 0.09)", "0.24", "0.73",  "yes",
+  "PFSA", "PFDS",     "0.06 ± 0.08", "0.03 (0.00 - 0.21)", "0.08", "0.24",  "no",
+  
+  "FOSA", "FOSA",     "0.02 ± 0.04", "0.01 (0.00 - 0.13)", "na",   "0.23",  "yes",
+  
+  "FOSAA", "FOSAA",   "0.37 ± 0.69", "0.01 (0.00 - 1.59)", "na",   "0.78",  "yes",
+  "FOSAA", "MeFOSAA", "0.02 ± 0.02", "0.01 (0.00 - 0.06)", "0.05", "0.15",  "no",
+  "FOSAA", "EtFOSAA", "0.11 ± 0.15", "0.09 (0.00 - 0.56)", "0.03", "0.10",  "no",
+  
+  "FTSA", "4:2-FTSA",  "0.01 ± 0.01", "0.01 (0.00 - 0.02)", "0.05", "0.14", "no",
+  "FTSA", "6:2-FTSA",  "0.05 ± 0.05", "0.04 (0.00 - 0.17)", "0.01", "0.03", "no",
+  "FTSA", "8:2-FTSA",  "0.09 ± 0.16", "0.02 (0.00 - 0.50)", "0.01", "0.03", "no",
+  "FTSA", "10:2-FTSA", "0.09 ± 0.13", "0.03 (0.01 - 0.35)", "0.06", "0.19", "no",
+  
+  "diPAP", "6:2-diPAP", "-", "-", "na",   "3.45", "yes",
+  "diPAP", "8:2-diPAP", "-", "-", "na",   "0.24", "yes",
+  
+  "Others", "HFPO-DA", "-", "-", "0.26", "0.78", "no",
+  "Others", "NaDONA",  "-", "-", "na",   "0.74", "yes",
+  "Others", "PFECHS",  "-", "-", "0.10", "0.29", "no"
+)
+
+flextable(PFAS_limits_biota) |>
+  fontsize(size = 8, part = "all") |>
+  autofit()
+```
+
+
+```{r tab.id="tab-PFAS-limits-sediment", tab.cap="Instrumental limits of quantification (mean, sd, median, min, max), and limits of detection and quantification for PFAS extracts from sediment samples in ng/gdw."}
+PFAS_limits_sediment <- tribble(
+  ~`Sub-family`, ~Compound, ~`Mean (± sd)`, ~`Median (min - max)`, ~LD, ~LQ, ~`Presence in protocol blanks`,
+  
+  "PFCA", "PFBA",     "0.29 ± 0.46", "0.12 (0.02 - 1.69)", "na",   "0.04", "yes",
+  "PFCA", "PFPeA",    "0.07 ± 0.06", "0.06 (0.01 - 0.24)", "na",   "0.13", "yes",
+  "PFCA", "PFHxA",    "0.06 ± 0.05", "0.05 (0.01 - 0.17)", "0.01", "0.02", "yes",
+  "PFCA", "PFHpA",    "0.10 ± 0.09", "0.10 (0.02 - 0.31)", "na",   "0.04", "yes",
+  "PFCA", "PFOA",     "0.28 ± 0.34", "0.14 (0.01 - 1.20)", "na",   "0.10", "yes",
+  "PFCA", "PFNA",     "0.22 ± 0.27", "0.14 (0.00 - 1.02)", "0.01", "0.04", "yes",
+  "PFCA", "PFDA",     "0.24 ± 0.11", "0.21 (0.07 - 0.51)", "0.02", "0.05", "no",
+  "PFCA", "PFUnDA",   "0.28 ± 0.40", "0.14 (0.00 - 1.42)", "0.03", "0.08", "no",
+  "PFCA", "PFDoDA",   "0.36 ± 0.34", "0.20 (0.06 - 1.14)", "0.04", "0.12", "yes",
+  "PFCA", "PFTrDA",   "0.31 ± 0.30", "0.18 (0.07 - 1.13)", "0.03", "0.10", "no",
+  "PFCA", "PFTeDA",   "0.45 ± 0.49", "0.27 (0.01 - 1.66)", "0.04", "0.11", "no",
+  
+  "PFSA", "PFBS",     "0.01 ± 0.01", "0.01 (0.00 - 0.03)", "0.00", "0.01", "no",
+  "PFSA", "PFHxS",    "0.01 ± 0.02", "0.01 (0.00 - 0.06)", "0.01", "0.02", "yes",
+  "PFSA", "PFHpS",    "0.02 ± 0.02", "0.01 (0.00 - 0.08)", "0.01", "0.02", "no",
+  "PFSA", "PFOS",     "0.03 ± 0.03", "0.02 (0.00 - 0.09)", "0.01", "0.04", "yes",
+  "PFSA", "PFDS",     "0.06 ± 0.08", "0.03 (0.00 - 0.21)", "0.01", "0.02", "no",
+  
+  "FOSA", "FOSA",     "0.02 ± 0.04", "0.01 (0.00 - 0.13)", "0.00", "0.01", "no",
+  "FOSA", "MeFOSA",   "-",           "-",                  "0.01", "0.03", "no",
+  "FOSA", "EtFOSA",   "-",           "-",                  "0.01", "0.04", "no",
+  
+  "FOSAA", "FOSAA",   "0.37 ± 0.69", "0.01 (0.00 - 1.59)", "na",   "0.04", "yes",
+  "FOSAA", "MeFOSAA", "0.02 ± 0.02", "0.01 (0.00 - 0.06)", "0.00", "0.00", "no",
+  "FOSAA", "EtFOSAA", "0.11 ± 0.15", "0.09 (0.00 - 0.56)", "0.04", "0.11", "no",
+  
+  "FTSA", "4:2-FTSA",  "0.01 ± 0.01", "0.01 (0.00 - 0.02)", "0.00", "0.00", "no",
+  "FTSA", "6:2-FTSA",  "0.05 ± 0.05", "0.04 (0.00 - 0.17)", "na",   "0.01", "yes",
+  "FTSA", "8:2-FTSA",  "0.09 ± 0.16", "0.02 (0.00 - 0.50)", "0.02", "0.05", "no",
+  "FTSA", "10:2-FTSA", "0.09 ± 0.13", "0.03 (0.01 - 0.35)", "0.00", "0.00", "no",
+  
+  "diPAP", "6:2-diPAP", "-", "-", "0.34", "1.01", "no",
+  "diPAP", "8:2-diPAP", "-", "-", "0.01", "0.02", "no",
+  
+  "Others", "HFPO-DA", "-", "-", "0.03", "0.08", "no",
+  "Others", "NaDONA",  "-", "-", "na",   "0.02", "yes",
+  "Others", "PFECHS",  "-", "-", "0.01", "0.04", "no"
+)
+
+flextable(PFAS_limits_sediment) |>
+  fontsize(size = 8, part = "all") |>
+  autofit()
+```
+
+
+
+## PCB and HBCDD analyses
+
+PCB and HBCDD analyses were performed using dedicated procedures for the corresponding chemical families and environmental matrices.
+
+The HBCDD analytical programme distinguished the three principal diastereoisomers, α-, β- and γ-HBCDD, allowing isomer-specific concentration profiles to be characterized.
+
+The thesis details the preparation and instrumental determination of HBCDD in sediment, while the CHOPIN project involved complementary analytical work conducted by the participating laboratories for different contaminants and biological matrices.
+
+[To complete using the original laboratory protocols: Specify the extraction solvents, extraction and purification techniques, chromatographic instruments and quantification procedures used for PCB and HBCDD measurements in each biological matrix. The thesis does not provide all laboratory procedures for every compound–matrix combination included in the final package.]
+
+
+
+[**To complete:** Specify the laboratory analytical procedures used for each chemical family and sample matrix, including extraction, purification, instrumental analysis, calibration, blank correction, internal standards, recoveries and treatment of values below the detection or quantification limits.]
