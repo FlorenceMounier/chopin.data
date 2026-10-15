@@ -103,42 +103,59 @@ library(flextable)
 
 ## Stable isotope measurements
 
-Biological samples were defatted by accelerated solvent extraction (ASE; 100 °C, 100 bar) using dichloromethane prior to isotope analysis. For sediments, inorganic carbon was removed before δ¹³C analysis by dropwise addition of 2 N HCl until effervescence ceased, followed by drying. Carbon and nitrogen stable isotope ratios were measured using a Thermo Finnigan Delta V Plus EA–IRMS coupled to a Conflo IV interface. Samples were flash-combusted at 1020 °C, with subsequent reduction at 650 °C and chromatographic separation of the resulting gases before IRMS analysis. Isotope-ratio calibration was performed using USG24 graphite for δ¹³C and IAEA-N2 ammonium sulfate for δ¹⁵N. Quality-control materials were analyzed every ten biological samples and every five sediment samples. Analytical precision, estimated from repeated analyses of reference materials, ranged from 0.19 to 0.34‰ for δ¹³C and from 0.23 to 0.29‰ for δ¹⁵N (@gallienEtudeComparativeLecodynamique2021).
+Sample preparation and analyse protocoles were previously published (@lauzent_etude_2017) and hereafter synthetised. 
+
+Ground biological samples were defatted by accelerated solvent extraction (ASE; 100 °C, 100 bar) using dichloromethane prior to isotope analysis to minimize bias in δ¹³C measurements associated with the lower δ¹³C signature of lipids relative to other biochemical components. Sediments can contain highly variable amounts of carbonates, which can skew the δ¹³C value. For this reason, inorganic carbon was removed prior to δ¹³C analysis by adding 2 N HCl drop by drop until the effervescence ceased, followed by drying. The δ¹⁵N analyses were performed without this preliminary extraction. The material was then recovered, stored in microtubes and sample mass was adjusted when necessary according to matrix characteristics : approximately 15-20 mg for δ¹⁵N sediment analyses, 2 mg for for δ¹³C sediment analyses, and 0,2 mg ± 0,1 mg for δ¹⁵N and δ¹³C biota analyses.
+
+Carbon and nitrogen stable isotope ratios were measured using a Thermo Finnigan Delta V Plus EA–IRMS coupled to a Conflo IV interface. Samples were flash-combusted at 1020 °C, with subsequent reduction at 650 °C and chromatographic separation of the resulting gases before IRMS analysis. Isotope-ratio calibration was performed using USG24 graphite for δ¹³C and IAEA-N2 ammonium sulfate for δ¹⁵N. Quality-control materials were analyzed every ten biological samples and every five sediment samples. Analytical precision, estimated from repeated analyses of reference materials, ranged from 0.19 to 0.34‰ for δ¹³C and from 0.23 to 0.29‰ for δ¹⁵N in the present study (@gallienEtudeComparativeLecodynamique2021).
+
+## Lipid content measurements
+
+Lipid content of fish and invertebrate samples was measured using a previously published procedure (@lauzent_etude_2017) hereafter synthetised. Lipid content was determined gravimetrically following accelerated solvent extraction (ASE). Approximately 0.1 g of dry sample was extracted with dichloromethane using a Dionex ASE 350 at 100 °C and 100 bar. Extracts were evaporated to dryness under nitrogen and the residue was weighed to constant mass. Lipid content was expressed as the percentage of extracted residue relative to sample dry mass.
+
+## Chemical analysis
+
+PCBs, PFASs and HBCDD isomers were extracted from sediment, benthic invertebrate, and fish samples and analysed following different previously published procedures for PFASs (@munozEcodynamiqueComposesPoly2015; @munozEvidenceTrophicTransfer2017; @gallienEtudeComparativeLecodynamique2021), PCBs (@lauzent_etude_2017), and HBCDD isomers(@lauzent_etude_2017), hereafter synthetised. 
 
 
-## Chemical analytical quality assurance and quality control
+### Extraction
 
-Analytical quality assurance was implemented through the use of internal standards, procedural blanks, fortified control samples and reference materials. Quality-control samples accompanied the analytical batches throughout the extraction and purification procedures. The reference material was used to evaluate the analytical accuracy of selected PFAS measurements. Fortified biological samples were used to assess repeatability, and procedural blanks were used to characterize potential analytical contamination. Measured quantities were corrected for the corresponding procedural blank where specified in the analytical protocol, then normalized to sample mass.
+To determine PFAS, PCB and HBCDD concentrations in the different matrices, contaminants were extracted using microwave-assisted solvent extraction. For all compound classes, homogenized samples were fortified with internal standards before extraction, followed by filtration through glass wool and concentration under nitrogen. Compound-specific solvents and cleanup procedures were then applied.
 
-The analytical quality-control programme also included the determination of compound-specific limits of detection and quantification. The limits differed among contaminants and sample matrices. Accordingly, the interpretation of concentrations below analytical thresholds requires consideration of the relevant compound and matrix.
+For PFAS, freeze-dried and homogenized samples (approximately 0.25 g for biota and 2 g for sediment) were extracted with methanol (13 mL for biota; 10 mL for sediment) at 70 °C, with a 5-min holding step followed by 10 min of cooling. For biota, extracts were diluted with 50 mL ultrapure water and purified using weak anion-exchange solid-phase extraction (Strata X-AW, Phenomenex) followed by graphitized carbon cleanup (ENVI-Carb, 250 mg/3 mL, Sigma-Aldrich). Analytes were eluted with two successive 4-mL volumes of methanol containing 0.2% ammonium hydroxide. Purified extracts were concentrated under nitrogen and transferred to polypropylene injection vials.
 
-## PFAS analyses
+For PCBs and HBCDD isomers, freeze-dried and homogenized samples (approximately 0.5 g for biota and 1.5 g for sediment) were extracted with 12 mL dichloromethane at 80 °C, with a 5-min holding step followed by 5 min of cooling. Extracts were purified on microcolumns containing activated copper to remove sulfur and 40% H₂SO₄-acidified silica to remove lipids and other interfering compounds. Columns were conditioned with pentane, and analytes were eluted with three 5-mL portions of pentane/dichloromethane (90:10, v/v). The eluates were concentrated under nitrogen. For PCB analysis, extracts were reconstituted in 50–100 µL isooctane and spiked with an OCN syringe standard to assess extraction recovery, whereas HBCDD extracts were reconstituted in 50–100 µL methanol.
 
-PFAS were extracted from sediment, benthic invertebrate, and fish samples and analysed following previously published procedures (@munozEcodynamiqueComposesPoly2015; @munozEvidenceTrophicTransfer2017; @gallienEtudeComparativeLecodynamique2021) hereafter synthetised. 
+### Quantification
 
-### PFAS extraction
+#### PFAS quantification
 
-For biota samples, approximately 250 mg of freeze-dried and homogenized biological material was fortified with isotopically labelled internal standards before extraction. The internal standard mixture included labelled analogues of selected perfluoroalkyl carboxylic acids, perfluoroalkyl sulfonates, fluorotelomer sulfonates, sulfonamides and fluorotelomer phosphates. Extraction was performed using 13 mL of methanol under microwave-assisted heating. The extraction programme consisted of heating to 70 °C over 5 min, maintaining this temperature for 5 min and cooling for 10 min. The extracts were filtered through glass wool and concentrated under a nitrogen stream to approximately 2 mL. Following dilution with 50 mL of ultrapure water, extracts were loaded onto weak anion-exchange solid-phase extraction cartridges (Strata X-AW, Phenomenex). After drying, the cartridges were connected to graphitized carbon cleanup cartridges (ENVI-Carb, 250mg/3mL, Sigma-Aldrich). Analytes were eluted using two successive 4-mL volumes of methanol containing 0.2% ammonium hydroxide. Purified extracts were concentrated under nitrogen and transferred into high-grade polypropylene injection vials (VWR).
+PFAS in sediment and biological samples were analysed by liquid chromatography coupled to tandem mass spectrometry(LC–ESI–MS/MS), using an Agilent 1200 LC system coupled to an Agilent 6490 triple-quadrupole mass spectrometer equipped with an Agilent Jet Stream electrospray ionization source. Chromatographic separation was performed on a Zorbax Eclipse Plus C18 analytical column, with a Poroshell 120 SB C18 guard column. The mobile phases consisted of Milli-Q water containing 2 mM ammonium acetate (A) and acetonitrile/water (95:5, v/v) containing 2 mM ammonium acetate (B). The ESI source was operated in negative-ion mode, and compounds were monitored using dynamic multiple reaction monitoring (MRM). A short C18 delay column was installed upstream of the analytical system to minimize background PFAS contamination. Isotopically labelled internal standards were used for quantification and to account for analytical variability.
 
-PFAS extraction from sediment followed a procedure adapted to the sediment matrix. Approximately 2 g of freeze-dried sediment was fortified with isotopically labelled internal standards and extracted using 10 mL of methanol under microwave-assisted heating. As for biological samples, the microwave extraction programme reached 70 °C over 5 min, maintained this temperature for 5 min and included a 10-min cooling step. The extracts were subsequently purified and concentrated before instrumental analysis. PFAS in sediment were analysed using the same instrumental technique as that applied to biological samples.
+#### PCB quantification
 
-### PFAS quantification
+After the extraction step, PCB concentrations were determined by gas chromatography coupled with electron capture detection (GC–ECD) using an Agilent 6890N system. Extracts were injected in pulsed splitless mode onto a J&W HP-5MS capillary column (60 m × 0.25 mm × 0.1 µm; 5% phenyl–95% methylpolysiloxane). Helium was used as the carrier gas at 1.3 mL min⁻¹ and nitrogen as the make-up gas at 60 mL min⁻¹. Injector and detector temperatures were set at 280 and 300 °C, respectively. The oven temperature programme was: 90 °C for 2 min, ramped at 15 °C min⁻¹ to 178 °C, then at 2 °C min⁻¹ to 230 °C, and finally at 30 °C min⁻¹ to 300 °C, held for 3.8 min. The injection volume was 1 µL.
 
-PFAS in sediment and biological samples were analysed by liquid chromatography coupled to tandem mass spectrometry(LC–ESI–MS/MS), using an Agilent 1200 LC system coupled to an Agilent 6490 triple-quadrupole mass spectrometer equipped with an Agilent Jet Stream electrospray ionization source. Chromatographic separation was performed on a Zorbax Eclipse Plus C18 analytical column, with a Poroshell 120 SB C18 guard column. The mobile phases consisted of Milli-Q water containing 2 mM ammonium acetate (A) and acetonitrile/water (95:5, v/v) containing 2 mM ammonium acetate (B). The ESI source was operated in negative-ion mode, and compounds were monitored using dynamic multiple reaction monitoring (MRM). A short C18 delay column was installed upstream of the analytical system to minimize background PFAS contamination. Isotopically labelled internal standards were used for quantification and to account for analytical variability. 
 
-### PFAS quality-control
+#### HBCDD quantification
 
-For each batch of extracted samples, the procedure includes matrix-specific quality-control samples that were subjected to the same entire experimental procedure as the analysed samples. 
+The HBCDD analytical programme distinguished the three principal diastereoisomers, α-, β- and γ-HBCDD, allowing isomer-specific concentration profiles to be characterized.
+After the extraction step, HBCDD isomers were analyzed by ultra-performance liquid chromatography coupled to tandem mass spectrometry (UPLC–MS/MS), using an Acquity UPLC system coupled to a Quattro Premier XE triple-quadrupole mass spectrometer (Waters). Analytes were separated on a reversed-phase C18 column (Acquity UPLC BEH C18, 1.7 µm, 100 × 2.1 mm) using a methanol/water (70:30, v/v) and acetonitrile gradient at a flow rate of 0.3 mL min⁻¹. The injection volume was 5 µL, and analyses were performed in negative electrospray ionization mode. HBCDD isomers were monitored using the same quantification (m/z 640.5 → 81.0) and confirmation (m/z 640.5 → 79.0) transitions and were therefore distinguished based on chromatographic retention times.
 
-Procedural blanks, that contained only the internal standards (no-injection blanks), were analysed at the beginning of each analytical sequence to assess instrumental contamination. Methanol blanks were analyzed at the beginning, during, and at the end of each sequence to check for contamination of the injection loop.
+### Analytical quality assurance and quality control
 
-Control samples, spiked with the internal standards and 1 ng of each native compound (Wellington Laboratories), were analysed to assess repeatability. The control sample consisted of Fontainebleau sand (“technical” grade, VWR International) for sediment matrix, and of freeze-dried and ground whole sole tissue (laboratory sole sample identified as PFC no. 20) for biota matrix.
+Analytical quality assurance included isotopically labelled internal standards added prior to extraction, procedural blanks, fortified control samples, reference materials, and compound- and matrix-specific limits of detection and quantification. Procedural blanks were used to assess contamination introduced during sample preparation, fortified control samples to evaluate repeatability, and reference materials with known contaminant concentrations to assess analytical accuracy. Instrumental contamination was monitored using no-injection and solvent blanks throughout analytical sequences. Where applicable, measured concentrations were blank-corrected and normalized to sample mass.
 
-Reference samples, whose contamination is known, were analysed to assess accuracy. The reference sample consisted of a certified material (Lake Michigan Fish Tissue, SMR 1947) for biota matrix. For sediment, it corresponded to control samples (spiked Fontainebleau sand), assuming that the contamination of the sand from Fontainebleau was negligible compared to procedural sensitivity.
+#### PFAS quality-control
+
+The control sample consisted of Fontainebleau sand (“technical” grade, VWR International) for sediment matrix, and of freeze-dried and ground whole sole tissue (laboratory sole sample identified as PFC no. 20) for biota matrix.
+The reference sample consisted of a certified material (Lake Michigan Fish Tissue, SMR 1947) for biota matrix. For sediment, it corresponded to control samples (spiked Fontainebleau sand), assuming that the contamination of the sand from Fontainebleau was negligible compared to procedural sensitivity.
+
+##### Instrumental quality-control
 
 Trace amounts of several compounds were occasionally detected in instrumental blanks (10–170 pg). Instrumental limits of quantification ranged from 2 pg injected for FOSA to 4.2 pg injected for 10:2-FTSA. Calibration curves were verified at the beginning of each sequence, and quality-control standards were analyzed every 10–15 samples, with an overall accuracy and precision of 103 ± 15% (n = 14). PFAS extracts were quantified by internal calibration using isotope dilution. For each isomer, quantification and, where applicable, confirmation transitions were required to have a signal-to-noise ratio >3. For each compound, the amount measured in the samples was corrected for the amount measured in the corresponding procedural blank, and then normalized to sample mass.
 
-#### Biota quality-control
+##### Biota quality-control
 
 For biota, the following compounds were detected in procedural blanks: PFBA, PFPeA, PFHxA, PFHpA, PFOA, PFNA, PFDA, PFUnDA, PFDoDA, PFTrDA, PFTeDA, PFBS, PFHxS, PFHpS, L-PFOS, Br-PFOS, PFDS, FOSA, FOSAA, MeFOSAA, EtFOSAA, 4:2-FTSA, 6:2-FTSA, 8:2-FTSA, 10:2-FTSA, 6:2-diPAP, 8:2-diPAP, HFPO-DA, NaDONA and PFECHS. 
 
@@ -201,11 +218,11 @@ flextable(PFAS_biota_accuracy) |>
   autofit()
 ```
 
-#### Sediment quality-control
+##### Sediment quality-control
 
 For sediments, the following compounds were detected in procedural blanks: PFBA, PFPeA, PFHxA, PFHpA, PFOA, PFNA, PFDoDA, PFHxS, L-PFOS, FOSAA, 4:2-FTSA, 6:2-FTSA and NaDONA. 
 
-In addition, the repeatability and accuracy of the analytical procedure, assessed using the Fontainebleau sand control sample, was 104 ± 9% across all compounds (n = 4). Compound-specific results are provided in Table \@ref(tab:tab-PFAS-sediment-quality).
+In addition, the repeatability and accuracy of the analytical procedure, assessed using the Fontainebleau sand control sample, was 104 ± 9% across all compounds (n = 4). Only FOSAA results didn't encopass 100 % (73 ± 11 [62 - 85] %).
 
 ```{r, tab.id="tab-PFAS-sediment-quality", tab.cap="Accuracy and repeatability (%) of the experimental PFAS analysis protocol for sediment assessed using spiked Fontainebleau sand (n = 4)."}
 
@@ -257,7 +274,7 @@ flextable(PFAS_sediment_rep_accu) |>
   autofit()
 ```
 
-### PFAS limits of detection and quantification
+#### PFAS limits of detection and quantification
 
 The instrumental limits of quantification, as well as the limits of detection and quantification for PFAS extracts, are presented in Table \@ref(tab:tab-PFAS-limits-biota) for biota and in Table \@ref(tab:tab-PFAS-limits-sediment) for sediments. All analyzed compounds were found in instrumental blanks for biota and sediment. 
 
@@ -359,16 +376,5 @@ flextable(PFAS_limits_sediment) |>
 
 
 
-## PCB and HBCDD analyses
-
-PCB and HBCDD analyses were performed using dedicated procedures for the corresponding chemical families and environmental matrices.
-
-The HBCDD analytical programme distinguished the three principal diastereoisomers, α-, β- and γ-HBCDD, allowing isomer-specific concentration profiles to be characterized.
-
-The thesis details the preparation and instrumental determination of HBCDD in sediment, while the CHOPIN project involved complementary analytical work conducted by the participating laboratories for different contaminants and biological matrices.
-
-[To complete using the original laboratory protocols: Specify the extraction solvents, extraction and purification techniques, chromatographic instruments and quantification procedures used for PCB and HBCDD measurements in each biological matrix. The thesis does not provide all laboratory procedures for every compound–matrix combination included in the final package.]
 
 
-
-[**To complete:** Specify the laboratory analytical procedures used for each chemical family and sample matrix, including extraction, purification, instrumental analysis, calibration, blank correction, internal standards, recoveries and treatment of values below the detection or quantification limits.]
