@@ -56,22 +56,24 @@ institute:
   - MARBEC: MARBEC, Univ Montpellier, CNRS, Ifremer, IRD, Sète, France
 output: 
   officedown::rdocx_document:
-    reference_docx: template.docx
+    reference_docx: template_SI.docx
     tables:
       tab.lp: "tab:"
       caption:
-        style: "Table Caption"
-        pre: "Table "
+        style: "Supplementary Table Caption"
+        pre: "Supplementary Table S"
         sep: ": "
     plots:
       caption:
-        style: "Figure caption"
+        style: "Supplementary Figure caption"
+        pre: "Supplementary Figure S"
+        sep: ": "
     pandoc_args:
       - '--lua-filter=scholarly-metadata.lua'
       - '--lua-filter=author-info-blocks.lua'
 bibliography: references.bib
 number-sections: true
-csl: "aquatic-living-resources.csl"
+csl: "nature.csl"
 editor: 
   markdown: 
     wrap: 72
@@ -142,7 +144,7 @@ After the extraction step, PCB concentrations were determined by gas chromatogra
 The HBCDD analytical programme distinguished the three principal diastereoisomers, α-, β- and γ-HBCDD, allowing isomer-specific concentration profiles to be characterized.
 After the extraction step, HBCDD isomers were analyzed by ultra-performance liquid chromatography coupled to tandem mass spectrometry (UPLC–MS/MS), using an Acquity UPLC system coupled to a Quattro Premier XE triple-quadrupole mass spectrometer (Waters). Analytes were separated on a reversed-phase C18 column (Acquity UPLC BEH C18, 1.7 µm, 100 × 2.1 mm) using a methanol/water (70:30, v/v) and acetonitrile gradient at a flow rate of 0.3 mL min⁻¹. The injection volume was 5 µL, and analyses were performed in negative electrospray ionization mode. HBCDD isomers were monitored using the same quantification (m/z 640.5 → 81.0) and confirmation (m/z 640.5 → 79.0) transitions and were therefore distinguished based on chromatographic retention times.
 
-### Analytical quality assurance and quality control
+### Analytical quality assurance and quality control (QA/QC)
 
 Analytical quality assurance included isotopically labelled internal standards added prior to extraction, procedural blanks, fortified control samples, reference materials, and compound- and matrix-specific limits of detection and quantification. Procedural blanks were used to assess contamination introduced during sample preparation, fortified control samples to evaluate repeatability, and reference materials with known contaminant concentrations to assess analytical accuracy. Instrumental contamination was monitored using no-injection and solvent blanks throughout analytical sequences. Where applicable, measured concentrations were blank-corrected and normalized to sample mass.
 
@@ -153,7 +155,7 @@ The reference sample consisted of a certified material (Lake Michigan Fish Tissu
 
 ##### Instrumental quality-control
 
-Trace amounts of several compounds were occasionally detected in instrumental blanks (10–170 pg). Instrumental limits of quantification ranged from 2 pg injected for FOSA to 4.2 pg injected for 10:2-FTSA. Calibration curves were verified at the beginning of each sequence, and quality-control standards were analyzed every 10–15 samples, with an overall accuracy and precision of 103 ± 15% (n = 14). PFAS extracts were quantified by internal calibration using isotope dilution. For each isomer, quantification and, where applicable, confirmation transitions were required to have a signal-to-noise ratio >3. For each compound, the amount measured in the samples was corrected for the amount measured in the corresponding procedural blank, and then normalized to sample mass.
+Trace amounts of several compounds were occasionally detected in instrumental blanks (10–170 pg). Instrumental limits of quantification ranged from 2 fg injected for FOSA to 4.2 pg injected for 10:2-FTSA. Calibration curves were verified at the beginning of each sequence, and quality-control standards were analyzed every 10–15 samples, with an overall accuracy and precision of 103 ± 15% (n = 14). PFAS extracts were quantified by internal calibration using isotope dilution. For each isomer, quantification and, where applicable, confirmation transitions were required to have a signal-to-noise ratio >3. For each compound, the amount measured in the samples was corrected for the amount measured in the corresponding procedural blank, and then normalized to sample mass.
 
 ##### Biota quality-control
 
@@ -222,7 +224,7 @@ flextable(PFAS_biota_accuracy) |>
 
 For sediments, the following compounds were detected in procedural blanks: PFBA, PFPeA, PFHxA, PFHpA, PFOA, PFNA, PFDoDA, PFHxS, L-PFOS, FOSAA, 4:2-FTSA, 6:2-FTSA and NaDONA. 
 
-In addition, the repeatability and accuracy of the analytical procedure, assessed using the Fontainebleau sand control sample, was 104 ± 9% across all compounds (n = 4). Only FOSAA results didn't encopass 100 % (73 ± 11 [62 - 85] %).
+In addition, the repeatability and accuracy of the analytical procedure (Table \@ref(tab:tab-PFAS-sediment-quality)), assessed using the Fontainebleau sand control sample, was 104 ± 9% across all compounds (n = 4). FOSAA was the only compound for which the recovery interval did not encompass 100% (73 ± 11%; range: 62–85%).
 
 ```{r, tab.id="tab-PFAS-sediment-quality", tab.cap="Accuracy and repeatability (%) of the experimental PFAS analysis protocol for sediment assessed using spiked Fontainebleau sand (n = 4)."}
 
@@ -276,7 +278,7 @@ flextable(PFAS_sediment_rep_accu) |>
 
 #### PFAS limits of detection and quantification
 
-The instrumental limits of quantification, as well as the limits of detection and quantification for PFAS extracts, are presented in Table \@ref(tab:tab-PFAS-limits-biota) for biota and in Table \@ref(tab:tab-PFAS-limits-sediment) for sediments. All analyzed compounds were found in instrumental blanks for biota and sediment. 
+The instrumental limits of quantification, as well as the limits of detection and quantification for PFAS extracts, are presented in Table \@ref(tab:tab-PFAS-limits-biota) for biota and in Table \@ref(tab:tab-PFAS-limits-sediment) for sediments. 
 
 ```{r tab.id="tab-PFAS-limits-biota", tab.cap="Instrumental limits of quantification (mean, sd, median, min, max), and limits of detection and quantification for PFAS extracts from biota samples in ng/gdw."}
 PFAS_limits_biota <- tribble(
@@ -322,6 +324,27 @@ PFAS_limits_biota <- tribble(
 
 flextable(PFAS_limits_biota) |>
   fontsize(size = 8, part = "all") |>
+  add_header_row(
+    values = c(
+      "",
+      "",
+      "Instrumental LOQ (pg injected)",
+      "Matrix-specific limits (ng/gdw)",
+      ""
+    ),
+    colwidths = c(1, 1, 2, 2, 1)
+  ) |>
+  align(
+    align = "center",
+    part = "header"
+  ) |>
+  valign(
+    valign = "center",
+    part = "header"
+  ) |>
+  bold(
+    part = "header"
+  ) |>
   autofit()
 ```
 
@@ -371,10 +394,87 @@ PFAS_limits_sediment <- tribble(
 
 flextable(PFAS_limits_sediment) |>
   fontsize(size = 8, part = "all") |>
+  add_header_row(
+    values = c(
+      "",
+      "",
+      "Instrumental LOQ (pg injected)",
+      "Matrix-specific limits (ng/gdw)",
+      ""
+    ),
+    colwidths = c(1, 1, 2, 2, 1)
+  ) |>
+  align(
+    align = "center",
+    part = "header"
+  ) |>
+  valign(
+    valign = "center",
+    part = "header"
+  ) |>
+  bold(
+    part = "header"
+  ) |>
   autofit()
 ```
 
 
+#### PCB limits of detection
+
+Detection limits were determined across the different analytical programmes. Using this analytical protocol, detection limits were generally below 0.3 ng/g dry weight in fish, invertebrates, and sediments (see Table \@ref(tab:pcb-lod) for some congeners values in the study from @lauzent_etude_2017). All measured concentrations were above the LOD in the CHOPIN samples.
+
+```{r, tab.id="pcb-lod", tab.cap="Range of detection limits for PCBs and OCPs, expressed as ng/g dw, in the different matrices studied."}
+
+PCB_LOD <- tribble(
+  ~Congener, ~Biota, ~`Sediment`, 
+  "CB 50",    "0.04–0.27", "0.04–0.10", 
+  "CB 28",    "0.03–0.26", "0.03–0.08", 
+  "CB 52",    "0.04–0.24", "0.03–0.08", 
+  "CB 101",   "0.04–0.19", "0.02–0.12", 
+  "CB 118",   "0.04–0.18", "0.02–0.09", 
+  "CB 153",   "0.03–0.19", "0.02–0.10", 
+  "CB 138",   "0.05–0.28", "0.01–0.08", 
+  "CB 180",   "0.05–0.22", "0.01–0.08"
+)
+
+flextable(PCB_LOD) |>
+  align(align = "center", part = "all") |>
+  align(j = 1, align = "left", part = "all") |>
+  fontsize(size = 8, part = "all") |>
+  padding(padding = 2, part = "all") |>
+  autofit()
+```
 
 
+#### HBCDD limits of detection
 
+Detection limits were defined at the sample level for the three HBCDD isomers. Classically with this analytic protocol, they were below 0.4 ng/g dry weight across the different matrices (see Table \@ref(tab:hbcdd-lod) for values in the study from @lauzent_etude_2017).
+
+```{r, tab.id="hbcdd-lod", tab.cap="Range of detection limits for HBCDD isomers, expressed as ng/g dw, in the different matrices studied."}
+HBCDD_LOD <- tribble(
+  ~`HBCDD isomer`, ~Invertebrates, ~Fish, ~`Sediments`,
+  "α-HBCD",        "0.09–0.40",     "0.09", "0.09",
+  "β-HBCD",        "0.10–0.11",     "0.11", "0.11",
+  "γ-HBCD",        "0.08–0.13",     "0.05", "0.05"
+)
+
+flextable(HBCDD_LOD) |>
+  set_header_labels(
+    `HBCDD isomer` = "HBCDD isomer",
+    Invertebrates = "Invertebrates",
+    Fish = "Fish",
+    `Sediments` = "Sediments"
+  ) |>
+  add_header_row(
+    values = c("", "LOD (ng/gdw)"),
+    colwidths = c(1, 3)
+  ) |>
+  fontsize(size = 8, part = "all") |>
+  padding(padding = 2, part = "all") |>
+  autofit()
+```
+
+##### References
+
+::: {#refs}
+:::
