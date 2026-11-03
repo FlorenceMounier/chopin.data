@@ -147,7 +147,7 @@ The package brings together environmental, trophic, chemical and biological obse
 
 ## Study area
 
-The study was conducted in the lower Seine estuary, Normandy, France, which provides nursery habitats for common sole (Solea solea) during the juvenile phase of its life cycle. The CHOPIN project investigated the occurrence and transfer of organohalogenated contaminants across sediment, benthic macrofauna and common sole, with the aim of characterizing contaminant exposure within the estuarine nursery food web.
+The study was conducted in the lower Seine estuary, Normandy, France, which provides nursery habitats for common sole (*Solea solea*) during the juvenile phase of its life cycle. The CHOPIN project investigated the occurrence and transfer of organohalogenated contaminants across sediment, benthic macrofauna and common sole, with the aim of characterizing contaminant exposure within the estuarine nursery food web.
 
 The study was conducted during several sampling campaigns in 2017 and 2018 in the lower Seine estuary and its adjacent marine environment in Normandy, France. The sampling design distinguished three principal estuarine sectors: the northern pit (*Fosse Nord*, FN), the southern pit (*Fosse Sud*, FS) and the estuary mouth (*Embouchure*, EM) (see Fig. \@ref(fig:fig-map)). The navigation channel was also included for selected biological samples. The northern and southern sectors are separated from the navigation channel by submerged embankments, whereas the Embouchure sector is located farther downstream, towards the adjacent marine environment. The CHOPIN sampling design also included an additional sampling area offshore from Octeville for the study of older sole.
 
