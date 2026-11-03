@@ -111,7 +111,6 @@ soles_contam <- soles_contam |>
 
 
 
-
 # Total dry mass ----------------------------------------------------------
 
 soles_contam <- soles_contam |>
