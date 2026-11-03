@@ -53,7 +53,11 @@ soles_contam$a.HBCDD_ng_gdw = soles_contam$a.HBCDD_pg_gdw/1000
 soles_contam$b.HBCDD_ng_gdw = soles_contam$b.HBCDD_pg_gdw/1000
 soles_contam$g.HBCDD_ng_gdw = soles_contam$g.HBCDD_pg_gdw/1000
 
+# Rename PFAS columns that already correspond to censored data ------------
 
+for(c in 1:length(PFAS)){
+  soles_contam[,paste(PFAS[c],"_ng_gdw_censored",sep="")] <- soles_contam[,paste(PFAS[c],"_ng_gdw",sep="")]
+}
 
 # Replace <LOD/LOQ values to 0 for HBCDD isomers --------------------------
 
