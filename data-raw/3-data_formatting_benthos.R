@@ -54,6 +54,11 @@ benthos_contam$g.HBCDD_ng_gdw_censored[benthos_contam$sample_TAG=="CP14"|
                                            benthos_contam$sample_TAG=="CP53"] <- 0
 
 
+# Rename PFAS columns that already correspond to censored data ------------
+
+for(c in 1:length(PFAS)){
+  benthos_contam[,paste(PFAS[c],"_ng_gdw_censored",sep="")] <- benthos_contam[,paste(PFAS[c],"_ng_gdw",sep="")]
+}
 
 # Rename season variable values (june=>Spring, october=> Autumn) ----------
 
