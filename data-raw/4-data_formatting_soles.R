@@ -95,8 +95,16 @@ soles_contam <- soles_contam |>
 
   chopin.data::convert_conc(
     contams = HBCDD,
-    source_unit = "_ng_gdw_censored",
+    source_unit = "_ng_gdw",
     target_unit = "_ng_glw",
+    norm_var = "lip_dw_percent",
+    operation = "divide"
+  ) |>
+
+  chopin.data::convert_conc(
+    contams = HBCDD,
+    source_unit = "_ng_gdw_censored",
+    target_unit = "_ng_glw_censored",
     norm_var = "lip_dw_percent",
     operation = "divide"
   )
